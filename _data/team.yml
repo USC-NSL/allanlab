@@ -1,5 +1,5 @@
 faculty:
-  - name: Ramesh Govindan
+  - name: <a href="https://govindan.usc.edu/">Ramesh Govindan</a>
     photo: Ramesh/ramesh.jpg
     info: Professor
     email: ramesh@usc.edu
@@ -7,7 +7,7 @@ faculty:
       - M.S. and Ph.D. from the University of California, Berkeley
       - B.Tech degree from the Indian Institute of Technology (IIT), Madras
 
-  - name: Barath Raghavan
+  - name: <a href="https://raghavan.usc.edu/">Barath Raghavan</a>
     photo: Barath/barath.jpg
     info: Assistant Professor
     email: barath.raghavan@usc.edu
@@ -16,7 +16,7 @@ faculty:
       - B.S. from the University of California, Berkeley
 
 phd-students:
-  - name: Fawad Ahmed
+  - name: <a href="https://nsl.usc.edu/people/fawad-ahmad/">Fawad Ahmed</a>
     photo: Fawad/fawad.jpg
     info: PhD Student, started Aug 2016
     email: fawadahm@usc.edu
@@ -25,7 +25,7 @@ phd-students:
     education:
       - B.Sc. from <a href="https://www.uetpeshawar.edu.pk/">University of Engineering and Technology (UET), Peshawar</a>.
 
-  - name: Xiao Fu
+  - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
     photo: Xiao/xiao.jpg
     info: PhD Student, started Feb 2019
     email: fuxiao@usc.edu
@@ -34,7 +34,7 @@ phd-students:
     education:
       - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
 
-  - name: Rajrup Ghosh
+  - name: <a href="https://nsl.usc.edu/people/rajrup-ghosh/">Rajrup Ghosh</a>
     photo: Rajrup/rajrup.jpg
     info: PhD Student, started Aug 2019
     email: rajrupgh@usc.edu
@@ -44,7 +44,7 @@ phd-students:
       - M.Tech from <a href="https://iisc.ac.in/">Indian Institute of Science (IISc), Bangalore</a>.
       - B.E from <a href="https://www.iiests.ac.in/">Indian Institute of Engineering Science and Technology (IIEST), Shibpur</a>.
 
-  - name: Pooria Namyar
+  - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
     photo: Pooria/pooria.jpg
     info: PhD Student, started Aug 2019
     email: namyar@usc.edu
@@ -62,9 +62,9 @@ phd-students:
     education:
       - B.S. from <a href="https://www.usc.edu/">University of Southern California (USC)</a>.
 
-  - name: Jianfeng Wang
+  - name: <a href="https://nsl.usc.edu/people/jianfeng-wang/">Jianfeng Wang</a>
     photo: Jianfeng/jianfeng.png
-    info: PhD Student, started September 2021
+    info: PhD Student, started Aug 2016
     email: jianfenw@usc.edu
     advisor: 
       - Ramesh Govindan
@@ -72,7 +72,7 @@ phd-students:
     education:
       - B.S. from <a href="https://english.pku.edu.cn/">Peking University</a>.
 
-  - name: Yu-Chuan (Jane) Yen
+  - name: <a href="https://nsl.usc.edu/people/jane-yen/">Yu-Chuan (Jane) Yen<a/>
     photo: Jane/jane.png
     info: PhD Student, started Aug 2016
     email: yeny@usc.edu
@@ -82,7 +82,7 @@ phd-students:
     education:
       - B.S. and M.S. degree <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>.
     
-  - name: Christina Shin
+  - name: <a href="https://nsl.usc.edu/people/christina-shin/">Christina Shin<a/>
     photo: Christina/christina.jpg
     info: PhD Student, started Aug 2019
     email: cshin956@usc.edu
@@ -91,7 +91,7 @@ phd-students:
     education:
       - B.S. and M.S. from <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University, Seoul</a>.
 
-  - name: Sulagna Mukherjee
+  - name: <a href="https://nsl.usc.edu/people/sulagna-mukherjee/">Sulagna Mukherjee</a>
     photo: Sulagna/sulagna.jpg
     info: PhD Student, started Aug 2017
     email: sulagna@usc.edu
@@ -100,17 +100,17 @@ phd-students:
     education:
       - B.Tech from <a href="https://iem.edu.in/">Institute of Engineering and Management (IEM), Kolkata</a>.
 
-  - name: Mingyang Zhang
+  - name: <a href="https://nsl.usc.edu/people/mingyang-zhang/">Mingyang Zhang<a/>
     photo: Mingyang/mingyang.jpg
-    info: PhD Student, started Aug 2019
-    email: Bastiaans@Physics.LeidenUniv.nl
+    info: PhD Student, started Aug 2015
+    email: mingyanz@usc.edu
     advisor: 
       - Ramesh Govindan
     education:
       - M.S. from <a href="http://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>.
       - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
       
-  - name: Sarah Cooney
+  - name: <a href="https://www.sarah-cooney.com/">Sarah Cooney<a/>
     photo: null
     info: PhD Student, started Aug 2017
     email: cooneys@usc.edu
