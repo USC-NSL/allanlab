@@ -9,7 +9,7 @@
 title: NSL 
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Website of NSL Lab.
+  USC NSL Website.
 baseurl: ""
 url: ""
 
@@ -26,8 +26,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 
 # Markdown Processing
 kramdown:
