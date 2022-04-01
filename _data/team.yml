@@ -12,8 +12,8 @@ faculty:
     info: Assistant Professor
     email: barath.raghavan@usc.edu
     education:
-      - PhD from the University of California, San Diego
-      - BS from the University of California, Berkeley
+      - Ph.D. from the University of California, San Diego
+      - B.S. from the University of California, Berkeley
 
 phd-students:
   - name: Fawad Ahmed
@@ -23,7 +23,7 @@ phd-students:
     advisor: 
       - Ramesh Govindan
     education:
-      - B.Sc. from University of Engineering and Technology (UET), Peshawar.
+      - B.Sc. from <a href="https://www.uetpeshawar.edu.pk/">University of Engineering and Technology (UET), Peshawar</a>.
 
   - name: Xiao Fu
     photo: Xiao/xiao.jpg
@@ -32,7 +32,7 @@ phd-students:
     advisor: 
       - Barath Raghavan
     education:
-      - BS from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
+      - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
 
   - name: Rajrup Ghosh
     photo: Rajrup/rajrup.jpg
@@ -82,7 +82,6 @@ phd-students:
     education:
       - B.S. and M.S. degree <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>.
     
-
   - name: Christina Shin
     photo: Christina/christina.jpg
     info: PhD Student, started Aug 2019
@@ -111,7 +110,6 @@ phd-students:
       - M.S. from <a href="http://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>.
       - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
       
-
   - name: Sarah Cooney
     photo: null
     info: PhD Student, started Aug 2017
