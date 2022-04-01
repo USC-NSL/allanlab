@@ -1,21 +1,22 @@
 ---
-title: "Allan Lab - Team"
+title: "NSL Lab - Team"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "NSL Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+<!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
+Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Post Docs](#post-doctoral-scholars), [alumni](#alumni), [lab visitors](#lab-visitors).
 
-## Staff
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+## Faculty
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.team.faculty %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -29,35 +30,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
+  {% for education in member.education %}
+    <li>{{ education }}</li>
+  {% endfor %}
 
   </ul>
 </div>
@@ -75,12 +50,109 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-
-
-
-## Master and Bachelor Students
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+## Ph.D. Students
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for student in site.data.team.phd-students %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+
+  {% if student.photo != null %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ student.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  
+  <h4>{{ student.name }}</h4>
+  <i>{{ student.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <ul style="overflow: hidden">
+  {% if student.advisor.size == 1 %}
+    <li>Advisor: <i>{{ student.advisor }}</i></li>
+  {% endif %}
+
+  {% if student.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
+    <li>Advisor: <i>{{ student.advisor[0] }}</i> and <i>{{ student.advisor[1] }}</i> </li>
+  {% endif %}
+  {% for education in student.education %}
+    <li>{{ education }}</li>
+  {% endfor %}
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+
+{% if site.data.team.post-docs.size > 0 %}
+## Post Doctoral Scholars
+{% endif %}
+{% assign number_printed = 0 %}
+{% for member in site.data.team.post-docs %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+
+  {% if student.photo != null %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ student.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  
+  <h4>{{ student.name }}</h4>
+  <i>{{ student.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <ul style="overflow: hidden">
+  {% if student.advisor.size == 1 %}
+    <li>Advisor: <i>{{ student.advisor }}</i></li>
+  {% endif %}
+
+  {% if student.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
+    <li>Advisor: <i>{{ student.advisor[0] }}</i> and <i>{{ student.advisor[1] }}</i> </li>
+  {% endif %}
+  {% for education in student.education %}
+    <li>{{ education }}</li>
+  {% endfor %}
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+{% if site.data.team.other-students.size > 0 %}
+## Master and Bachelor Students
+{% endif %}
+{% assign number_printed = 0 %}
+{% for member in site.data.team.other-students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -93,27 +165,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
+  {% for education in member.education %}
+    <li>{{ education }}</li>
+  {% endfor %}
 
   </ul>
 </div>
@@ -131,43 +185,21 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-
+<!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Alumni
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.alumni %}
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
+  <i> {{ member.role }}</i>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
-## Former visitors, BSc/ MSc students
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ## Former visitors, BSc/ MSc students
+
 <div class="row">
-
 <div class="col-sm-4 clearfix">
 <h4>Visitors</h4>
 {% for member in site.data.alumni_visitors %}
@@ -189,8 +221,4 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endfor %}
 </div>
 
-</div>
-
-
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
+</div> -->
