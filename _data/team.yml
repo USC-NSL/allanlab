@@ -119,8 +119,8 @@ phd-students:
     education:
       - B.S. from Saint Joseph’s University.
 
-  - name: Joshua Palmer
-    photo: null
+  - name: Josh Palmer
+    photo: Josh/profile_pic_square.png
     info: PhD Student, started Jan 2020
     email: jhpalmer@usc.edu
     advisor: 
