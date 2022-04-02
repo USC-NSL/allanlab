@@ -54,6 +54,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+# Extras
 github: [metadata]
 
 # -----------------------------------------------------------------------------
