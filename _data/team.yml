@@ -166,7 +166,7 @@ phd-students:
       email: mingyanz@usc.edu
       
   - name: <a href="https://www.sarah-cooney.com/">Sarah Cooney<a/>
-    photo: null
+    photo: Sarah/sarah.jpg
     info: PhD Student, started Aug 2017
     advisor: 
       - Barath Raghavan
@@ -179,7 +179,7 @@ phd-students:
       email: cooneys@usc.edu
 
   - name: Josh Palmer
-    photo: Josh/profile_pic_square.png
+    photo: Josh/josh.png
     info: PhD Student, started Jan 2020
     email: jhpalmer@usc.edu
     advisor: 
