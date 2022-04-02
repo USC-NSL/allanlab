@@ -10,8 +10,8 @@ title: NSL
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   USC NSL Website.
-baseurl: ""
-url: ""
+url: https://usc-nsl.github.io
+baseurl: 
 
 include:
   - .htaccess
