@@ -7,7 +7,6 @@ permalink: /team/
 ---
 
 # Group Members
-
 <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
 
@@ -27,6 +26,7 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
+  {%- include socialmedia.html -%}
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
@@ -53,7 +53,7 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Ph.D. Students
 {% assign number_printed = 0 %}
-{% for student in site.data.team.phd-students %}
+{% for member in site.data.team.phd-students %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -63,21 +63,22 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
 
 <div class="col-sm-6 clearfix">
 
-  {% if student.photo != null %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ student.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo != null %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   
-  <h4>{{ student.name }}</h4>
-  <i>{{ student.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <h4>{{ member.name }}</h4>
+  {%- include socialmedia.html -%}
+  <i>{{ member.info }}</i><!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
-  {% if student.advisor.size == 1 %}
-    <li>Advisor: <i>{{ student.advisor }}</i></li>
+  {% if member.advisor.size == 1 %}
+    <li>Advisor: <i>{{ member.advisor }}</i></li>
   {% endif %}
 
-  {% if student.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
-    <li>Advisor: <i>{{ student.advisor[0] }}</i> and <i>{{ student.advisor[1] }}</i> </li>
+  {% if member.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
+    <li>Advisor: <i>{{ member.advisor[0] }}</i> and <i>{{ member.advisor[1] }}</i> </li>
   {% endif %}
-  {% for education in student.education %}
+  {% for education in member.education %}
     <li>{{ education }}</li>
   {% endfor %}
 
@@ -113,21 +114,22 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
 
 <div class="col-sm-6 clearfix">
 
-  {% if student.photo != null %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ student.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo != null %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   
-  <h4>{{ student.name }}</h4>
-  <i>{{ student.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <h4>{{ member.name }}</h4>
+  {%- include socialmedia.html -%}
+  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
-  {% if student.advisor.size == 1 %}
-    <li>Advisor: <i>{{ student.advisor }}</i></li>
+  {% if member.advisor.size == 1 %}
+    <li>Advisor: <i>{{ member.advisor }}</i></li>
   {% endif %}
 
-  {% if student.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
-    <li>Advisor: <i>{{ student.advisor[0] }}</i> and <i>{{ student.advisor[1] }}</i> </li>
+  {% if member.advisor.size > 1 %} <!-- Generally a member is advised by max of 2 professors -->
+    <li>Advisor: <i>{{ member.advisor[0] }}</i> and <i>{{ member.advisor[1] }}</i> </li>
   {% endif %}
-  {% for education in student.education %}
+  {% for education in member.education %}
     <li>{{ education }}</li>
   {% endfor %}
 

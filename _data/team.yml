@@ -2,18 +2,27 @@ faculty:
   - name: <a href="https://govindan.usc.edu/">Ramesh Govindan</a>
     photo: Ramesh/ramesh.jpg
     info: Professor
-    email: ramesh@usc.edu
     education:
       - M.S. and Ph.D. from the University of California, Berkeley
       - B.Tech degree from the Indian Institute of Technology (IIT), Madras
+    social:
+      website: https://govindan.usc.edu/
+      email: ramesh@usc.edu
+      google-scholar: https://scholar.google.com/citations?user=ZTkRs84AAAAJ
+      linkedin: https://www.linkedin.com/in/ramesh-govindan/
+
 
   - name: <a href="https://raghavan.usc.edu/">Barath Raghavan</a>
     photo: Barath/barath.jpg
     info: Assistant Professor
-    email: barath.raghavan@usc.edu
     education:
       - Ph.D. from the University of California, San Diego
       - B.S. from the University of California, Berkeley
+    social:
+      website: https://raghavan.usc.edu/
+      email: barath.raghavan@usc.edu
+      google-scholar: https://scholar.google.com/citations?user=Ikz6_Y0AAAAJ&hl=en
+      linkedin: https://www.linkedin.com/in/barath-raghavan-06212455/
 
 phd-students:
   - name: <a href="https://nsl.usc.edu/people/fawad-ahmad/">Fawad Ahmed</a>
@@ -24,63 +33,95 @@ phd-students:
       - Ramesh Govindan
     education:
       - B.Sc. from <a href="https://www.uetpeshawar.edu.pk/">University of Engineering and Technology (UET), Peshawar</a>.
+    social:
+      linkedin: https://www.linkedin.com/in/fawad-ahmad-60990578/
+      google-scholar: https://scholar.google.com/citations?user=C2kiFpoAAAAJ&hl=en&oi=ao
+      website: https://nsl.usc.edu/people/fawad-ahmad/
+      email: fawadahm@usc.edu
 
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
     photo: Xiao/xiao.jpg
     info: PhD Student, started Feb 2019
-    email: fuxiao@usc.edu
     advisor: 
       - Barath Raghavan
     education:
       - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
+    social:
+      twitter: https://twitter.com/xiaolovestree
+      linkedin: https://www.linkedin.com/in/xiao-fu-462822142/
+      github: https://github.com/fxdawnn
+      website: https://fxdawnn.github.io/
+      email: fuxiao@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/rajrup-ghosh/">Rajrup Ghosh</a>
     photo: Rajrup/rajrup.jpg
     info: PhD Student, started Aug 2019
-    email: rajrupgh@usc.edu
     advisor: 
       - Ramesh Govindan
     education:
       - M.Tech from <a href="https://iisc.ac.in/">Indian Institute of Science (IISc), Bangalore</a>.
       - B.E from <a href="https://www.iiests.ac.in/">Indian Institute of Engineering Science and Technology (IIEST), Shibpur</a>.
+    social:
+      twitter: https://twitter.com/rajrup_tweets
+      linkedin: https://www.linkedin.com/in/rajrup-ghosh/
+      github: https://github.com/Rajrup
+      website: https://nsl.usc.edu/people/rajrup-ghosh/
+      google-scholar: https://scholar.google.co.in/citations?user=9M6G_S0AAAAJ&hl=en
+      email: rajrupgh@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
     photo: Pooria/pooria.jpg
     info: PhD Student, started Aug 2019
-    email: namyar@usc.edu
     advisor: 
       - Ramesh Govindan
     education:
       - B.Sc. from <a href="https://en.sharif.edu/">Sharif University of Technology</a>.
+    social:
+      twitter: https://twitter.com/PooriaNamyar
+      linkedin: https://www.linkedin.com/in/pooria-namyar/
+      github: https://github.com/PooriaNamyar
+      website: https://nsl.usc.edu/people/pooria-namyar/
+      email: namyar@usc.edu
 
   - name: Weiwu Pang
     photo: Weiwu/weiwu.jpg
     info: PhD Student, started Aug 2018
-    email: weiwupan@usc.edu
     advisor: 
       - Ramesh Govindan
     education:
       - B.S. from <a href="https://www.usc.edu/">University of Southern California (USC)</a>.
+    social:
+      linkedin: https://www.linkedin.com/in/weiwu-pang-678133a7/
+      github: https://github.com/oscarpang
+      google-scholar: https://scholar.google.com/citations?hl=en&user=Eab6bwkAAAAJ
+      email: weiwupan@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/jianfeng-wang/">Jianfeng Wang</a>
     photo: Jianfeng/jianfeng.png
     info: PhD Student, started Aug 2016
-    email: jianfenw@usc.edu
     advisor: 
       - Ramesh Govindan
       - Barath Raghavan
     education:
       - B.S. from <a href="https://english.pku.edu.cn/">Peking University</a>.
+    social:
+      linkedin: https://www.linkedin.com/in/jianfeng-wang-291a35129/
+      website: https://nsl.usc.edu/people/jianfeng-wang/
+      email: jianfenw@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/jane-yen/">Yu-Chuan (Jane) Yen<a/>
     photo: Jane/jane.png
     info: PhD Student, started Aug 2016
-    email: yeny@usc.edu
     advisor: 
       - Ramesh Govindan
       - Barath Raghavan
     education:
       - B.S. and M.S. degree <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>.
+    social:
+      google-scholar: https://scholar.google.com/citations?hl=en&user=jJy0ZRAAAAAJ
+      linkedin: https://www.linkedin.com/in/yu-chuan-yen-789b2b76/
+      website: https://nsl.usc.edu/people/jane-yen/
+      email: yeny@usc.edu
     
   - name: <a href="https://nsl.usc.edu/people/christina-shin/">Christina Shin<a/>
     photo: Christina/christina.jpg
@@ -90,34 +131,52 @@ phd-students:
       - Ramesh Govindan
     education:
       - B.S. and M.S. from <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University, Seoul</a>.
+    social:
+      google-scholar: https://scholar.google.com/citations?user=6VwIYFwAAAAJ&hl=en
+      linkedin: https://www.linkedin.com/in/christina-shin-9477a31a1/
+      website: https://nsl.usc.edu/people/christina-shin/
+      email: cshin956@usc.edu
+    
 
   - name: <a href="https://nsl.usc.edu/people/sulagna-mukherjee/">Sulagna Mukherjee</a>
     photo: Sulagna/sulagna.jpg
     info: PhD Student, started Aug 2017
-    email: sulagna@usc.edu
     advisor: 
       - Barath Raghavan
     education:
       - B.Tech from <a href="https://iem.edu.in/">Institute of Engineering and Management (IEM), Kolkata</a>.
+    social:
+      google-scholar: https://scholar.google.co.in/citations?user=EoL8Ih4AAAAJ&hl=en
+      linkedin: https://www.linkedin.com/in/sulagnamukherjee/
+      website: https://nsl.usc.edu/people/sulagna-mukherjee/
+      email: sulagna@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/mingyang-zhang/">Mingyang Zhang<a/>
     photo: Mingyang/mingyang.jpg
     info: PhD Student, started Aug 2015
-    email: mingyanz@usc.edu
     advisor: 
       - Ramesh Govindan
     education:
       - M.S. from <a href="http://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>.
       - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
+    social:
+      google-scholar: https://scholar.google.com/citations?user=LtvriwkAAAAJ&hl=en
+      linkedin: https://www.linkedin.com/in/mingyang-zhang-95216078/
+      website: https://nsl.usc.edu/people/mingyang-zhang/
+      email: mingyanz@usc.edu
       
   - name: <a href="https://www.sarah-cooney.com/">Sarah Cooney<a/>
     photo: null
     info: PhD Student, started Aug 2017
-    email: cooneys@usc.edu
     advisor: 
       - Barath Raghavan
     education:
       - B.S. from Saint Joseph’s University.
+    social:
+      google-scholar: https://scholar.google.com/citations?user=WbqUGWgAAAAJ&hl=en
+      linkedin: https://www.linkedin.com/in/sarah-cooney-988a4a92/
+      website: https://www.sarah-cooney.com
+      email: cooneys@usc.edu
 
   - name: Josh Palmer
     photo: Josh/profile_pic_square.png
@@ -127,5 +186,10 @@ phd-students:
       - Barath Raghavan
     education:
       - B.S. from Vanderbilt University.
+    social:
+      linkedin: https://www.linkedin.com/in/computer-scientist-who-loves-bugs/
+      github: https://github.com/palmerjh
+      website: 
+      email: jhpalmer@usc.edu
 
 post-docs:

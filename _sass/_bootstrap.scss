@@ -56,3 +56,9 @@
 @import "bootstrap/responsive-utilities";
 @import "bootstrap/bootswatch";
 
+.img-cover {
+	max-height: 250px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+  }

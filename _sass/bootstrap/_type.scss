@@ -181,6 +181,18 @@ ol {
   }
 }
 
+// Inline turns list items into inline-block
+.list-inline-rt2 {
+  @include list-unstyled();
+}
+.list-inline-item-rt2 {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: $list-inline-padding;
+  }
+}
+
 // Description Lists
 dl {
   margin-top: 0; // Remove browser default
