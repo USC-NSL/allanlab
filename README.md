@@ -18,7 +18,7 @@ Setup:
 When you add a bib entry, the following fields have special meaning:
 
 - `abbr` adds a badge to the publication. For example, `abbr = {NSDI}` will add an NSDI badge to the pub.
-- `code` is a link to a github repository containing code released associated with the paper. If this entry is present, then a "code" button appears under the paper's entry
+- `code` is a link to a github repository containing code released associated with the paper. If this entry is present, then a "code" button appears under the paper's entry.
 - `slides` is similar to `code`.
 
 You can add other entries by configuring `_layouts/bib.html`.
