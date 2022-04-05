@@ -231,7 +231,7 @@ firstp {
           }
         }
       }
-      .hidden {
+      .bibhidden {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
@@ -252,18 +252,18 @@ firstp {
           padding: 10px;
         }
       }
-      .hidden.open {
-        max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+      .bibhidden.open {
+          max-height: 100em;
+          transition-property: 0.15s ease;
+          -moz-transition: 0.15s ease;
+          -ms-transition: 0.15s ease;
+          -o-transition: 0.15s ease;
+          transition: all 0.15s ease;
       }
-      div.abstract.hidden {
+      div.abstract.bibhidden {
         border: dashed 1px var(--global-bg-color);
       }
-      div.abstract.hidden.open {
+      div.abstract.bibhidden.open {
         border-color: var(--global-text-color);
       }
     }
