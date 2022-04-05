@@ -15,6 +15,8 @@ Setup:
 
 ## A note on bibliography entries
 
+Our website uses jekyll/scholar. To have a publication show up on our pubs page, all you need to do is to add your bib entry to `_bibliography/papers.bib`. Then, when you push your changed, github will automatically populate the pubs page.
+
 When you add a bib entry, the following fields have special meaning:
 
 - `abbr` adds a badge to the publication. For example, `abbr = {NSDI}` will add an NSDI badge to the pub.
