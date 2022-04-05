@@ -53,7 +53,11 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Alumni](#al
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Current Students
 {% assign number_printed = 0 %}
-{% for member in site.data.team.phd-students %}
+{% assign my_array = site.data.team.current-students | sort: "lastname" %}
+<!-- Inspect a variable in liquid -->
+<!-- {{ my_array[0] | inspect }} -->
+
+{% for member in my_array%}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 

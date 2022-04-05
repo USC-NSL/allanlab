@@ -4,9 +4,14 @@ This is the website of the Networked Systems Laboratory (NSL) at the University 
 
 We thank [Allan lab](http://www.allanlab.org/aboutwebsite.html) for the template.
 
-## Steps to update the website
+## Installation
 
-Setup:
+- Install Jekyll: [Jekyll for Ubuntu, MacOS, Windows](https://jekyllrb.com/docs/installation/)
+- `bundle install`
+- `jekyll serve` - Website will be served on localhost:4000
+- `build exec jekyl build` - Website will be built
+
+## Steps to update the website
 
 - `git clone https://github.com/USC-NSL/USC-NSL.github.io.git`
 - `cd USC-NSL.github.io`

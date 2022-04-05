@@ -1,5 +1,6 @@
 faculty:
   - name: <a href="https://govindan.usc.edu/">Ramesh Govindan</a>
+    lastname: Govindan
     photo: Ramesh/ramesh.jpg
     info: Professor
     education:
@@ -13,6 +14,7 @@ faculty:
 
 
   - name: <a href="https://raghavan.usc.edu/">Barath Raghavan</a>
+    lastname: Raghavan
     photo: Barath/barath.jpg
     info: Assistant Professor
     education:
@@ -24,8 +26,9 @@ faculty:
       google-scholar: https://scholar.google.com/citations?user=Ikz6_Y0AAAAJ&hl=en
       linkedin: https://www.linkedin.com/in/barath-raghavan-06212455/
 
-phd-students:
+current-students:
   - name: <a href="https://nsl.usc.edu/people/fawad-ahmad/">Fawad Ahmed</a>
+    lastname: Ahmed
     photo: Fawad/fawad.jpg
     info: PhD Student
     start: Aug 2016
@@ -41,6 +44,7 @@ phd-students:
       email: fawadahm@usc.edu
 
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
+    lastname: Fu
     photo: Xiao/xiao.jpg
     info: PhD Student
     start: Feb 2019
@@ -56,6 +60,7 @@ phd-students:
       email: fuxiao@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/rajrup-ghosh/">Rajrup Ghosh</a>
+    lastname: Ghosh
     photo: Rajrup/rajrup.jpg
     info: PhD Student
     start: Aug 2019
@@ -73,6 +78,7 @@ phd-students:
       email: rajrupgh@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
+    lastname: Namyar
     photo: Pooria/pooria.jpg
     info: PhD Student
     start: Aug 2019
@@ -88,6 +94,7 @@ phd-students:
       email: namyar@usc.edu
 
   - name: Weiwu Pang
+    lastname: Pang
     photo: Weiwu/weiwu.jpg
     info: PhD Student
     start: Aug 2018
@@ -102,6 +109,7 @@ phd-students:
       email: weiwupan@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/jianfeng-wang/">Jianfeng Wang</a>
+    lastname: Wang
     photo: Jianfeng/jianfeng.jpg
     info: PhD Student
     start: Aug 2016
@@ -116,6 +124,7 @@ phd-students:
       email: jianfenw@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/jane-yen/">Yu-Chuan (Jane) Yen<a/>
+    lastname: Yen
     photo: Jane/jane.jpg
     info: PhD Student
     start: Aug 2016
@@ -131,6 +140,7 @@ phd-students:
       email: yeny@usc.edu
     
   - name: <a href="https://nsl.usc.edu/people/christina-shin/">Christina Shin<a/>
+    lastname: Shin
     photo: Christina/christina.jpg
     info: PhD Student
     start: Aug 2019
@@ -147,6 +157,7 @@ phd-students:
     
 
   - name: <a href="https://nsl.usc.edu/people/sulagna-mukherjee/">Sulagna Mukherjee</a>
+    lastname: Mukherjee
     photo: Sulagna/sulagna.jpg
     info: PhD Student
     start: Aug 2017
@@ -159,23 +170,9 @@ phd-students:
       linkedin: https://www.linkedin.com/in/sulagnamukherjee/
       website: https://nsl.usc.edu/people/sulagna-mukherjee/
       email: sulagna@usc.edu
-
-  - name: <a href="https://nsl.usc.edu/people/mingyang-zhang/">Mingyang Zhang<a/>
-    photo: Mingyang/mingyang.jpg
-    info: PhD Student
-    start: Aug 2015
-    advisor: 
-      - Ramesh Govindan
-    education:
-      - M.S. from <a href="http://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>.
-      - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
-    social:
-      google-scholar: https://scholar.google.com/citations?user=LtvriwkAAAAJ&hl=en
-      linkedin: https://www.linkedin.com/in/mingyang-zhang-95216078/
-      website: https://nsl.usc.edu/people/mingyang-zhang/
-      email: mingyanz@usc.edu
       
   - name: <a href="https://www.sarah-cooney.com/">Sarah Cooney<a/>
+    lastname: Cooney
     photo: Sarah/sarah.jpg
     info: PhD Student
     start: Aug 2017
@@ -190,6 +187,7 @@ phd-students:
       email: cooneys@usc.edu
 
   - name: Josh Palmer
+    lastname: Palmer
     photo: Josh/josh.jpg
     info: PhD Student
     start: Jan 2020
@@ -203,5 +201,3 @@ phd-students:
       github: https://github.com/palmerjh
       website: 
       email: jhpalmer@usc.edu
-
-post-docs:
