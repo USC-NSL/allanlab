@@ -27,7 +27,8 @@ faculty:
 phd-students:
   - name: <a href="https://nsl.usc.edu/people/fawad-ahmad/">Fawad Ahmed</a>
     photo: Fawad/fawad.jpg
-    info: PhD Student, started Aug 2016
+    info: PhD Student
+    start: Aug 2016
     email: fawadahm@usc.edu
     advisor: 
       - Ramesh Govindan
@@ -41,7 +42,8 @@ phd-students:
 
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
     photo: Xiao/xiao.jpg
-    info: PhD Student, started Feb 2019
+    info: PhD Student
+    start: Feb 2019
     advisor: 
       - Barath Raghavan
     education:
@@ -55,7 +57,8 @@ phd-students:
 
   - name: <a href="https://nsl.usc.edu/people/rajrup-ghosh/">Rajrup Ghosh</a>
     photo: Rajrup/rajrup.jpg
-    info: PhD Student, started Aug 2019
+    info: PhD Student
+    start: Aug 2019
     advisor: 
       - Ramesh Govindan
     education:
@@ -71,7 +74,8 @@ phd-students:
 
   - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
     photo: Pooria/pooria.jpg
-    info: PhD Student, started Aug 2019
+    info: PhD Student
+    start: Aug 2019
     advisor: 
       - Ramesh Govindan
     education:
@@ -85,7 +89,8 @@ phd-students:
 
   - name: Weiwu Pang
     photo: Weiwu/weiwu.jpg
-    info: PhD Student, started Aug 2018
+    info: PhD Student
+    start: Aug 2018
     advisor: 
       - Ramesh Govindan
     education:
@@ -97,8 +102,9 @@ phd-students:
       email: weiwupan@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/jianfeng-wang/">Jianfeng Wang</a>
-    photo: Jianfeng/jianfeng.png
-    info: PhD Student, started Aug 2016
+    photo: Jianfeng/jianfeng.jpg
+    info: PhD Student
+    start: Aug 2016
     advisor: 
       - Ramesh Govindan
       - Barath Raghavan
@@ -110,8 +116,9 @@ phd-students:
       email: jianfenw@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/jane-yen/">Yu-Chuan (Jane) Yen<a/>
-    photo: Jane/jane.png
-    info: PhD Student, started Aug 2016
+    photo: Jane/jane.jpg
+    info: PhD Student
+    start: Aug 2016
     advisor: 
       - Ramesh Govindan
       - Barath Raghavan
@@ -125,7 +132,8 @@ phd-students:
     
   - name: <a href="https://nsl.usc.edu/people/christina-shin/">Christina Shin<a/>
     photo: Christina/christina.jpg
-    info: PhD Student, started Aug 2019
+    info: PhD Student
+    start: Aug 2019
     email: cshin956@usc.edu
     advisor: 
       - Ramesh Govindan
@@ -140,7 +148,8 @@ phd-students:
 
   - name: <a href="https://nsl.usc.edu/people/sulagna-mukherjee/">Sulagna Mukherjee</a>
     photo: Sulagna/sulagna.jpg
-    info: PhD Student, started Aug 2017
+    info: PhD Student
+    start: Aug 2017
     advisor: 
       - Barath Raghavan
     education:
@@ -153,7 +162,8 @@ phd-students:
 
   - name: <a href="https://nsl.usc.edu/people/mingyang-zhang/">Mingyang Zhang<a/>
     photo: Mingyang/mingyang.jpg
-    info: PhD Student, started Aug 2015
+    info: PhD Student
+    start: Aug 2015
     advisor: 
       - Ramesh Govindan
     education:
@@ -167,7 +177,8 @@ phd-students:
       
   - name: <a href="https://www.sarah-cooney.com/">Sarah Cooney<a/>
     photo: Sarah/sarah.jpg
-    info: PhD Student, started Aug 2017
+    info: PhD Student
+    start: Aug 2017
     advisor: 
       - Barath Raghavan
     education:
@@ -179,8 +190,9 @@ phd-students:
       email: cooneys@usc.edu
 
   - name: Josh Palmer
-    photo: Josh/josh.png
-    info: PhD Student, started Jan 2020
+    photo: Josh/josh.jpg
+    info: PhD Student
+    start: Jan 2020
     email: jhpalmer@usc.edu
     advisor: 
       - Barath Raghavan

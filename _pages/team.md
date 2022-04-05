@@ -10,7 +10,7 @@ permalink: /team/
 <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
 
-Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
+Jump to [Faculty](#faculty), [Current Students](#current-students), [Alumni](#alumni).
 
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Faculty
@@ -30,9 +30,9 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
-  {% for education in member.education %}
+  <!-- {% for education in member.education %}
     <li>{{ education }}</li>
-  {% endfor %}
+  {% endfor %} -->
 
   </ul>
 </div>
@@ -51,7 +51,7 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
 {% endif %}
 
 <!----------------------------------------------------------------------------------------------------------------------------------------->
-## Ph.D. Students
+## Current Students
 {% assign number_printed = 0 %}
 {% for member in site.data.team.phd-students %}
 
@@ -70,70 +70,13 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
   <h4>{{ member.name }}</h4>
   {%- include socialmedia.html -%}
   <i>{{ member.info }}</i><!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
   {% if member.advisor.size == 1 %}
-    <li>Advisor: <i>{{ member.advisor }}</i></li>
+  Advisor: <i>{{ member.advisor }}</i>
   {% endif %}
 
   {% if member.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
-    <li>Advisor: <i>{{ member.advisor[0] }}</i> and <i>{{ member.advisor[1] }}</i> </li>
+  Advisor: <i>{{ member.advisor[0] }}</i>, <i>{{ member.advisor[1] }}</i>
   {% endif %}
-  {% for education in member.education %}
-    <li>{{ education }}</li>
-  {% endfor %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<!----------------------------------------------------------------------------------------------------------------------------------------->
-
-{% if site.data.team.post-docs.size > 0 %}
-## Post Doctoral Scholars
-{% endif %}
-{% assign number_printed = 0 %}
-{% for member in site.data.team.post-docs %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-
-  {% if member.photo != null %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  {% endif %}
-  
-  <h4>{{ member.name }}</h4>
-  {%- include socialmedia.html -%}
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-  {% if member.advisor.size == 1 %}
-    <li>Advisor: <i>{{ member.advisor }}</i></li>
-  {% endif %}
-
-  {% if member.advisor.size > 1 %} <!-- Generally a member is advised by max of 2 professors -->
-    <li>Advisor: <i>{{ member.advisor[0] }}</i> and <i>{{ member.advisor[1] }}</i> </li>
-  {% endif %}
-  {% for education in member.education %}
-    <li>{{ education }}</li>
-  {% endfor %}
-
-  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -167,9 +110,9 @@ Jump to [Faculty](#faculty), [Ph.D. Students](#phd-students), [Alumni](#alumni).
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
-  {% for education in member.education %}
+  <!-- {% for education in member.education %}
     <li>{{ education }}</li>
-  {% endfor %}
+  {% endfor %} -->
 
   </ul>
 </div>
