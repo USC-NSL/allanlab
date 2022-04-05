@@ -6,14 +6,12 @@ We thank [Allan lab](http://www.allanlab.org/aboutwebsite.html) for the template
 
 ## Installation
 
-- Install Jekyll: [Jekyll on Ubuntu, MacOS, Windows](https://jekyllrb.com/docs/installation/)
+- Install Jekyll: [Jekyll for Ubuntu, MacOS, Windows](https://jekyllrb.com/docs/installation/)
 - `bundle install`
 - `jekyll serve` - Website will be served on localhost:4000
 - `build exec jekyl build` - Website will be built
 
 ## Steps to update the website
-
-Setup:
 
 - `git clone https://github.com/USC-NSL/USC-NSL.github.io.git`
 - `cd USC-NSL.github.io`
