@@ -1,7 +1,7 @@
 ---
 title: "NSL Lab - Rajrup"
 layout: personal
-permalink: /people/rajrup-ghosh
+permalink: /people/rajrup-ghosh/
 sitemap: false
 excerpt: "Personal website of Rajrup"
 ---
