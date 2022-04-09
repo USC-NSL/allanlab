@@ -30,3 +30,6 @@ When you add a bib entry, the following fields have special meaning:
 - setting `bibtex_show` to 1 will add a `bib` button, which, when clicked, will reveal the bib entry.
 
 You can add other entries by configuring `_layouts/bib.html`.
+
+## Add/Update personal page
+
