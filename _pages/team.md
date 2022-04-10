@@ -1,6 +1,6 @@
 ---
 title: "NSL Lab - Team"
-layout: gridlay
+layout: team
 excerpt: "NSL Lab: Team members"
 sitemap: false
 permalink: /people/
