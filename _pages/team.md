@@ -3,7 +3,7 @@ title: "NSL Lab - Team"
 layout: gridlay
 excerpt: "NSL Lab: Team members"
 sitemap: false
-permalink: /team/
+permalink: /people/
 ---
 
 <!-- # Group Members -->
@@ -23,17 +23,24 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Alumni](#al
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+
+  {% if member.social.website %}
+
+  {% if member.photo %}
+  <a target="blank" href="{{ member.social.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  {% endif %}
+  <h4><a target="blank" href="{{ member.social.website }}">{{ member.name }}</a></h4>
+  {% else %}
+
+  {% if member.photo %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
   <h4>{{ member.name }}</h4>
+
+  {% endif %}
+
   {%- include socialmedia.html -%}
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  <!-- {% for education in member.education %}
-    <li>{{ education }}</li>
-  {% endfor %} -->
-
-  </ul>
+  <i>{{ member.info }}</i> <!--<br>email: <{{ member.email }}></i> -->
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -66,11 +73,21 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Alumni](#al
 
 <div class="col-sm-6 clearfix">
 
-  {% if member.photo != null %}
+  {% if member.social.website %}
+
+  {% if member.photo %}
+  <a target="blank" href="{{ member.social.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  {% endif %}
+  <h4><a target="blank" href="{{ member.social.website }}">{{ member.name }}</a></h4>
+  {% else %}
+
+  {% if member.photo %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
-  
   <h4>{{ member.name }}</h4>
+  
+  {% endif %}
+  
   {%- include socialmedia.html -%}
   <i>{{ member.info }}</i><!--<br>email: <{{ member.email }}></i> -->
   {% if member.advisor.size == 1 %}

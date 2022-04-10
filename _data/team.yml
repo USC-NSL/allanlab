@@ -1,5 +1,5 @@
 faculty:
-  - name: <a href="https://govindan.usc.edu/">Ramesh Govindan</a>
+  - name: Ramesh Govindan
     lastname: Govindan
     photo: Ramesh/ramesh.jpg
     info: Professor
@@ -13,7 +13,7 @@ faculty:
       linkedin: https://www.linkedin.com/in/ramesh-govindan/
 
 
-  - name: <a href="https://raghavan.usc.edu/">Barath Raghavan</a>
+  - name: Barath Raghavan
     lastname: Raghavan
     photo: Barath/barath.jpg
     info: Assistant Professor
