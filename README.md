@@ -33,3 +33,18 @@ You can add other entries by configuring `_layouts/bib.html`.
 
 ## Add/Update personal page
 
+### Create a new page
+
+We have a sample one page template for personal webpage at `_layouts/personal.html`. Example page that follows the template is located at `_pages/people/rajrup.md`. You can make a copy of this page and update the contents from your old page.
+
+Steps to update your personal page:
+
+- Create a page under `_pages/people/` with your preferred name say `foo.md`. Add/update the `title`, `permalink` and `excerpt` fields, while the other fields `layout` and `sitemap` should have values `personal` and `false`, respectively.
+- Create a copy of contents under `_data/people/`. Example contents are located at `_data/people/rajrup.yml`. Note that the name of this file should be the same as the name of the page, e.g. `foo.md` should have `foo.yml` as its contents.
+- Jekyll uses `liquid` style for templating. You can use liquid tags to add/update the contents of the page as `rajrup.md` does.
+- Create a `.bib` file for publications under `_bibliography/people/`. An example `.bib` file is located at `_bibliography/people/rajrup.bib`. If your bib file is named `foo.bib`, then update the code to generate the bibliography as `{% bibliography -f people/foo%}`. You should find the use of this command at the end of `_pages/people/rajrup.md`.
+- Update the link to your page in `_data/team.yml`. For example, if your `permalink` is `/people/foo/`, then update the link to your page as `current-students.<your_name>.social.website = https://usc-nsl.github.io/people/foo/`.
+
+### Add link to existing website
+
+If you have your own website, you can provide the link in `_data/team.yml` file under `current-students.<your_name>.social.website`.
