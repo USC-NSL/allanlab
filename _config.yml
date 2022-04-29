@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: NSL 
+title: NSL
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   USC NSL Website.
 url: https://usc-nsl.github.io
-baseurl: 
+baseurl:
 
 include:
   - .htaccess
@@ -82,3 +82,6 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+  sort by: year, month
+  order by: descending, ascending
