@@ -1,6 +1,6 @@
 ---
 ---
-    
+
 @import "bootstrap";
 @import "fontawesome";
 
@@ -62,8 +62,8 @@ $code-bg-color-dark:      #2c3237 !default;
 
 // END --- Added by Ramesh
 
-img { margin-bottom: 24px; 
-     margin-top: 17px; 
+img { margin-bottom: 24px;
+     margin-top: 17px;
     border-radius:2%;
 }
 
@@ -171,6 +171,7 @@ firstp {
 
 .publications {
   margin-top: 2rem;
+  margin-right: -11rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -287,4 +288,3 @@ firstp {
     }
   }
 }
-
