@@ -17,8 +17,9 @@ permalink: /allnews.html
 
 </div> -->
 
-<div id="newsid">
-{% for article in site.data.news limit:9 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
+<div class="well">
+{% for article in site.data.news %}
+<p>{{ article.date }}<br/>
+{{ article.headline}}</p>
 {% endfor %}
 </div>
