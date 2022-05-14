@@ -3,7 +3,6 @@ title: "NSL Lab - Publications"
 layout: gridlay
 excerpt: "NSL Lab -- Publications."
 sitemap: false
-permalink: /publications/
 ---
 
 

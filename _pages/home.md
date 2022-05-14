@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<h1> About </h1>
+<h2> About </h2>
 
 <div>
 
@@ -72,7 +72,7 @@ Founded in 2002, our laboratory conducts research in wired and wireless networki
   </a>
 </div>
 
-<h1> Recent Papers </h1>
+<h2> Recent Papers </h2>
 
 <div class="publications">
 
