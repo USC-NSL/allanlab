@@ -48,3 +48,8 @@ Steps to update your personal page:
 ### Add link to existing website
 
 If you have your own website, you can provide the link in `_data/team.yml` file under `current-students.<your_name>.social.website`.
+
+## Add/Update project page
+
+We have created project pages for 2 current projects located at `_pages/projects/`. You can make a copy of these pages and update the contents for your projects.
+The project pages will have url as `https://nsl.usc.edu/projects/<project_name>/`.
