@@ -6,19 +6,11 @@ sitemap: false
 permalink: /
 ---
 
-<h2> About </h2>
+<h3> About </h3>
 
 <div>
 
-Founded in 2002, our laboratory conducts research in wired and wireless networking systems. Our past contributions have spanned research on Internet routing, peer-to-peer systems, and Internet measurement. Our current focus is on networked systems of various kinds. Our projects span the following areas:
-
-<ol>
-  <li> Data center networking and cloud-based systems </li>
-  <li> Networked sensing </li>
-  <li> Video distribution infrastructures </li>
-  <li> Internet measurements </li>
-  <li> Network performance optimization </li>
-</ol>
+Founded in 2002, our laboratory conducts research on the design and implementation of a wide range of networked computing systems.
 
 </div>
 
@@ -72,7 +64,7 @@ Founded in 2002, our laboratory conducts research in wired and wireless networki
   </a>
 </div>
 
-<h2> Recent Papers </h2>
+<h3> Recent Papers </h3>
 
 <div class="publications">
 
