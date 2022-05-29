@@ -28,7 +28,7 @@ faculty:
 
 current-students:
   - name: <a href="https://nsl.usc.edu/people/fawad-ahmad/">Fawad Ahmed</a>
-    lastname: Ahmed
+    lastname: Ahmad
     photo: Fawad/fawad.jpg
     info: PhD Student
     start: Aug 2016
@@ -40,7 +40,7 @@ current-students:
     social:
       linkedin: https://www.linkedin.com/in/fawad-ahmad-60990578/
       google-scholar: https://scholar.google.com/citations?user=C2kiFpoAAAAJ&hl=en&oi=ao
-      website: https://nsl.usc.edu/people/fawad-ahmad/
+      website: https://fawadahm.github.io/
       email: fawadahm@usc.edu
 
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
