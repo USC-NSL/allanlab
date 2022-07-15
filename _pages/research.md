@@ -3,7 +3,6 @@ title: "NSL Lab - Research"
 layout: textlay
 excerpt: "NSL Lab -- Research"
 sitemap: false
-permalink: /research/
 ---
 
 # Research

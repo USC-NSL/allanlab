@@ -2,7 +2,8 @@
  "papers"
  (lambda ()
    (LaTeX-add-bibitems
-    "Pang2022"
+    "Sucha2022"
+    "Hang2022"
     "Hu2021"
     "Ghosh2021b"
     "10.1145/3452296.3472913"
@@ -10,7 +11,7 @@
     "RimIoTDI"
     "10.1145/3452296.3472910"
     "Liu2020"
-    "246280"
+    "Carmap"
     "ghosh2020rapid"
     "bagchi2020new"
     "ghosh2020iros"
@@ -26,14 +27,14 @@
     "Qiu18c"
     "wide-area-analytics-multiple-resources"
     "Qiu18b"
-    "Qiu18d"
+    "avr-mobisys"
     "Liu18a"
     "Liu18b"
     "Akhtar18a"
     "Rager18a"
     "Abdelzaher17a"
     "7416243"
-    "Qiu17a"
+    "avr-hotmobile"
     "Rui17a"
     "Kar17a"
     "Kar17b"
@@ -153,5 +154,5 @@
     "Flach11b"
     "Vieira2011"
     "Paek11a"))
- :bibtex)
+ '(or :bibtex :latex))
 

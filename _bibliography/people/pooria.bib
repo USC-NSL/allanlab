@@ -1,0 +1,49 @@
+@INPROCEEDINGS{Sucha2022,
+  author={Sucha Supittayapornpong, and Pooria Namyar, and Mingyang Zhang, and Minlan Yu, and Ramesh Govindan},
+  booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
+  title={Optimal Oblivious Routing for Structured Networks},
+  url = {https://ieeexplore.ieee.org/abstract/document/9796682},
+  abstract = {Oblivious routing distributes traffic from sources to destinations following predefined routes with rules independent of traffic demands. While finding optimal oblivious routing is intractable for general topologies, we show that it is tractable for structured topologies often used in datacenter networks. To achieve this, we apply graph automorphism and prove the existence of the optimal automorphism-invariant solution. This result reduces the search space to targeting the optimal automorphism-invariant solution. We design an iterative algorithm to obtain such a solution by alternating between two linear programs. The first program finds an automorphism-invariant solution based on representative variables and constraints, making the problem tractable. The second program generates adversarial demands to ensure the final result satisfies all possible demands. Since, the construction of the representative variables and constraints are combinatorial problems, we design polynomial-time algorithms for the construction. We evaluate proposed iterative algorithm in terms of throughput performance, scalability, and generality over three potential applications. The algorithm i) improves the throughput up to 87.5% over a heuristic algorithm for partially deployed FatTree, ii) scales for FatClique with a thousand switches, iii) is applicable to a general structured topology with non-uniform link capacity and server distribution.},
+  year={2022},
+  volume={},
+  number={},
+  abbr = {INFOCOM},
+  pages={1988-1997},
+  doi={10.1109/INFOCOM48880.2022.9796682}
+}
+
+@inproceedings{PooriaTUB,
+title = {A Throughput-Centric View of the Performance of Datacenter Topologies},
+author = {Pooria Namyar, and Sucha Supittayapornpong, and Mingyang Zhang, and Minlan Yu, and Ramesh Govindan},
+url = {https://dx.doi.org/10.1145/3452296.3472913},
+code = {https://github.com/USC-NSL/TUB},
+doi = {10.1145/3452296.3472913},
+isbn = {9781450383837},
+year  = {2021},
+date = {2021-08-09},
+urldate = {2021-08-09},
+booktitle = {Proceedings of the 2021 ACM SIGCOMM 2021 Conference},
+pages = {349–369},
+publisher = {Association for Computing Machinery},
+address = {Virtual Event, USA},
+series = {SIGCOMM '21},
+abstract = {While prior work has explored many proposed datacenter designs, only two designs,
+Clos-based and expander-based, are generally considered practical because they can
+scale using commodity switching chips. Prior work has used two different metrics,
+bisection bandwidth and throughput, for evaluating these topologies at scale. Little
+is known, theoretically or practically, how these metrics relate to each other. Exploiting
+characteristics of these topologies, we prove an upper bound on their throughput,
+then show that this upper bound better estimates worst-case throughput than all previously
+proposed throughput estimators and scales better than most of them. Using this upper
+bound, we show that for expander-based topologies, unlike Clos, beyond a certain size
+of the network, no topology can have full throughput, even if it has full bisection
+bandwidth; in fact, even relatively small expander-based topologies fail to achieve
+full throughput. We conclude by showing that using throughput to evaluate datacenter
+performance instead of bisection bandwidth can alter conclusions in prior work about
+datacenter cost, manageability, and reliability.},
+keywords = {datacenter, network management, nsl, throughput},
+abbr = {SIGCOMM},
+url = {https://dx.doi.org/10.1145/3452296.3472913},
+pubstate = {published},
+tppubtype = {inproceedings}
+}

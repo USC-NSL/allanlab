@@ -27,8 +27,8 @@ faculty:
       linkedin: https://www.linkedin.com/in/barath-raghavan-06212455/
 
 current-students:
-  - name: <a href="https://nsl.usc.edu/people/fawad-ahmad/">Fawad Ahmed</a>
-    lastname: Ahmed
+  - name: <a href="https://fawadahm.github.io/">Fawad Ahmad</a>
+    lastname: Ahmad
     photo: Fawad/fawad.jpg
     info: PhD Student
     start: Aug 2016
@@ -40,7 +40,7 @@ current-students:
     social:
       linkedin: https://www.linkedin.com/in/fawad-ahmad-60990578/
       google-scholar: https://scholar.google.com/citations?user=C2kiFpoAAAAJ&hl=en&oi=ao
-      website: https://nsl.usc.edu/people/fawad-ahmad/
+      website: https://fawadahm.github.io/
       email: fawadahm@usc.edu
 
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
@@ -91,6 +91,7 @@ current-students:
       linkedin: https://www.linkedin.com/in/pooria-namyar/
       github: https://github.com/PooriaNamyar
       website: https://nsl.usc.edu/people/pooria-namyar/
+      google-scholar: https://scholar.google.com/citations?user=nUfxSRkAAAAJ&hl=en
       email: namyar@usc.edu
 
   - name: Weiwu Pang
@@ -106,6 +107,7 @@ current-students:
       linkedin: https://www.linkedin.com/in/weiwu-pang-678133a7/
       github: https://github.com/oscarpang
       google-scholar: https://scholar.google.com/citations?hl=en&user=Eab6bwkAAAAJ
+      website: http://www.oscarpang.com
       email: weiwupan@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/jianfeng-wang/">Jianfeng Wang</a>
