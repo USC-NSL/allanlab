@@ -141,7 +141,7 @@ current-students:
       website: https://nsl.usc.edu/people/jane-yen/
       email: yeny@usc.edu
     
-  - name: <a href="https://nsl.usc.edu/people/christina-shin/">Christina Shin<a/>
+  - name: <a href="https://usc-nsl.github.io/people/christina-shin/">Christina Shin</a>
     lastname: Shin
     photo: Christina/christina.jpg
     info: PhD Student
@@ -154,9 +154,8 @@ current-students:
     social:
       google-scholar: https://scholar.google.com/citations?user=6VwIYFwAAAAJ&hl=en
       linkedin: https://www.linkedin.com/in/christina-shin-9477a31a1/
-      website: https://nsl.usc.edu/people/christina-shin/
+      website: https://usc-nsl.github.io/people/christina-shin/
       email: cshin956@usc.edu
-    
 
   - name: <a href="https://nsl.usc.edu/people/sulagna-mukherjee/">Sulagna Mukherjee</a>
     lastname: Mukherjee
