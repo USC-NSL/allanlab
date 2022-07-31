@@ -1,5 +1,5 @@
 ---
-title: "NSL Lab - Christina"
+title: "Christina Shin"
 layout: personal
 permalink: /people/christina-shin/
 sitemap: false
@@ -33,28 +33,24 @@ excerpt: "Personal website of Christina"
 ## Sketch
 
 <p>
-I am a fourth year Ph.D. student in <a href="https://www.cs.usc.edu/">Computer Science Department</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am working with <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a> in <a href="https://nsl.usc.edu/">Networked Systems Lab (NSL)</a>. I am broadly interested in 3D Sensing, LiDAR Sensing, Cooperative Perception, and Autonomous Vehicle Systems.
-</p>
-
-<p>
-Before joining NSL, I received my B.S. and M.S. degree in Computer Science and Engineering at <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University</a>.
+I am a fourth year Ph.D. student in <a href="https://www.cs.usc.edu/">Computer Science Department</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am working with <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a> in <a href="https://nsl.usc.edu/">Networked Systems Lab (NSL)</a>. I am broadly interested in 3D Sensing, LiDAR Sensing, Cooperative Perception, and Autonomous Vehicle Systems. Before joining NSL, I received my B.S. and M.S. degree in Computer Science and Engineering at <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University</a>.
 </p>
 
 ## Work Experience
 
 <p>
-<em>Research Assistant (Aug 2019 - Present)</em><br>
+<em><strong>Research Assistant (Aug 2019 - Present)</strong></em><br>
 <a href="https://nsl.usc.edu/">Networked Systems Lab</a>, University of Southern California, Los Angeles, USA.<br>
 </p>
 
 <p>
-<em>Research Intern (May 2021 - Aug 2021)</em><br>
+<em><strong>Research Intern (May 2021 - Aug 2021)</strong></em><br>
 General Motors Research and Development, Warren, USA.<br>
 Mentor: Chuan Li and Fan Bai<br>
 </p>
 
 <p>
-<em>Research Assistant (Jan 2017 - May 2019)</em><br>
+<em><strong>Research Assistant (Jan 2017 - May 2019)</strong></em><br>
 <a href="https://inslab-ewha.weebly.com/">Intelligent Networked Systems Lab</a>, Ewha Womans University, Seoul, South Korea.<br>
 </p>
 
