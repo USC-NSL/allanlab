@@ -44,6 +44,7 @@ Steps to update your personal page:
 - Jekyll uses `liquid` style for templating. You can use liquid tags to add/update the contents of the page as `rajrup.md` does.
 - Create a `.bib` file for publications under `_bibliography/people/`. An example `.bib` file is located at `_bibliography/people/rajrup.bib`. If your bib file is named `foo.bib`, then update the code to generate the bibliography as `{% bibliography -f people/foo%}`. You should find the use of this command at the end of `_pages/people/rajrup.md`.
 - Update the link to your page in `_data/team.yml`. For example, if your `permalink` is `/people/foo/`, then update the link to your page as `current-students.<your_name>.social.website = https://usc-nsl.github.io/people/foo/`.
+- You can also add redirections to your personal page. This is very helpful when migrating from our old website to preserve same old url pointing to your new page. For example, if your personal page is `/people/foo-bar/` and you want `/people/foo/` and `/people/bar/` should redirect to `/people/foo-bar/`, you can add `redirect_from` at the top of `foo.md` with the value `/people/foo/` and `/people/bar/`. Check out redirections in `_pages/people/fawad.md` and `_pages/people/ramesh.md`.
 
 ### Add link to existing website
 
