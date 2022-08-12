@@ -1,32 +1,23 @@
 % Lemur
-@inproceedings{conext20-lemur,
-author = {Yen, Jane and Wang, Jianfeng and Supittayapornpong, Sucha and Vieira, Marcos A. M. and Govindan, Ramesh and Raghavan, Barath},
+@inproceedings{10.1145/3386367.3431292,
 title = {Meeting SLOs in Cross-Platform NFV},
-year = {2020},
-isbn = {9781450379489},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
+author = {Jane Yen and Jianfeng Wang and Sucha Supittayapornpong and Marcos A M Vieira and Ramesh Govindan and Barath Raghavan},
 url = {https://doi.org/10.1145/3386367.3431292},
-doi = {10.1145/3386367.3431292},
-abstract = {Network Functions (NFs) perform on-path processing of network traffic. ISPs are deploying
-NF Virtualization (NFV) with software NFs run on commodity servers. ISPs aim to ensure
-that NF chains, directed acyclic graphs of NFs, do not violate Service Level Objectives
-(SLOs) promised by the ISP to its customers. To meet SLOs, NFV systems sometimes leverage
-on-path hardware (such as programmable switches and smart NICs) to accelerate NF execution.Lemur
-places and executes NF chains across heterogeneous hardware while meeting SLOs. Lemur's
-novel placement algorithm yields an SLO-satisfying NF placement while weighing many
-constraints: hardware memory and processing stages, server cores, link capacity, NF
-profiles, and NF chain interactions. Lemur's metacompiler automatically generates
-code and rules (in P4, Python, eBPF, C++, and OpenFlow) to stitch cross-platform NF
-chain execution while also optimizing resource usage. Our experiments show that Lemur
-is alone among competing strategies in meeting SLOs for canonical NF chains while
-maximizing marginal throughput (the traffic rate in excess of the service-level objective).},
+code = {https://github.com/USC-NSL/Lemur},
+slides = {https://nsl.usc.edu/wp-content/uploads/2020/11/CoNEXT20-Lemur-slides.pdf},
+isbn = 9781450379489,
+year  = 2020,
+date = {2020-01-01},
 booktitle = {Proceedings of the 16th International Conference on Emerging Networking EXperiments and Technologies},
 pages = {509–523},
-numpages = {15},
-keywords = {service chain, NFV, PISA switch},
-location = {Barcelona, Spain},
-series = {CoNEXT '20}
+publisher = {Association for Computing Machinery},
+address = {Barcelona, Spain},
+series = {CoNEXT '20},
+abstract = {Network Functions (NFs) perform on-path processing of network traffic. ISPs are deploying NF Virtualization (NFV) with software NFs run on commodity servers. ISPs aim to ensure that NF chains, directed acyclic graphs of NFs, do not violate Service Level Objectives (SLOs) promised by the ISP to its customers. To meet SLOs, NFV systems sometimes leverage on-path hardware (such as programmable switches and smart NICs) to accelerate NF execution.Lemur places and executes NF chains across heterogeneous hardware while meeting SLOs. Lemur's novel placement algorithm yields an SLO-satisfying NF placement while weighing many constraints: hardware memory and processing stages, server cores, link capacity, NF profiles, and NF chain interactions. Lemur's metacompiler automatically generates code and rules (in P4, Python, eBPF, C++, and OpenFlow) to stitch cross-platform NF chain execution while also optimizing resource usage. Our experiments show that Lemur is alone among competing strategies in meeting SLOs for canonical NF chains while maximizing marginal throughput (the traffic rate in excess of the service-level objective).},
+keywords = {NFV, nsl, PISA switch, service chain},
+abbr = {CoNEXT},
+pubstate = {published},
+tppubtype = {inproceedings}
 }
 
 % Galleon
