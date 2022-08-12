@@ -6,7 +6,7 @@ sitemap: false
 excerpt: "Personal website of Jianfeng"
 ---
 {%- assign data = site.data.people -%}
-{%- assign member = data.rajrup -%}
+{%- assign member = data.jianfeng -%}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="22%" style="float: left" />
@@ -54,17 +54,15 @@ Mentor: <a href="https://www.linkedin.com/in/tbansal-0998216">Tarun Bansal</a><b
 </p>
 
 ## Teaching Experience
-
 <p>
-<em>Teaching Assistant at USC</em><br>
-<b>Course:</b>CS 402: Operating Systems, Fall 2022</a>,</a>
+<b>Course:</b> CSCI 402: Operating Systems, Fall 2022
 </p>
 
 ## Publications
 
 <div class="publications">
 
-{% bibliography -f people/rajrup%}
+{% bibliography -f people/jianfeng%}
 
 </div>
 
