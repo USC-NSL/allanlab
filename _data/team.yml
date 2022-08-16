@@ -27,22 +27,6 @@ faculty:
       linkedin: https://www.linkedin.com/in/barath-raghavan-06212455/
 
 current-students:
-  - name: <a href="https://fawadahm.github.io/">Fawad Ahmad</a>
-    lastname: Ahmad
-    photo: Fawad/fawad.jpg
-    info: PhD Student
-    start: Aug 2016
-    email: fawadahm@usc.edu
-    advisor: 
-      - Ramesh Govindan
-    education:
-      - B.Sc. from <a href="https://www.uetpeshawar.edu.pk/">University of Engineering and Technology (UET), Peshawar</a>.
-    social:
-      linkedin: https://www.linkedin.com/in/fawad-ahmad-60990578/
-      google-scholar: https://scholar.google.com/citations?user=C2kiFpoAAAAJ&hl=en&oi=ao
-      website: https://fawadahm.github.io/
-      email: fawadahm@usc.edu
-
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
     lastname: Fu
     photo: Xiao/xiao.jpg
@@ -160,7 +144,7 @@ current-students:
       github: https://github.com/christina-shin
       twitter: https://twitter.com/christina3_3 
 
-  - name: <a href="https://nsl.usc.edu/people/sulagna-mukherjee/">Sulagna Mukherjee</a>
+  - name: Sulagna Mukherjee
     lastname: Mukherjee
     photo: Sulagna/sulagna.jpg
     info: PhD Student
@@ -172,23 +156,8 @@ current-students:
     social:
       google-scholar: https://scholar.google.co.in/citations?user=EoL8Ih4AAAAJ&hl=en
       linkedin: https://www.linkedin.com/in/sulagnamukherjee/
-      website: https://nsl.usc.edu/people/sulagna-mukherjee/
+      website: 
       email: sulagna@usc.edu
-      
-  - name: <a href="https://www.sarah-cooney.com/">Sarah Cooney<a/>
-    lastname: Cooney
-    photo: Sarah/sarah.jpg
-    info: PhD Student
-    start: Aug 2017
-    advisor: 
-      - Barath Raghavan
-    education:
-      - B.S. from Saint Joseph’s University.
-    social:
-      google-scholar: https://scholar.google.com/citations?user=WbqUGWgAAAAJ&hl=en
-      linkedin: https://www.linkedin.com/in/sarah-cooney-988a4a92/
-      website: https://www.sarah-cooney.com
-      email: cooneys@usc.edu
 
   - name: Josh Palmer
     lastname: Palmer
