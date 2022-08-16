@@ -1,4 +1,4 @@
-# NSL Website
+# NSL Website <img src="images/logopic/nsl_logo_3_Raj.png" width="4.5%">
 
 This is the website of the Networked Systems Laboratory (NSL) at the University of Southern California.
 
