@@ -32,7 +32,7 @@ excerpt: "Personal website of Jianfeng"
 
 <p>Prior to joining USC, I obtained my B.S. degree in Electrical Engineering and B.A. degree in Economics at <a href="http://english.pku.edu.cn/">Peking University</a>.</p>
 
-<p>I am interested in Computer Networking and System research including software-defined networking (SDN), network function virtualization (NFV), and high-performance cloud/edge computing. I enjoy building large-scale, high-throughput and low-latency computing systems, especially for packet-processing systems. I've built <b>Lemur</b>, a high-throuhgput NFV cross-platform compiler; <b>Galleon</b>, a cloud-deployable NFV platform with an efficient isolation mechanism; <b>Ironside</b>, a cluster scheduler that provides latency guarantees for NFV; <b>PGPP</b>, a privacy-preserving proxy for Android device (available at Google Play Store). Read this <a href="https://www.wired.com/story/pretty-good-phone-privacy-android/">Wired report</a>.</p>
+<p>I am interested in Computer Networking and System research including software-defined networking (SDN), network function virtualization (NFV), and high-performance cloud/edge computing. I enjoy building large-scale, high-throughput and low-latency computing systems, especially for packet-processing systems. I've built <b>Lemur</b>, a high-throuhgput NFV cross-platform compiler; <b>Quadrant</b>, a cloud-deployable NFV platform with an efficient isolation mechanism; <b>Ironside</b>, a cluster scheduler that provides latency guarantees for NFV; <b>PGPP</b>, a privacy-preserving proxy for Android device (available at Google Play Store). Read this <a href="https://www.wired.com/story/pretty-good-phone-privacy-android/">Wired report</a>.</p>
 
 ## Work Experience
 
