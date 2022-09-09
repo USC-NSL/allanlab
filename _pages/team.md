@@ -9,7 +9,7 @@ permalink: /people/
 <!-- # Group Members -->
 <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
-Jump to [Faculty](#faculty), [Current Students](#current-students), [Alumni](#alumni).
+Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#visitor), [Alumni](#alumni).
 
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Faculty
@@ -135,6 +135,58 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Alumni](#al
   {% endfor %} -->
 
   </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<!----------------------------------------------------------------------------------------------------------------------------------------->
+{% if site.data.team.visitor.size > 0 %}
+## Visitor
+{% endif %}
+
+{% assign number_printed = 0 %}
+{% for member in site.data.team.visitor%}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+
+  {% if member.social.website %}
+
+  {% if member.photo %}
+  <a target="blank" href="{{ member.social.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  {% endif %}
+  <h4><a target="blank" href="{{ member.social.website }}">{{ member.name }}</a></h4>
+  {% else %}
+
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+
+  {% endif %}
+
+  {%- include socialmedia.html -%}
+  <i>{{ member.info }}</i> <!--<br>email: <{{ member.email }}></i> -->
+
+  {% if member.from %}
+  <i>{{ member.from }}</i>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

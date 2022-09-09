@@ -174,3 +174,22 @@ current-students:
       github: https://github.com/palmerjh
       website: 
       email: jhpalmer@usc.edu
+
+visitor:
+  - name: <a href="http://cau.ac.kr/~jpaek">Jeongyeup Paek</a>
+    lastname: Paek
+    photo: Jeongyeup/jpaek-1.jpg
+    info: Visiting Scholar @ USC-NSL
+    start: Aug 2022
+    email: jpaek@usc.edu
+    from: 
+      - Associate Professor @ Chung-Ang University
+    education:
+      - M.S. and Ph.D. from the University of Southern California, Los Angeles
+      - B.S. from Seoul National University, Seoul, Republic of Korea
+    social:
+      google-scholar: http://scholar.google.com/citations?user=oTAOFAYAAAAJ
+      linkedin: http://www.linkedin.com/in/jeongyeuppaek
+      website: http://cau.ac.kr/~jpaek
+      email: jpaek@usc.edu
+
