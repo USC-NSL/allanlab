@@ -12,7 +12,6 @@ faculty:
       google-scholar: https://scholar.google.com/citations?user=ZTkRs84AAAAJ
       linkedin: https://www.linkedin.com/in/ramesh-govindan/
 
-
   - name: Barath Raghavan
     lastname: Raghavan
     photo: Barath/barath.jpg
@@ -60,6 +59,22 @@ current-students:
       website: https://usc-nsl.github.io/people/rajrup-ghosh/
       google-scholar: https://scholar.google.co.in/citations?user=9M6G_S0AAAAJ&hl=en
       email: rajrupgh@usc.edu
+
+  - name: Chunyu Xia
+    lastname: Xia
+    photo: Chunyu/chunyu.jpg
+    info: PhD Student
+    start: May 2022
+    advisor: 
+      - Ramesh Govindan
+    education:
+      - B.E. from <a href="https://www.nju.edu.cn/EN/main.htm">Nanjing University</a>.
+      - M.S. from <a href="https://ucsd.edu/">University of California, San Diego</a>.
+    social:
+      linkedin: https://www.linkedin.com/in/chunyu-xia-79ba91243/
+      github: https://github.com/chunyuxia
+      website: 
+      email: chunyuxi@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
     lastname: Namyar
@@ -164,7 +179,6 @@ current-students:
     photo: Josh/josh.jpg
     info: PhD Student
     start: Jan 2020
-    email: jhpalmer@usc.edu
     advisor: 
       - Barath Raghavan
     education:
