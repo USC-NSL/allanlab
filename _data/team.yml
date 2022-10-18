@@ -31,7 +31,7 @@ current-students:
     photo: Xiao/xiao.jpg
     info: PhD Student
     start: Feb 2019
-    advisor: 
+    advisor:
       - Barath Raghavan
     education:
       - B.S. from <a href="http://en.hit.edu.cn/Harbin">Harbin Institute of Technology (HIT)</a>.
@@ -47,7 +47,7 @@ current-students:
     photo: Rajrup/rajrup.jpg
     info: PhD Student
     start: Aug 2019
-    advisor: 
+    advisor:
       - Ramesh Govindan
     education:
       - M.Tech from <a href="https://iisc.ac.in/">Indian Institute of Science (IISc), Bangalore</a>.
@@ -65,7 +65,7 @@ current-students:
     photo: Chunyu/chunyu.jpg
     info: PhD Student
     start: May 2022
-    advisor: 
+    advisor:
       - Ramesh Govindan
     education:
       - B.E. from <a href="https://www.nju.edu.cn/EN/main.htm">Nanjing University</a>.
@@ -73,7 +73,7 @@ current-students:
     social:
       linkedin: https://www.linkedin.com/in/chunyu-xia-79ba91243/
       github: https://github.com/chunyuxia
-      website: 
+      website:
       email: chunyuxi@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
@@ -81,7 +81,7 @@ current-students:
     photo: Pooria/pooria.jpg
     info: PhD Student
     start: Aug 2019
-    advisor: 
+    advisor:
       - Ramesh Govindan
     education:
       - B.Sc. from <a href="https://en.sharif.edu/">Sharif University of Technology</a>.
@@ -98,7 +98,7 @@ current-students:
     photo: Weiwu/weiwu.jpg
     info: PhD Student
     start: Aug 2018
-    advisor: 
+    advisor:
       - Ramesh Govindan
     education:
       - B.S. from <a href="https://www.usc.edu/">University of Southern California (USC)</a>.
@@ -114,7 +114,7 @@ current-students:
     photo: Jianfeng/head-profile.jpg
     info: PhD Student
     start: Aug 2016
-    advisor: 
+    advisor:
       - Ramesh Govindan
       - Barath Raghavan
     education:
@@ -130,7 +130,7 @@ current-students:
     photo: Jane/jane.jpg
     info: PhD Student
     start: Aug 2016
-    advisor: 
+    advisor:
       - Ramesh Govindan
       - Barath Raghavan
     education:
@@ -140,14 +140,14 @@ current-students:
       linkedin: https://www.linkedin.com/in/yu-chuan-yen-789b2b76/
       website: https://nsl.usc.edu/people/jane-yen/
       email: yeny@usc.edu
-    
+
   - name: <a href="https://usc-nsl.github.io/people/christina-shin/">Christina Shin</a>
     lastname: Shin
     photo: Christina/christina.jpg
     info: PhD Student
     start: Aug 2019
     email: cshin956@usc.edu
-    advisor: 
+    advisor:
       - Ramesh Govindan
     education:
       - B.S. and M.S. from <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University, Seoul</a>.
@@ -157,21 +157,21 @@ current-students:
       website: https://usc-nsl.github.io/people/christina-shin/
       email: cshin956@usc.edu
       github: https://github.com/christina-shin
-      twitter: https://twitter.com/christina3_3 
+      twitter: https://twitter.com/christina3_3
 
   - name: Sulagna Mukherjee
     lastname: Mukherjee
     photo: Sulagna/sulagna.jpg
     info: PhD Student
     start: Aug 2017
-    advisor: 
+    advisor:
       - Barath Raghavan
     education:
       - B.Tech from <a href="https://iem.edu.in/">Institute of Engineering and Management (IEM), Kolkata</a>.
     social:
       google-scholar: https://scholar.google.co.in/citations?user=EoL8Ih4AAAAJ&hl=en
       linkedin: https://www.linkedin.com/in/sulagnamukherjee/
-      website: 
+      website: https://usc-nsl.github.io/people/sulagna-mukherjee/
       email: sulagna@usc.edu
 
   - name: Josh Palmer
@@ -179,14 +179,14 @@ current-students:
     photo: Josh/josh.jpg
     info: PhD Student
     start: Jan 2020
-    advisor: 
+    advisor:
       - Barath Raghavan
     education:
       - B.S. from Vanderbilt University.
     social:
       linkedin: https://www.linkedin.com/in/computer-scientist-who-loves-bugs/
       github: https://github.com/palmerjh
-      website: 
+      website:
       email: jhpalmer@usc.edu
 
 visitor:
@@ -196,7 +196,7 @@ visitor:
     info: Visiting Scholar @ USC-NSL
     start: Aug 2022
     email: jpaek@usc.edu
-    from: 
+    from:
       - Associate Professor @ Chung-Ang University
     education:
       - M.S. and Ph.D. from the University of Southern California, Los Angeles
@@ -206,4 +206,3 @@ visitor:
       linkedin: http://www.linkedin.com/in/jeongyeuppaek
       website: http://cau.ac.kr/~jpaek
       email: jpaek@usc.edu
-
