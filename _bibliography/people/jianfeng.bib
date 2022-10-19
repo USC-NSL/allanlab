@@ -27,6 +27,7 @@ author={Jianfeng Wang and Tamás Lévai and Zhuojin Li and Marcos A. M. Vieira a
 url = {https://arxiv.org/abs/2101.06466},
 year={2021},
 date = {2021-01-16},
+booktitle = {CoRR Jan},
 publisher = {arXiv preprint arXiv:2101.06466},
 abstract = {Software is often used for Network Functions (NFs) -- such as firewalls, NAT, deep packet inspection, and encryption -- that are applied to traffic in the network. The community has hoped that NFV would enable rapid development of new NFs and leverage commodity computing infrastructure. However, the challenge for researchers and operators has been to align the square peg of high-speed packet processing with the round hole of cloud computing infrastructures and abstractions, all while delivering performance, scalability, and isolation. Past work has led to the belief that NFV is different enough that it requires novel, custom approaches that deviate from today's norms. To the contrary, we show that we can achieve performance, scalability, and isolation in NFV judiciously using mechanisms and abstractions of FaaS, the Linux kernel, NIC hardware, and OpenFlow switches. As such, with our system Galleon, NFV can be practically-deployable today in conventional cloud environments while delivering up to double the performance per core compared to the state of the art.},
 keywords = {NFV, cloud computing, SLO},
@@ -47,5 +48,19 @@ abstract = {Network Functions (NFs) now touch a significant fraction of Internet
 keywords = {NFV, cloud computing, SLO},
 abbr = {ACM SoCC},
 pubstate = {to appear},
+tppubtype = {inproceedings}
+}
+
+% ironside
+@inproceedings{ironside,
+title={Ironside: Microsecond-scale Latency SLOs for Network Function Chains},
+author={Jianfeng Wang and Siddhant Gupta and Marcos A. M. Vieira and Ramesh Govindan and Barath Raghavan},
+year={2022},
+date = {2022-10-20},
+abstract = {Network Function Virtualization (NFV) replaces hardware middleboxes with software-based Network Functions (NFs). To date, no NFV systems demonstrate the ability of meeting microsecond-scale latency SLOs under real traffic efficiently. Prior work has led to the belief that for a service chain, every CPU core must prepare for the worst-case delay. A large number of cores need to be provisioned to reduce latency, notably as the target latency approaches the microsecond scale. Our analysis on real-world traces shows that today’s auto-scaling or load-balancing mechanisms cannot achieve microsecond-scale tail latency SLOs due to two types of traffic bursts. We present Ironside, a NFV scheduler that detects and processes bursts efficiently and timely. Ironside schedules NF tasks to control queueing effects at hardware and software queues with packet-level traffic statistics. To achieve high efficiency, Ironside supports fine-grained core reallocation, and introduces auxiliary cores for handling transient bursts rather than over-provisioning. Our evaluation shows that: compared to state-of-the-art NFV auto-scaling and load-balancing approaches, Ironside is able to meet 100s-𝜇s latency SLOs (up to 30× improvements compared to other NFV systems).},
+keywords = {NFV, cloud computing, SLO},
+booktitle = {CoRR Oct},
+pubstate = {under submission},
+abbr = {ArXiv},
 tppubtype = {inproceedings}
 }
