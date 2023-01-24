@@ -22,7 +22,7 @@ faculty:
     social:
       website: https://raghavan.usc.edu/
       email: barath.raghavan@usc.edu
-      google-scholar: https://scholar.google.com/citations?user=Ikz6_Y0AAAAJ&hl=en
+      google-scholar: https://scholar.google.com/citations?user=Ikz6_Y0AAAAJ
       linkedin: https://www.linkedin.com/in/barath-raghavan-06212455/
 
   - name: Seo Jin Park
@@ -36,6 +36,18 @@ faculty:
       website: https://seojinpark.net/
       google-scholar: https://scholar.google.com/citations?user=8hwtweIAAAAJ
       linkedin: https://www.linkedin.com/in/seo-jin-park-0bb4681a/
+
+  - name: Harsha V. Madhyastha
+    lastname: Madhyastha
+    photo: Harsha/harsha.jpg
+    info: Associate Professor
+    education:
+      - M.S. and Ph.D. from the University of Washington
+      - B.Tech degree from the Indian Institute of Technology (IIT), Madras
+    social:
+      website: https://harshavm.engin.umich.edu/
+      google-scholar: https://scholar.google.com/citations?user=kxDm9EsAAAAJ
+      linkedin: https://www.linkedin.com/in/harshavmadhyastha/
       
 current-students:
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
