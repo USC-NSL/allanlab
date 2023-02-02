@@ -84,11 +84,11 @@ current-students:
       google-scholar: https://scholar.google.co.in/citations?user=9M6G_S0AAAAJ&hl=en
       email: rajrupgh@usc.edu
 
-  - name: Chunyu Xia
+  - name: <a href="https://usc-nsl.github.io/people/chunyu-xia/">Chunyu Xia</a>
     lastname: Xia
     photo: Chunyu/chunyu.jpg
     info: PhD Student
-    start: May 2022
+    start: July 2022
     advisor:
       - Ramesh Govindan
     education:
@@ -97,7 +97,7 @@ current-students:
     social:
       linkedin: https://www.linkedin.com/in/chunyu-xia-79ba91243/
       github: https://github.com/chunyuxia
-      website:
+      website: https://usc-nsl.github.io/people/chunyu-xia/
       email: chunyuxi@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
