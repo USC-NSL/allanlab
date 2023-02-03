@@ -11,21 +11,27 @@ booktitle = {SoCC '22: Proceedings of the ACM Symposium on Cloud Computing},
 abstract = {Network Functions (NFs) now touch a significant fraction of Internet traffic. The hope has been that software-based NF Virtualization (NFV) would enable rapid development of new NFs by vendors and leverage the power and economics of commodity computing infrastructure for NF deployment. To date, no cloud NFV systems achieve NF chaining, isolation, SLO-adherence, and scaling together with existing cloud computing infrastructure and abstractions, all while achieving generality, speed, and ease of deployment; these properties are taken for granted in other cloud contexts but unavailable for NF processing. We present Quadrant, an efficient and secure cloud-deployable NFV system, and show that Quadrant’s approach of adapting existing cloud infrastructure to support packet processing can achieve NF chaining, isolation, generality, and performance in NFV. Quadrant reuses common cloud infrastructure such as Kubernetes, cloud functions, the Linux kernel, NIC hardware, and switches. It enables easy NFV deployment while delivering up to double the performance per core compared to the state of the art.},
 keywords = {NFV, cloud computing, SLO},
 abbr = {SoCC},
-pubstate = {to appear},
 tppubtype = {inproceedings}
 }
-@INPROCEEDINGS{Sucha2022,
-  author={Supittayapornpong, Sucha and Namyar, Pooria and Zhang, Mingyang and Yu, Minlan and Govindan, Ramesh},
-  booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
-  title={Optimal Oblivious Routing for Structured Networks},
-  url = {https://ieeexplore.ieee.org/abstract/document/9796682},
-  abstract = {Oblivious routing distributes traffic from sources to destinations following predefined routes with rules independent of traffic demands. While finding optimal oblivious routing is intractable for general topologies, we show that it is tractable for structured topologies often used in datacenter networks. To achieve this, we apply graph automorphism and prove the existence of the optimal automorphism-invariant solution. This result reduces the search space to targeting the optimal automorphism-invariant solution. We design an iterative algorithm to obtain such a solution by alternating between two linear programs. The first program finds an automorphism-invariant solution based on representative variables and constraints, making the problem tractable. The second program generates adversarial demands to ensure the final result satisfies all possible demands. Since, the construction of the representative variables and constraints are combinatorial problems, we design polynomial-time algorithms for the construction. We evaluate proposed iterative algorithm in terms of throughput performance, scalability, and generality over three potential applications. The algorithm i) improves the throughput up to 87.5% over a heuristic algorithm for partially deployed FatTree, ii) scales for FatClique with a thousand switches, iii) is applicable to a general structured topology with non-uniform link capacity and server distribution.},
-  year={2022},
-  volume={},
-  number={},
-  abbr = {INFOCOM},
-  pages={1988-1997},
-  doi={10.1109/INFOCOM48880.2022.9796682}
+@inproceedings{NyayachavadiZM22,
+  author    = {Anish Nyayachavadi and
+               Jingyuan Zhu and
+               Harsha V. Madhyastha},
+  title     = {Characterizing "permanently dead" links on Wikipedia},
+  booktitle = {Proceedings of the 22nd {ACM} Internet Measurement Conference, {IMC}
+               2022, Nice, France, October 25-27, 2022},
+  pages     = {388--394},
+  publisher = {{ACM}},
+  year      = {2022},
+  url       = {https://doi.org/10.1145/3517745.3561451},
+  doi       = {10.1145/3517745.3561451},
+}
+@inproceedings{goel2022jawa,
+  title={Jawa: Web Archival in the Era of $\{$JavaScript$\}$},
+  author={Goel, Ayush and Zhu, Jingyuan and Netravali, Ravi and Madhyastha, Harsha V},
+  booktitle={16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)},
+  pages={805--820},
+  year={2022}
 }
 @inproceedings{Hang2022,
 author = {Qiu, Hang and Huang, Po-Han and Asavisanu, Namo and Liu, Xiaochen and Psounis, Konstantinos and Govindan, Ramesh},
@@ -45,7 +51,19 @@ location = {Portland, Oregon},
 abbr = {MobiSys},
 series = {MobiSys '22}
 }
-
+@INPROCEEDINGS{Sucha2022,
+  author={Supittayapornpong, Sucha and Namyar, Pooria and Zhang, Mingyang and Yu, Minlan and Govindan, Ramesh},
+  booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
+  title={Optimal Oblivious Routing for Structured Networks},
+  url = {https://ieeexplore.ieee.org/abstract/document/9796682},
+  abstract = {Oblivious routing distributes traffic from sources to destinations following predefined routes with rules independent of traffic demands. While finding optimal oblivious routing is intractable for general topologies, we show that it is tractable for structured topologies often used in datacenter networks. To achieve this, we apply graph automorphism and prove the existence of the optimal automorphism-invariant solution. This result reduces the search space to targeting the optimal automorphism-invariant solution. We design an iterative algorithm to obtain such a solution by alternating between two linear programs. The first program finds an automorphism-invariant solution based on representative variables and constraints, making the problem tractable. The second program generates adversarial demands to ensure the final result satisfies all possible demands. Since, the construction of the representative variables and constraints are combinatorial problems, we design polynomial-time algorithms for the construction. We evaluate proposed iterative algorithm in terms of throughput performance, scalability, and generality over three potential applications. The algorithm i) improves the throughput up to 87.5% over a heuristic algorithm for partially deployed FatTree, ii) scales for FatClique with a thousand switches, iii) is applicable to a general structured topology with non-uniform link capacity and server distribution.},
+  year={2022},
+  volume={},
+  number={},
+  abbr = {INFOCOM},
+  pages={1988-1997},
+  doi={10.1109/INFOCOM48880.2022.9796682}
+}
 @inproceedings {276948,
 author = {Weiwu Pang and Sourav Panda and Jehangir Amjad and Christophe Diot and Ramesh Govindan},
 title = {{CloudCluster}: Unearthing the Functional Structure of a Cloud Service},
