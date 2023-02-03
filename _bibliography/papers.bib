@@ -25,13 +25,43 @@ tppubtype = {inproceedings}
   year      = {2022},
   url       = {https://doi.org/10.1145/3517745.3561451},
   doi       = {10.1145/3517745.3561451},
+  abstract  = {It is common for a web page to include links which help visitors discover related pages on other sites. When a link ceases to work (e.g., because the page that it is pointing to either no longer exists or has been moved), users could rely on an archived copy of the linked page. However, due to the incompleteness of web archives, a sizeable fraction of dead links have no archived copies.
+
+We study this problem in the context of Wikipedia. Broken external references on Wikipedia which lack archived copies are marked as "permanently dead". But, we find this term to be a misnomer, as many previously dysfunctional links work fine today. For links which do not work, it is rarely the case that no archived copies exist. Instead, we find that the current policy for determining which archived copies for an URL are not erroneous is too conservative, and many URLs are archived for the first time only after they no longer work. We discuss the implications of our findings for Wikipedia and the web at large.},
+abbr = {IMC},
+}
+@inproceedings{LaiDSLZMC22,
+  author    = {Fan Lai and
+               Yinwei Dai and
+               Sanjay Sri Vallabh Singapuram and
+               Jiachen Liu and
+               Xiangfeng Zhu and
+               Harsha V. Madhyastha and
+               Mosharaf Chowdhury},
+  title     = {FedScale: Benchmarking Model and System Performance of Federated Learning
+               at Scale},
+  booktitle = {International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {162},
+  pages     = {11814--11827},
+  publisher = {{PMLR}},
+  year      = {2022},
+  url       = {https://proceedings.mlr.press/v162/lai22a.html},
+  abstract = {We present FedScale, a federated learning (FL) benchmarking suite with realistic datasets and a scalable runtime to enable reproducible FL research. FedScale datasets encompass a wide range of critical FL tasks, ranging from image classification and object detection to language modeling and speech recognition. Each dataset comes with a unified evaluation protocol using real-world data splits and evaluation metrics. To reproduce realistic FL behavior, FedScale contains a scalable and extensible runtime. It provides high-level APIs to implement FL algorithms, deploy them at scale across diverse hardware and software backends, and evaluate them at scale, all with minimal developer efforts. We combine the two to perform systematic benchmarking experiments and highlight potential opportunities for heterogeneity-aware co-optimizations in FL. FedScale is open-source and actively maintained by contributors from different institutions at http://fedscale. ai. We welcome feedback and contributions from the community.},
+  abbr = {ICML}
 }
 @inproceedings{goel2022jawa,
-  title={Jawa: Web Archival in the Era of $\{$JavaScript$\}$},
-  author={Goel, Ayush and Zhu, Jingyuan and Netravali, Ravi and Madhyastha, Harsha V},
-  booktitle={16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)},
+  title={Jawa: Web Archival in the Era of JavaScript},
+  author={Goel, Ayush and Zhu, Jingyuan and Netravali, Ravi and Madhyastha,
+	  Harsha V.},
+  booktitle={16th USENIX Symposium on Operating Systems Design and Implementation},
   pages={805--820},
-  year={2022}
+  year={2022},
+  abstract = {By repeatedly crawling and saving web pages over time, web archives (such as the Internet Archive) enable users to visit historical versions of any page. In this paper, we point out that existing web archives are not well designed to cope with the widespread presence of JavaScript on the web. Some archives store petabytes of JavaScript code, and yet many pages render incorrectly when users load them. Other archives which store the end-state of page loads (e.g., screen captures) break post-load interactions implemented in JavaScript.
+
+To address these problems, we present Jawa, a new design for web archives which significantly reduces the storage necessary to save modern web pages while also improving the fidelity with which archived pages are served. Key to enabling Jawa’s use at scale are our observations on a) the forms of non-determinism which impair the execution of JavaScript on archived pages, and b) the ways in which JavaScript’s execution fundamentally differs between live web pages and their archived copies. On a corpus of 1 million archived pages, Jawa reduces overall storage needs by 41%, when compared to the techniques currently used by the Internet Archive.},
+  url = {https://www.usenix.org/conference/osdi22/presentation/goel},
+abbr = {OSDI},
 }
 @inproceedings{Hang2022,
 author = {Qiu, Hang and Huang, Po-Han and Asavisanu, Namo and Liu, Xiaochen and Psounis, Konstantinos and Govindan, Ramesh},
