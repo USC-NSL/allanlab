@@ -74,7 +74,7 @@ Founded in 2002, our laboratory conducts research on the design and implementati
 </div>
 -->
 
-<h3> Selected Publications </h3>
+<h3> Selected Recent Publications </h3>
 
 <div class="publications">
 {% bibliography -f papers -q @*[selected=yes]* --max 5 %}
