@@ -14,7 +14,8 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#v
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Faculty
 {% assign number_printed = 0 %}
-{% for member in site.data.team.faculty %}
+{% assign fac_array = site.data.team.faculty | sort: "lastname" %}
+{% for member in fac_array %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -59,11 +60,11 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#v
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Current Students
 {% assign number_printed = 0 %}
-{% assign my_array = site.data.team.current-students | sort: "lastname" %}
+{% assign stud_array = site.data.team.current-students | sort: "lastname" %}
 <!-- Inspect a variable in liquid -->
-<!-- {{ my_array[0] | inspect }} -->
+<!-- {{ stud_array[0] | inspect }} -->
 
-{% for member in my_array%}
+{% for member in stud_array%}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
