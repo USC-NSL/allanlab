@@ -1,3 +1,29 @@
+@inproceedings{nsdi23-modelkeeper,
+	author = {Fan Lai and Yinwei Dai and Harsha V. Madhyastha and Mosharaf
+		Chowdhury},
+	title = {ModelKeeper: Accelerating DNN Training via Automated Training
+		Warmup},
+	booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+	year = {2023},
+	abstract = {With growing deployment of machine learning (ML) models, ML developers are training or re-training increasingly more deep neural networks (DNNs). They do so to find the most suitable model that meets their accuracy requirement while satisfying the resource and timeliness constraints of the target environment. In large shared clusters, the growing number of neural architecture search (NAS) and training jobs often result in models sharing architectural similarities with others from the same or a different ML developer. However, existing solutions do not provide a systematic mechanism to identify and leverage such similarities.
+We present ModelKeeper, the first automated training warmup system that accelerates DNN training by repurposing previously-trained models in a shared cluster. Our key insight is that initializing a training job’s model by transforming an already-trained model’s weights can jump-start it and reduce the total amount of training needed. However, models submitted over time can differ in their architectures and accuracy. Given a new model to train, ModelKeeper scalably identifies its architectural similarity with previously trained models, selects a parent model with high similarity and good model accuracy, and performs structure-aware transformation of weights to preserve maximal information from the parent model during the warmup of new model weights. Our evaluations across thousands of CV and NLP models show that ModelKeeper achieves 1.3×–4.3× faster training completion with little overhead and no reduction in model accuracy.},
+	abbr = {NSDI}
+}
+@inproceedings{GoelZM22,
+  author    = {Ayush Goel and
+               Jingyuan Zhu and
+               Harsha V. Madhyastha},
+  title     = {Making links on your web pages last longer than you},
+  booktitle = {Proceedings of the 21st {ACM} Workshop on Hot Topics in Networks},
+  pages     = {145--151},
+  publisher = {{ACM}},
+  year      = {2022},
+  url       = {https://doi.org/10.1145/3563766.3564103},
+  doi       = {10.1145/3563766.3564103},
+  abstract  = {It is common for the authors of a web page to include links to related pages on other sites. However, when users visit a page several years after it was last updated, they often find that some of the external links either do not work or point to unrelated content. To combat these problems of link rot and content drift, the solution used today is to capture a copy of the linked page when a link is created and serve this copy to users who choose to visit the link.
+We argue that this status quo ignores the reality that one does not always link to a page in order to point visitors to the content that existed on that page when the link was created. The utility of linking to a web page by simply directing users to that page’s URL is that they can benefit from any updates to the page’s content (e.g., corrections to news articles and new comments on a blog post) or access rich app-like functionality on the page (e.g., search). In this paper, we present a sketch of what it would take to make web links resilient while accounting for the dynamism of web pages.}
+  abbr      = {HotNets},
+}
 % Quadrant
 @inproceedings{socc22-quadrant,
 title={Quadrant: A Cloud-Deployable NF Virtualization Platform},
@@ -19,8 +45,7 @@ selected = {yes}
                Jingyuan Zhu and
                Harsha V. Madhyastha},
   title     = {Characterizing "permanently dead" links on Wikipedia},
-  booktitle = {Proceedings of the 22nd {ACM} Internet Measurement Conference, {IMC}
-               2022, Nice, France, October 25-27, 2022},
+  booktitle = {Proceedings of the 22nd {ACM} Internet Measurement Conference},
   pages     = {388--394},
   publisher = {{ACM}},
   year      = {2022},
