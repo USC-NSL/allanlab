@@ -1,12 +1,12 @@
 ---
 title: "NSL Lab - Jane"
 layout: personal
-permalink: /people/jane/
+permalink: /people/jane-yen/
 sitemap: false
 excerpt: "Personal webpage of Jane"
 ---
 {%- assign data = site.data.people -%}
-{%- assign member = data.sulagna -%}
+{%- assign member = data.jane -%}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="22%" style="float: left" />
@@ -39,9 +39,6 @@ My current research interest is to automate protocol code generation on specific
 
 If you have any questions, please contact me at [last name]y[at]usc[dot]edu
 </p>
-
-<p>I am a Ph.D. candidate in the <a href="http://nsl.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am lucky to be advised by <a href="https://raghavan.usc.edu/">Prof. Barath Raghavan</a>. My primary research interests have to do with Security, Human-Computer Interactions (HCI) and System Design with a focus on user centric design approaches. I am also interested in understanding how the information ecosystem is evolving with time and impacting us individually and societally. </p>
-<p>Prior to joining USC, I completed my Bachelors (B.Tech) in Computer Science and Engineering at the <a href="https://iem.edu.in/">Institute of Engineering and Management (IEM), Kolkata</a>. I was advised by <a href="https://bit.ly/3yN3woH">Dr. Himadri Nath Saha</a> and worked on MANETs. </p>
 
 
 ## Teaching Experience
@@ -78,6 +75,6 @@ Meta Inc. Remote, US  · Menlo Park, CA<br>
 
 <div class="publications">
 
-{% bibliography -f people/jane%}
+{% bibliography -f people/jane-yen%}
 
 </div>
