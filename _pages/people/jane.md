@@ -1,7 +1,7 @@
 ---
 title: "NSL Lab - Jane"
 layout: personal
-permalink: /people/jane-yen/
+permalink: /people/jane/
 sitemap: false
 excerpt: "Personal webpage of Jane"
 ---
@@ -78,6 +78,6 @@ Meta Inc. Remote, US  · Menlo Park, CA<br>
 
 <div class="publications">
 
-{% bibliography -f people/jane-yen%}
+{% bibliography -f people/jane%}
 
 </div>
