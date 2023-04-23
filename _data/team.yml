@@ -214,7 +214,7 @@ current-students:
       email: jhpalmer@usc.edu
 
 visitor:
-  - name: <a href="http://cau.ac.kr/~jpaek">Jeongyeup Paek</a>
+  - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
     lastname: Paek
     photo: Jeongyeup/jpaek-1.jpg
     info: Visiting Scholar @ USC-NSL
@@ -228,5 +228,6 @@ visitor:
     social:
       google-scholar: http://scholar.google.com/citations?user=oTAOFAYAAAAJ
       linkedin: http://www.linkedin.com/in/jeongyeuppaek
-      website: http://cau.ac.kr/~jpaek
+      website: https://usc-nsl.github.io/people/jeongyeup-paek/
       email: jpaek@usc.edu
+
