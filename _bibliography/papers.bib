@@ -1,3 +1,29 @@
+@inproceedings{nsdi23-modelkeeper,
+	author = {Fan Lai and Yinwei Dai and Harsha V. Madhyastha and Mosharaf
+		Chowdhury},
+	title = {ModelKeeper: Accelerating DNN Training via Automated Training
+		Warmup},
+	booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+	year = {2023},
+	abstract = {With growing deployment of machine learning (ML) models, ML developers are training or re-training increasingly more deep neural networks (DNNs). They do so to find the most suitable model that meets their accuracy requirement while satisfying the resource and timeliness constraints of the target environment. In large shared clusters, the growing number of neural architecture search (NAS) and training jobs often result in models sharing architectural similarities with others from the same or a different ML developer. However, existing solutions do not provide a systematic mechanism to identify and leverage such similarities.
+We present ModelKeeper, the first automated training warmup system that accelerates DNN training by repurposing previously-trained models in a shared cluster. Our key insight is that initializing a training job’s model by transforming an already-trained model’s weights can jump-start it and reduce the total amount of training needed. However, models submitted over time can differ in their architectures and accuracy. Given a new model to train, ModelKeeper scalably identifies its architectural similarity with previously trained models, selects a parent model with high similarity and good model accuracy, and performs structure-aware transformation of weights to preserve maximal information from the parent model during the warmup of new model weights. Our evaluations across thousands of CV and NLP models show that ModelKeeper achieves 1.3×–4.3× faster training completion with little overhead and no reduction in model accuracy.},
+	abbr = {NSDI}
+}
+@inproceedings{GoelZM22,
+  author    = {Ayush Goel and
+               Jingyuan Zhu and
+               Harsha V. Madhyastha},
+  title     = {Making links on your web pages last longer than you},
+  booktitle = {Proceedings of the 21st {ACM} Workshop on Hot Topics in Networks},
+  pages     = {145--151},
+  publisher = {{ACM}},
+  year      = {2022},
+  url       = {https://doi.org/10.1145/3563766.3564103},
+  doi       = {10.1145/3563766.3564103},
+  abstract  = {It is common for the authors of a web page to include links to related pages on other sites. However, when users visit a page several years after it was last updated, they often find that some of the external links either do not work or point to unrelated content. To combat these problems of link rot and content drift, the solution used today is to capture a copy of the linked page when a link is created and serve this copy to users who choose to visit the link.
+We argue that this status quo ignores the reality that one does not always link to a page in order to point visitors to the content that existed on that page when the link was created. The utility of linking to a web page by simply directing users to that page’s URL is that they can benefit from any updates to the page’s content (e.g., corrections to news articles and new comments on a blog post) or access rich app-like functionality on the page (e.g., search). In this paper, we present a sketch of what it would take to make web links resilient while accounting for the dynamism of web pages.},
+  abbr      = {HotNets}
+}
 % Quadrant
 
 @inproceedings{qiu2023mcal,
@@ -20,22 +46,57 @@ booktitle = {SoCC '22: Proceedings of the ACM Symposium on Cloud Computing},
 abstract = {Network Functions (NFs) now touch a significant fraction of Internet traffic. The hope has been that software-based NF Virtualization (NFV) would enable rapid development of new NFs by vendors and leverage the power and economics of commodity computing infrastructure for NF deployment. To date, no cloud NFV systems achieve NF chaining, isolation, SLO-adherence, and scaling together with existing cloud computing infrastructure and abstractions, all while achieving generality, speed, and ease of deployment; these properties are taken for granted in other cloud contexts but unavailable for NF processing. We present Quadrant, an efficient and secure cloud-deployable NFV system, and show that Quadrant’s approach of adapting existing cloud infrastructure to support packet processing can achieve NF chaining, isolation, generality, and performance in NFV. Quadrant reuses common cloud infrastructure such as Kubernetes, cloud functions, the Linux kernel, NIC hardware, and switches. It enables easy NFV deployment while delivering up to double the performance per core compared to the state of the art.},
 keywords = {NFV, cloud computing, SLO},
 abbr = {SoCC},
-pubstate = {to appear},
-tppubtype = {inproceedings}
+tppubtype = {inproceedings},
 }
+@inproceedings{NyayachavadiZM22,
+  author    = {Anish Nyayachavadi and
+               Jingyuan Zhu and
+               Harsha V. Madhyastha},
+  title     = {Characterizing "permanently dead" links on Wikipedia},
+  booktitle = {Proceedings of the 22nd {ACM} Internet Measurement Conference},
+  pages     = {388--394},
+  publisher = {{ACM}},
+  year      = {2022},
+  url       = {https://doi.org/10.1145/3517745.3561451},
+  doi       = {10.1145/3517745.3561451},
+  abstract  = {It is common for a web page to include links which help visitors discover related pages on other sites. When a link ceases to work (e.g., because the page that it is pointing to either no longer exists or has been moved), users could rely on an archived copy of the linked page. However, due to the incompleteness of web archives, a sizeable fraction of dead links have no archived copies.
 
-@INPROCEEDINGS{Sucha2022,
-  author={Supittayapornpong, Sucha and Namyar, Pooria and Zhang, Mingyang and Yu, Minlan and Govindan, Ramesh},
-  booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
-  title={Optimal Oblivious Routing for Structured Networks},
-  url = {https://ieeexplore.ieee.org/abstract/document/9796682},
-  abstract = {Oblivious routing distributes traffic from sources to destinations following predefined routes with rules independent of traffic demands. While finding optimal oblivious routing is intractable for general topologies, we show that it is tractable for structured topologies often used in datacenter networks. To achieve this, we apply graph automorphism and prove the existence of the optimal automorphism-invariant solution. This result reduces the search space to targeting the optimal automorphism-invariant solution. We design an iterative algorithm to obtain such a solution by alternating between two linear programs. The first program finds an automorphism-invariant solution based on representative variables and constraints, making the problem tractable. The second program generates adversarial demands to ensure the final result satisfies all possible demands. Since, the construction of the representative variables and constraints are combinatorial problems, we design polynomial-time algorithms for the construction. We evaluate proposed iterative algorithm in terms of throughput performance, scalability, and generality over three potential applications. The algorithm i) improves the throughput up to 87.5% over a heuristic algorithm for partially deployed FatTree, ii) scales for FatClique with a thousand switches, iii) is applicable to a general structured topology with non-uniform link capacity and server distribution.},
+We study this problem in the context of Wikipedia. Broken external references on Wikipedia which lack archived copies are marked as "permanently dead". But, we find this term to be a misnomer, as many previously dysfunctional links work fine today. For links which do not work, it is rarely the case that no archived copies exist. Instead, we find that the current policy for determining which archived copies for an URL are not erroneous is too conservative, and many URLs are archived for the first time only after they no longer work. We discuss the implications of our findings for Wikipedia and the web at large.},
+abbr = {IMC},
+}
+@inproceedings{LaiDSLZMC22,
+  author    = {Fan Lai and
+               Yinwei Dai and
+               Sanjay Sri Vallabh Singapuram and
+               Jiachen Liu and
+               Xiangfeng Zhu and
+               Harsha V. Madhyastha and
+               Mosharaf Chowdhury},
+  title     = {FedScale: Benchmarking Model and System Performance of Federated Learning
+               at Scale},
+  booktitle = {International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {162},
+  pages     = {11814--11827},
+  publisher = {{PMLR}},
+  year      = {2022},
+  url       = {https://proceedings.mlr.press/v162/lai22a.html},
+  abstract = {We present FedScale, a federated learning (FL) benchmarking suite with realistic datasets and a scalable runtime to enable reproducible FL research. FedScale datasets encompass a wide range of critical FL tasks, ranging from image classification and object detection to language modeling and speech recognition. Each dataset comes with a unified evaluation protocol using real-world data splits and evaluation metrics. To reproduce realistic FL behavior, FedScale contains a scalable and extensible runtime. It provides high-level APIs to implement FL algorithms, deploy them at scale across diverse hardware and software backends, and evaluate them at scale, all with minimal developer efforts. We combine the two to perform systematic benchmarking experiments and highlight potential opportunities for heterogeneity-aware co-optimizations in FL. FedScale is open-source and actively maintained by contributors from different institutions at http://fedscale. ai. We welcome feedback and contributions from the community.},
+  abbr = {ICML}
+}
+@inproceedings{goel2022jawa,
+  title={Jawa: Web Archival in the Era of JavaScript},
+  author={Goel, Ayush and Zhu, Jingyuan and Netravali, Ravi and Madhyastha,
+	  Harsha V.},
+  booktitle={16th USENIX Symposium on Operating Systems Design and Implementation},
+  pages={805--820},
   year={2022},
-  volume={},
-  number={},
-  abbr = {INFOCOM},
-  pages={1988-1997},
-  doi={10.1109/INFOCOM48880.2022.9796682}
+  abstract = {By repeatedly crawling and saving web pages over time, web archives (such as the Internet Archive) enable users to visit historical versions of any page. In this paper, we point out that existing web archives are not well designed to cope with the widespread presence of JavaScript on the web. Some archives store petabytes of JavaScript code, and yet many pages render incorrectly when users load them. Other archives which store the end-state of page loads (e.g., screen captures) break post-load interactions implemented in JavaScript.
+
+To address these problems, we present Jawa, a new design for web archives which significantly reduces the storage necessary to save modern web pages while also improving the fidelity with which archived pages are served. Key to enabling Jawa’s use at scale are our observations on a) the forms of non-determinism which impair the execution of JavaScript on archived pages, and b) the ways in which JavaScript’s execution fundamentally differs between live web pages and their archived copies. On a corpus of 1 million archived pages, Jawa reduces overall storage needs by 41%, when compared to the techniques currently used by the Internet Archive.},
+  url = {https://www.usenix.org/conference/osdi22/presentation/goel},
+abbr = {OSDI},
+selected = {yes}
 }
 @inproceedings{Hang2022,
 author = {Qiu, Hang and Huang, Po-Han and Asavisanu, Namo and Liu, Xiaochen and Psounis, Konstantinos and Govindan, Ramesh},
@@ -53,9 +114,22 @@ numpages = {14},
 keywords = {cooperative perception, V2V communication, autonomous cars},
 location = {Portland, Oregon},
 abbr = {MobiSys},
-series = {MobiSys '22}
+series = {MobiSys '22},
+selected = {yes}
 }
-
+@INPROCEEDINGS{Sucha2022,
+  author={Supittayapornpong, Sucha and Namyar, Pooria and Zhang, Mingyang and Yu, Minlan and Govindan, Ramesh},
+  booktitle={IEEE INFOCOM 2022 - IEEE Conference on Computer Communications}, 
+  title={Optimal Oblivious Routing for Structured Networks},
+  url = {https://ieeexplore.ieee.org/abstract/document/9796682},
+  abstract = {Oblivious routing distributes traffic from sources to destinations following predefined routes with rules independent of traffic demands. While finding optimal oblivious routing is intractable for general topologies, we show that it is tractable for structured topologies often used in datacenter networks. To achieve this, we apply graph automorphism and prove the existence of the optimal automorphism-invariant solution. This result reduces the search space to targeting the optimal automorphism-invariant solution. We design an iterative algorithm to obtain such a solution by alternating between two linear programs. The first program finds an automorphism-invariant solution based on representative variables and constraints, making the problem tractable. The second program generates adversarial demands to ensure the final result satisfies all possible demands. Since, the construction of the representative variables and constraints are combinatorial problems, we design polynomial-time algorithms for the construction. We evaluate proposed iterative algorithm in terms of throughput performance, scalability, and generality over three potential applications. The algorithm i) improves the throughput up to 87.5% over a heuristic algorithm for partially deployed FatTree, ii) scales for FatClique with a thousand switches, iii) is applicable to a general structured topology with non-uniform link capacity and server distribution.},
+  year={2022},
+  volume={},
+  number={},
+  abbr = {INFOCOM},
+  pages={1988-1997},
+  doi={10.1109/INFOCOM48880.2022.9796682}
+}
 @inproceedings {276948,
 author = {Weiwu Pang and Sourav Panda and Jehangir Amjad and Christophe Diot and Ramesh Govindan},
 title = {{CloudCluster}: Unearthing the Functional Structure of a Cloud Service},
@@ -68,6 +142,7 @@ pages = {1213--1230},
 url = {https://www.usenix.org/conference/nsdi22/presentation/pang},
 publisher = {USENIX Association},
 abbr = {NSDI},
+selected = {yes}
 }
 @inproceedings{Hu2021,
 title = {Scrooge: A Cost-Effective Deep Learning Inference System},
@@ -140,7 +215,8 @@ keywords = {datacenter, network management, nsl, throughput},
 abbr = {SIGCOMM},
 url = {https://dx.doi.org/10.1145/3452296.3472913},
 pubstate = {published},
-tppubtype = {inproceedings}
+tppubtype = {inproceedings},
+selected = {yes}
 }
 @inproceedings{10.1145/3472305.3472314,
 title = {Tools for Disambiguating RFCs},
@@ -227,7 +303,8 @@ protocols like BGP and TCP.},
 keywords = {natural language, protocol specifications},
 abbr = {SIGCOMM},
 pubstate = {published},
-tppubtype = {inproceedings}
+tppubtype = {inproceedings},
+selected = {yes}
 }
 @inproceedings{Liu2020,
 title = {Grab: Fast and Accurate Sensor Processing for Cashier-Free Shopping},

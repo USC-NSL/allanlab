@@ -64,10 +64,18 @@ Founded in 2002, our laboratory conducts research on the design and implementati
   </a>
 </div>
 
+<!--
 <h3> Recent Papers </h3>
 
 <div class="publications">
-
+{% comment %}
 {% bibliography -f papers --max 5 %}
+{% endcomment %}
+</div>
+-->
 
+<h3> Selected Recent Publications </h3>
+
+<div class="publications">
+{% bibliography -f papers -q @*[selected=yes]* --max 5 %}
 </div>

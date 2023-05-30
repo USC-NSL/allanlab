@@ -84,11 +84,11 @@ current-students:
       google-scholar: https://scholar.google.co.in/citations?user=9M6G_S0AAAAJ&hl=en
       email: rajrupgh@usc.edu
 
-  - name: Chunyu Xia
+  - name: <a href="https://usc-nsl.github.io/people/chunyu-xia/">Chunyu Xia</a>
     lastname: Xia
     photo: Chunyu/chunyu.jpg
     info: PhD Student
-    start: May 2022
+    start: July 2022
     advisor:
       - Ramesh Govindan
     education:
@@ -97,7 +97,7 @@ current-students:
     social:
       linkedin: https://www.linkedin.com/in/chunyu-xia-79ba91243/
       github: https://github.com/chunyuxia
-      website:
+      website: https://usc-nsl.github.io/people/chunyu-xia/
       email: chunyuxi@usc.edu
 
   - name: <a href="https://nsl.usc.edu/people/pooria-namyar/">Pooria Namyar</a>
@@ -149,7 +149,7 @@ current-students:
       email: jianfenw@usc.edu
       github: https://github.com/jwangee
 
-  - name: <a href="https://nsl.usc.edu/people/jane-yen/">Yu-Chuan (Jane) Yen<a/>
+  - name: <a href="https://usc-nsl.github.io/people/jane/">Yu-Chuan (Jane) Yen<a/>
     lastname: Yen
     photo: Jane/jane.jpg
     info: PhD Student
@@ -158,7 +158,7 @@ current-students:
       - Ramesh Govindan
       - Barath Raghavan
     education:
-      - B.S. and M.S. degree <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>.
+      - M.S. from <a href="https://www.usc.edu/">University of Southern California (USC)</a>.
     social:
       google-scholar: https://scholar.google.com/citations?hl=en&user=jJy0ZRAAAAAJ
       linkedin: https://www.linkedin.com/in/yu-chuan-yen-789b2b76/
@@ -214,7 +214,7 @@ current-students:
       email: jhpalmer@usc.edu
 
 visitor:
-  - name: <a href="http://cau.ac.kr/~jpaek">Jeongyeup Paek</a>
+  - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
     lastname: Paek
     photo: Jeongyeup/jpaek-1.jpg
     info: Visiting Scholar @ USC-NSL
@@ -228,5 +228,6 @@ visitor:
     social:
       google-scholar: http://scholar.google.com/citations?user=oTAOFAYAAAAJ
       linkedin: http://www.linkedin.com/in/jeongyeuppaek
-      website: http://cau.ac.kr/~jpaek
+      website: https://usc-nsl.github.io/people/jeongyeup-paek/
       email: jpaek@usc.edu
+

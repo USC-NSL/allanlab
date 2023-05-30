@@ -22,14 +22,15 @@ We thank [Allan lab](http://www.allanlab.org/aboutwebsite.html) for the template
 
 Our website uses jekyll/scholar. To have a publication show up on our pubs page, all you need to do is to add your bib entry to `_bibliography/papers.bib`. Then, when you push your changed, github will automatically populate the pubs page.
 
-When you add a bib entry, the following fields have special meaning:
+When you add a bib entry, you can use the following fields that have special meaning:
 
 - `abbr` adds a badge to the publication. For example, `abbr = {NSDI}` will add an NSDI badge to the pub.
 - `code` is a link to a github repository containing code released associated with the paper. If this entry is present, then a "code" button appears under the paper's entry.
 - `slides` is similar to `code`.
 - setting `bibtex_show` to 1 will add a `bib` button, which, when clicked, will reveal the bib entry.
+- `selected = {yes}` will add your paper to `Selected Recent Publications` section in NSL homepage. **Note:** Only 5 papers can be added to this section. Currently, 5 papers in order from the top of `_bibliography/papers.bib` with `selected = {yes}` will appear. 
 
-You can add other entries by configuring `_layouts/bib.html`.
+Check `_layouts/bib.html` to see how the fields are configured.
 
 ## Add/Update personal page
 

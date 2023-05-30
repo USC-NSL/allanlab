@@ -2,10 +2,15 @@
  "papers"
  (lambda ()
    (LaTeX-add-bibitems
+    "nsdi23-modelkeeper"
+    "GoelZM22"
     "qiu2023mcal"
     "socc22-quadrant"
-    "Sucha2022"
+    "NyayachavadiZM22"
+    "LaiDSLZMC22"
+    "goel2022jawa"
     "Hang2022"
+    "Sucha2022"
     "Hu2021"
     "Ghosh2021b"
     "10.1145/3452296.3472913"
