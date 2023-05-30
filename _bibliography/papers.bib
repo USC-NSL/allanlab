@@ -26,6 +26,23 @@ We argue that this status quo ignores the reality that one does not always link 
 }
 % Quadrant
 
+@ARTICLE {10100699,
+author = {K. Chitavisutthivong and S. Supittayapornpong and P. Namyar and M. Zhang and M. Yu and R. Govindan},
+journal = {IEEE/ACM Transactions on Networking},
+title = {Optimal Oblivious Routing With Concave Objectives for Structured Networks},
+year = {5555},
+volume = {},
+number = {01},
+issn = {1558-2566},
+pages = {1-13},
+abstract = {Oblivious routing distributes traffic from sources to destinations following predefined routes with rules independent of traffic demands. While finding optimal oblivious routing with a concave objective is intractable for general topologies, we show that it is tractable for structured topologies often used in datacenter networks. To achieve this, we apply graph automorphism and prove the existence of the optimal automorphism-invariant solution. This result reduces the search space to targeting the optimal automorphism-invariant solution. We design an iterative algorithm to obtain such a solution by alternating between convex optimization and a linear program. The convex optimization finds an automorphism-invariant solution based on representative variables and constraints, making the problem tractable. The linear program generates adversarial demands to ensure the final result satisfies all possible demands. Since the construction of the representative variables and constraints are combinatorial problems, we design polynomial-time algorithms for the construction. We evaluate the iterative algorithm in terms of throughput performance, scalability, and generality over three potential applications. The algorithm i) improves the throughput up to $87.5\%$ for partially deployed FatTree and achieves up to $2.55\times$ throughput gain for DRing over heuristic algorithms, ii) scales for three considered topologies with a thousand switches, iii) applies to a general structured topology with non-uniform link capacity and server distribution.},
+keywords = {routing;topology;network topology;servers;throughput;optimization;ieee transactions},
+doi = {10.1109/TNET.2023.3264632},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {apr}
+}
+
 @inproceedings{qiu2023mcal,
   title={{MCAL}: Minimum Cost Human-Machine Active Labeling},
   author={Hang Qiu and Krishna Chintalapudi and Ramesh Govindan},
