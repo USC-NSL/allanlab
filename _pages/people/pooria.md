@@ -32,7 +32,7 @@ excerpt: "Personal website of Pooria"
 
 ## Sketch
 
-<p>I am a third-year Ph.D. student in the <a href="https://minghsiehece.usc.edu/" data-type="URL" data-id="https://minghsiehece.usc.edu/">ECE department</a> at the <a href="https://www.usc.edu/">University of Southern California</a>. I am currently a member of <a href="https://nslcsusc.wpcomstaging.com/">Networked Systems Lab</a> and very fortunate to be advised by <a href="https://nslcsusc.wpcomstaging.com/people/ramesh/">Prof. Ramesh Govindan</a>. Generally, I am interested in every aspect of computer networks and systems. My recent focus is on datacenter networks, wide-area networks, network availability, and reliability. </p>
+<p>I am a Ph.D. student in the <a href="https://minghsiehece.usc.edu/" data-type="URL" data-id="https://minghsiehece.usc.edu/">ECE department</a> at the <a href="https://www.usc.edu/">University of Southern California</a>. I am currently a member of <a href="https://nsl.usc.edu/">Networked Systems Lab</a> and very fortunate to be advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. Generally, I am interested in every aspect of computer networks and systems. My recent focus is on datacenter networks, wide-area networks, network availability, and reliability. </p>
 <p>Before joining USC, I completed my B.Sc. in <a href="http://ee.sharif.edu/~web/en/">Electrical Engineering</a> at the <a href="http://www.en.sharif.edu/">Sharif University of Technology</a> in 2019.  During my undergraduate, I worked on the cloudification of telecommunication networks by leveraging SDN and NFV. </p>
 <p>Feel free to drop me an email if you have any questions or want to discuss new ideas!</p>
 
