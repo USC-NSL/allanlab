@@ -1,3 +1,25 @@
+@article{namyar2023mitigation,
+  title={Mitigating the Performance Impact of Network Failures in Public Clouds},
+  author={Namyar, Pooria and Arzani, Behnaz and Crankshaw, Daniel and Berger, Daniel S and Hsieh, Kevin and Kandula, Srikanth and Govindan, Ramesh},
+  journal={arXiv preprint arXiv:2305.13792},
+  year={2023},
+  abbr={arXiv},
+  url={https://arxiv.org/abs/2305.13792},
+  abstract={Some faults in data center networks require hours to days to repair because they may need reboots, re-imaging, or manual work by technicians. To reduce traffic impact, cloud providers mitigate the effect of faults, for example, by steering traffic to alternate paths. The state-of-art in automatic network mitigations uses simple safety checks and proxy metrics to determine mitigations. SWARM, the approach described in this paper, can pick orders of magnitude better mitigations by estimating end-to-end connection-level performance (CLP) metrics. At its core is a scalable CLP estimator that quickly ranks mitigations with high fidelity and, on failures observed at a large cloud provider, outperforms the state-of-the-art by over 700$\times$ in some cases.}
+}
+
+@article{Chitavis2023,
+  author={Chitavisutthivong, Kanatip and Supittayapornpong, Sucha and Namyar, Pooria and Zhang, Mingyang and Yu, Minlan and Govindan, Ramesh},
+  journal={IEEE/ACM Transactions on Networking},
+  abbr = {ToN},
+  title={Optimal Oblivious Routing With Concave Objectives for Structured Networks}, 
+  year={2023},
+  pages={1-13},
+  doi={10.1109/TNET.2023.3264632},
+  url={https://ieeexplore.ieee.org/document/10100699},
+  abstract = {Oblivious routing distributes traffic from sources to destinations following predefined routes with rules independent of traffic demands. While finding optimal oblivious routing with a concave objective is intractable for general topologies, we show that it is tractable for structured topologies often used in datacenter networks. To achieve this, we apply graph automorphism and prove the existence of the optimal automorphism-invariant solution. This result reduces the search space to targeting the optimal automorphism-invariant solution. We design an iterative algorithm to obtain such a solution by alternating between convex optimization and a linear program. The convex optimization finds an automorphism-invariant solution based on representative variables and constraints, making the problem tractable. The linear program generates adversarial demands to ensure the final result satisfies all possible demands. Since the construction of the representative variables and constraints are combinatorial problems, we design polynomial-time algorithms for the construction. We evaluate the iterative algorithm in terms of throughput performance, scalability, and generality over three potential applications. The algorithm i) improves the throughput up to $87.5\%$ for partially deployed FatTree and achieves up to $2.55\times$ throughput gain for DRing over heuristic algorithms, ii) scales for three considered topologies with a thousand switches, iii) applies to a general structured topology with non-uniform link capacity and server distribution.},
+}
+
 @inproceedings{HeuristicVerifier,
   author = {Pooria Namyar and Behnaz Arzani and Ryan Beckett and Santiago Segarra and Himanshu Raj and Srikanth Kandula},
   title = {Minding the Gap between Fast Heuristics and Their Optimal Counterparts},
