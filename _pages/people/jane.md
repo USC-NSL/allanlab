@@ -33,9 +33,10 @@ excerpt: "Personal webpage of Jane"
 ## Biography
 
 <p>
-I am a PhD candidate working with <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a> and <a href="https://raghavan.usc.edu/">Prof. Barath Raghavan</a> at <a href="https://nsl.usc.edu/">Networked Systems Laboratory</a> at <a href="https://www.usc.edu/">University of Southern California</a>. I received my B.S. degree (2014) and M.S. degree (2016) in Electrical Engineering at <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>. I received my M.S. degree in Computer Science at <a href="https://www.usc.edu/">University of Southern California</a>
+I received my MS and PhD in Computer Science at <a href="https://www.usc.edu/">University of Southern California</a> where I was advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a> and <a href="https://raghavan.usc.edu/">Prof. Barath Raghavan</a> at <a href="https://nsl.usc.edu/">Networked Systems Laboratory</a> at <a href="https://www.usc.edu/">University of Southern California</a>. 
+I received my BS degree (2014) and M.S. degree (2016) in Electrical Engineering at <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a>. 
 
-My current research interest is to automate protocol code generation on specifications, in which I target on analyzing English-written ambiguous RFCs and automatically converting all types of protocols into executable and efficient codes.
+My current research interest is to automate protocol code generation on specifications, in which I target on analyzing English-written ambiguous RFCs and automatically converting all types of protocols into executable and efficient codes. My broader interest includes exploring diverse network infrastructures and networked systems.
 
 If you have any questions, please contact me at [last name]y[at]usc[dot]edu
 </p>
@@ -51,7 +52,7 @@ If you have any questions, please contact me at [last name]y[at]usc[dot]edu
 ## Work Experience
 
 <p>
-<em>Graduate Research Assistant (August 2016 - present)</em><br>
+<em>Graduate Research Assistant (August 2016 - May 2023)</em><br>
 Department of Computer Science, University of Southern California.<br>
 </p>
 
