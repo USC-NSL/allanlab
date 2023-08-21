@@ -36,7 +36,7 @@ excerpt: "Personal website of Chunyu"
 
 <p>I am a second year CS Ph.D. student in <a href="https://nsl.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a> advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>.</p>
 <p>Before joining USC, I obtained M.S. in Computer Science and Engineering at <a href="https://ucsd.edu/"> University of California, San Diego</a> advised by <a href="http://xyzhang.ucsd.edu/">Prof. Xinyu Zhang</a>, and received B.E. in Software Engineering at <a href="https://www.nju.edu.cn/EN/main.htm"> Nanjing University</a>. </p>
-<p>My research interests lie in Mobile AR, IoT Security and Privacy and Vehicle-to-everything (V2X). </p>
+<p>My research interests lie in Mobile AR, IoT Security & Privacy and Vehicle-to-everything (V2X). </p>
 ## Work Experience
 
 <p>
