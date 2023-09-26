@@ -1,5 +1,5 @@
 ---
-title: "NSL Lab - Yibo"
+title: "Yibo Yan"
 layout: personal
 permalink: /people/yibo-yan/
 sitemap: false
@@ -57,5 +57,8 @@ Department of Computer Science, University of Southern California.<br>
 </ul>
 {% endfor %}
 
+## Publications
+
+<div class="publications">
 
 </div>

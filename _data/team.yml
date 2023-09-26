@@ -213,7 +213,7 @@ current-students:
       website:
       email: jhpalmer@usc.edu
 
-  - name: <a href="https://usc-nsl.github.io/people/christina-shin/">Christina Shin</a>
+  - name: Yibo Yan
     lastname: Yan
     photo: yibo/yibo.jpg 
     info: PhD Student
@@ -226,7 +226,7 @@ current-students:
     social:
       google-scholar: https://scholar.google.com/citations?user=e_px0MoAAAAJ&hl=en&authuser=1
       linkedin: https://www.linkedin.com/in/ybyan/
-      website: https://usc-nsl.github.io/people/christina-shin/
+      website: https://usc-nsl.github.io/people/yibo-yan/
       email: yiboyan@usc.edu
       github: https://github.com/totoroyyb
 
