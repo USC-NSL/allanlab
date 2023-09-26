@@ -36,16 +36,34 @@ excerpt: "Personal website of Yibo Yan"
 
 <p>I am a Ph.D. student in <a href="http://nsl.cs.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am fortunate to be advised by <a href="http://seojinpark.net/">Prof. Seo Jin Park</a>. My primary research interests are in areas of <b>Distributed Systems</b>, <b>Datacenter Infrastructure</b> and <b>Massive Data Processing with Flash Burst System</b>.</p>
 
-<p>Prior to joining USC, I completed my B.S. in Computer Science degree from University of California, Davis and my M.S in Computer Science degree from Yale University.
+<p>Prior to joining USC, I completed my B.S. in Computer Science degree from University of California, Davis and my M.S in Computer Science degree from Yale University.</p>
 
 ## Work Experience
 
 <p>
 <em>Graduate Research Assistant (Aug 2023 - present)</em>
 <br>
-Department of Computer Science, University of Southern California.<br>
+Department of Computer Science, University of Southern California. Advised by Prof. Seo Jin Park.<br>
 </p>
 
+<p>
+<em>Undegraduate Research Assistant @ DECAL Lab (Mar 2021 - Jul 2022)</em>
+<br>
+Department of Computer Science, University of California, Davis. Advised by Prof. Vladimir Filkov.<br>
+</p>
+
+
+## Teaching Experience
+
+<p>
+<em>Teaching Assistant at USC</em><br>
+<b>Course:</b> CSCI 599: Distributed System, Fall 2023, <b>Instructor:</b> <a href="http://seojinpark.net">Prof. Seo Jin Park</a>
+</p>
+
+<p>
+<em>Student Instructor at UC Davis</em><br>
+<b>Course:</b> <a href="https://ios-dev-ucd.netlify.app/">ECS 198F: iOS Development with SwiftUI, Spring 2022</a>, <b>Instructor:</b> Yibo Yan
+</p>
 
 {% if member.awards %}
 ## Awards
