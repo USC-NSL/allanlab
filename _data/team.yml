@@ -213,6 +213,23 @@ current-students:
       website:
       email: jhpalmer@usc.edu
 
+  - name: <a href="https://usc-nsl.github.io/people/christina-shin/">Christina Shin</a>
+    lastname: Yan
+    photo: yibo/yibo.jpg 
+    info: PhD Student
+    start: Aug 2023
+    email: yiboyan@usc.edu
+    advisor:
+      - Seo Jin Park 
+    education:
+      - B.S. @ UC Davis; M.S. @ Yale University; Ph.D. @ USC.
+    social:
+      google-scholar: https://scholar.google.com/citations?user=e_px0MoAAAAJ&hl=en&authuser=1
+      linkedin: https://www.linkedin.com/in/ybyan/
+      website: https://usc-nsl.github.io/people/christina-shin/
+      email: yiboyan@usc.edu
+      github: https://github.com/totoroyyb
+
 visitor:
   - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
     lastname: Paek

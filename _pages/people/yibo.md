@@ -34,44 +34,18 @@ excerpt: "Personal website of Yibo Yan"
 
 ## Biography
 
-<p>I am a Ph.D. student in <a href="http://nsl.cs.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am fortunate to be advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. My primary research interests are in areas of <b>Volumetric Video</b>, <b>AR/VR Streaming</b>, <b>Edge+Cloud Computing</b> and <b>Systems for ML</b>.</p>
-<p>Prior to joining USC, I completed my Masters in Computational Science at the <a href="http://cds.iisc.ac.in">Department of Computational and Data Sciences (CDS)</a>, <a href="https://www.iisc.ac.in">Indian Institute of Science (IISc), Bangalore</a>. I was advised by <a href="http://cds.iisc.ac.in/faculty/simmhan">Prof. Yogesh Simmhan</a> at <a href="http://dream-lab.cds.iisc.ac.in">DREAM:Lab</a>.</p>
+<p>I am a Ph.D. student in <a href="http://nsl.cs.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am fortunate to be advised by <a href="http://seojinpark.net/">Prof. Seo Jin Park</a>. My primary research interests are in areas of <b>Distributed Systems</b>, <b>Datacenter Infrastructure</b> and <b>Massive Data Processing with Flash Burst System</b>.</p>
+
+<p>Prior to joining USC, I completed my B.S. in Computer Science degree from University of California, Davis and my M.S in Computer Science degree from Yale University.
 
 ## Work Experience
 
 <p>
-<em>Graduate Research Assistant (Aug 2019 - present)</em><br>
+<em>Graduate Research Assistant (Aug 2023 - present)</em>
+<br>
 Department of Computer Science, University of Southern California.<br>
 </p>
 
-<p>
-<em>Research Intern (May 2022 - Aug 2022)</em><br>
-Microsoft Research, Redmond, Washington.<br>
-Mentors: <a title="Krishna's Website" href="https://www.microsoft.com/en-us/research/people/krchinta/">Krishna Chintalapudi</a>, <a title="Nijunj's Website" href="https://www.microsoft.com/en-us/research/people/nikunjr/">Nikunj Raghuvanshi</a>, <a title="Ranveer's Website" href="https://www.microsoft.com/en-us/research/people/ranveer/">Ranveer Chandra</a><br>
-</p>
-
-<p>
-<em>Research Intern (June 2020 - Aug 2020)</em><br>
-Microsoft Research, Redmond, Washington.<br>
-Mentor: <a title="Krishna's Website" href="https://www.microsoft.com/en-us/research/people/krchinta/">Krishna Chintalapudi</a><br>
-</p>
-
-
-<p>
-<em>Lead Engineer (Research) (July 2017 - July 2019)</em><br>
-Samsung R&D Institute India, Bangalore.<br>
-</p>
-
-## Teaching Experience
-
-<p>
-<em>Teaching Assistant at USC</em><br>
-<b>Course:</b> <a href="https://drive.google.com/file/d/1l2-jZawdV2FZ4Q1pmCkLtvplA6DK9DUa/view?usp=sharing">CS 551/651: Advanced Computer Networks, Spring 2022</a>, <b>Instructor:</b> <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>
-</p>
-<p>
-<em>Guest Lecturer at Princeton University</em>, <b>Topic:</b> Volumetric Video Streaming <a href="https://docs.google.com/presentation/d/1e-stQ41GS9mVqCpU4H306geXiYHGJCNg-MalHcSzmfM/edit?usp=sharing">[PPT]</a><br>
-<b>Course:</b> <a href="https://ml-video-seminar.princeton.systems/">COS 598a: Machine Learning-Driven Video Systems, Spring 2022</a>, <b>Instructor:</b> <a href="https://www.cs.princeton.edu/~ravian/">Prof. Ravi Netravali</a>
-</p>
 
 {% if member.awards %}
 ## Awards
@@ -87,6 +61,6 @@ Samsung R&D Institute India, Bangalore.<br>
 
 <div class="publications">
 
-{% bibliography -f people/rajrup%}
+{% bibliography -f people/yibo%}
 
 </div>
