@@ -57,10 +57,5 @@ Department of Computer Science, University of Southern California.<br>
 </ul>
 {% endfor %}
 
-## Publications
-
-<div class="publications">
-
-{% bibliography -f people/yibo%}
 
 </div>
