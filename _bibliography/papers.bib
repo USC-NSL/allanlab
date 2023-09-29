@@ -36,18 +36,23 @@
 	abbr = {IMC},
 }
 
-@inproceedings{aerotraj,
+@article{aerotraj,
+  author = {Ahmad, Fawad and Shin, Christina Suyong and Ghosh, Rajrup and D'Ambrosio, John and Chai, Eugene and Sundaresan, Karthikeyan and Govindan, Ramesh},
+  title = {AeroTraj: Trajectory Planning for Fast, and Accurate 3D Reconstruction Using a Drone-Based LiDAR},
+  year = {2023},
+  issue_date = {September 2023},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {7},
+  number = {3},
+  url = {https://doi.org/10.1145/3610911},
   doi = {10.1145/3610911},
-  url = {https://arxiv.org/abs/2104.08634},
-  author={Ahmed, Fawad and Shin, Christina, and Ghosh, Rajrup and D'Ambrosio, John and Chai, Eugene and Sundaresan, Karthik and Govindan, Ramesh},
-  title = {AeroTraj: Trajectory Planning for Fast, and Accurate 3D Reconstruction using a Drone-based LiDAR},
-  booktitle={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
-  abbr={Ubicomp/IMWUT},
-  volume={7},
-  number={3},
-  pages={1--27},
-  year={2023},
-  publisher={ACM New York, NY, USA},
+  abstract = {This paper presents AeroTraj, a system that enables fast, accurate, and automated reconstruction of 3D models of large buildings using a drone-mounted LiDAR. LiDAR point clouds can be used directly to assemble 3D models if their positions are accurately determined. AeroTraj uses SLAM for this, but must ensure complete and accurate reconstruction while minimizing drone battery usage. Doing this requires balancing competing constraints: drone speed, height, and orientation. AeroTraj exploits building geometry in designing an optimal trajectory that incorporates these constraints. Even with an optimal trajectory, SLAM's position error can drift over time, so AeroTraj tracks drift in-flight by offloading computations to the cloud and invokes a re-calibration procedure to minimize error. AeroTraj can reconstruct large structures with centimeter-level accuracy and with an average end-to-end latency below 250 ms, significantly outperforming the state of the art.},
+  journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+  month = {sep},
+  articleno = {83},
+  numpages = {28},
+  keywords = {Mapping, Trajectory Planning, 3D Reconstruction, Localization},
   abbr={Ubicomp/IMWUT}
 }
 
@@ -58,10 +63,10 @@
 		Warmup},
 	booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
 	year = {2023},
-	abstract = {With growing deployment of machine learning (ML) models, ML developers are training or re-training increasingly more deep neural networks (DNNs). They do so to find the most suitable model that meets their accuracy requirement while satisfying the resource and timeliness constraints of the target environment. In large shared clusters, the growing number of neural architecture search (NAS) and training jobs often result in models sharing architectural similarities with others from the same or a different ML developer. However, existing solutions do not provide a systematic mechanism to identify and leverage such similarities.
-We present ModelKeeper, the first automated training warmup system that accelerates DNN training by repurposing previously-trained models in a shared cluster. Our key insight is that initializing a training job’s model by transforming an already-trained model’s weights can jump-start it and reduce the total amount of training needed. However, models submitted over time can differ in their architectures and accuracy. Given a new model to train, ModelKeeper scalably identifies its architectural similarity with previously trained models, selects a parent model with high similarity and good model accuracy, and performs structure-aware transformation of weights to preserve maximal information from the parent model during the warmup of new model weights. Our evaluations across thousands of CV and NLP models show that ModelKeeper achieves 1.3×–4.3× faster training completion with little overhead and no reduction in model accuracy.},
+	abstract = {With growing deployment of machine learning (ML) models, ML developers are training or re-training increasingly more deep neural networks (DNNs). They do so to find the most suitable model that meets their accuracy requirement while satisfying the resource and timeliness constraints of the target environment. In large shared clusters, the growing number of neural architecture search (NAS) and training jobs often result in models sharing architectural similarities with others from the same or a different ML developer. However, existing solutions do not provide a systematic mechanism to identify and leverage such similarities. We present ModelKeeper, the first automated training warmup system that accelerates DNN training by repurposing previously-trained models in a shared cluster. Our key insight is that initializing a training job’s model by transforming an already-trained model’s weights can jump-start it and reduce the total amount of training needed. However, models submitted over time can differ in their architectures and accuracy. Given a new model to train, ModelKeeper scalably identifies its architectural similarity with previously trained models, selects a parent model with high similarity and good model accuracy, and performs structure-aware transformation of weights to preserve maximal information from the parent model during the warmup of new model weights. Our evaluations across thousands of CV and NLP models show that ModelKeeper achieves 1.3×–4.3× faster training completion with little overhead and no reduction in model accuracy.},
 	abbr = {NSDI}
 }
+
 @inproceedings{GoelZM22,
   author    = {Ayush Goel and
                Jingyuan Zhu and
@@ -73,8 +78,7 @@ We present ModelKeeper, the first automated training warmup system that accelera
   year      = {2022},
   url       = {https://doi.org/10.1145/3563766.3564103},
   doi       = {10.1145/3563766.3564103},
-  abstract  = {It is common for the authors of a web page to include links to related pages on other sites. However, when users visit a page several years after it was last updated, they often find that some of the external links either do not work or point to unrelated content. To combat these problems of link rot and content drift, the solution used today is to capture a copy of the linked page when a link is created and serve this copy to users who choose to visit the link.
-We argue that this status quo ignores the reality that one does not always link to a page in order to point visitors to the content that existed on that page when the link was created. The utility of linking to a web page by simply directing users to that page’s URL is that they can benefit from any updates to the page’s content (e.g., corrections to news articles and new comments on a blog post) or access rich app-like functionality on the page (e.g., search). In this paper, we present a sketch of what it would take to make web links resilient while accounting for the dynamism of web pages.},
+  abstract  = {It is common for the authors of a web page to include links to related pages on other sites. However, when users visit a page several years after it was last updated, they often find that some of the external links either do not work or point to unrelated content. To combat these problems of link rot and content drift, the solution used today is to capture a copy of the linked page when a link is created and serve this copy to users who choose to visit the link. We argue that this status quo ignores the reality that one does not always link to a page in order to point visitors to the content that existed on that page when the link was created. The utility of linking to a web page by simply directing users to that page’s URL is that they can benefit from any updates to the page’s content (e.g., corrections to news articles and new comments on a blog post) or access rich app-like functionality on the page (e.g., search). In this paper, we present a sketch of what it would take to make web links resilient while accounting for the dynamism of web pages.},
   abbr      = {HotNets}
 }
 % Quadrant
