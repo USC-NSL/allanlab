@@ -39,8 +39,9 @@ excerpt: "Personal website of Pooria"
 ## Work Experience
 
 <p><em>Graduate Research Assistant</em> (Aug 2019 - present) <br>University of Southern California, Los Angeles, CA</p>
-<p><em>Research Intern</em> (Jun 2022 - Jan 2023)<br>Microsoft Research, Redmond, WA<br>Mentors: <a href="https://www.microsoft.com/en-us/research/people/bearzani/">Behnaz Arzani</a>, <a href="https://www.microsoft.com/en-us/research/people/rybecket/">Ryan Beckett</a>, <a href="https://www.microsoft.com/en-us/research/people/srikanth/">Srikanth Kandula</a></p>
-<p><em>Research Intern</em> (Jun 2021 - Jan 2022)<br>Microsoft Research, Redmond, WA<br>Mentors: <a href="https://www.microsoft.com/en-us/research/people/bearzani/">Behnaz Arzani</a>, <a href="https://www.microsoft.com/en-us/research/people/dacranks/">Dan Crankshaw</a>, <a href="https://www.microsoft.com/en-us/research/people/srikanth/">Srikanth Kandula</a></p>
+<p><em>Research Intern</em> (Sep 2023 - present) <br>Google, Sunnyvale, CA<br>Mentors: Devdeep Ray, Yuliang Li, KK Yap, Nandita Dukkipati</p>
+<p><em>Research Intern & Student Researcher</em> (Jun 2022 - Jan 2023)<br>Microsoft Research, Redmond, WA<br>Mentors: <a href="https://www.microsoft.com/en-us/research/people/bearzani/">Behnaz Arzani</a>, <a href="https://www.microsoft.com/en-us/research/people/rybecket/">Ryan Beckett</a>, <a href="https://www.microsoft.com/en-us/research/people/srikanth/">Srikanth Kandula</a></p>
+<p><em>Research Intern & Student Researcher</em> (Jun 2021 - Jan 2022)<br>Microsoft Research, Redmond, WA<br>Mentors: <a href="https://www.microsoft.com/en-us/research/people/bearzani/">Behnaz Arzani</a>, <a href="https://www.microsoft.com/en-us/research/people/dacranks/">Dan Crankshaw</a>, <a href="https://www.microsoft.com/en-us/research/people/srikanth/">Srikanth Kandula</a></p>
 
 {% if member.awards %}
 ## Awards
