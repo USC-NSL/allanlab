@@ -133,22 +133,6 @@ current-students:
       website: http://www.oscarpang.com
       email: weiwupan@usc.edu
 
-  - name: <a href="https://nsl.usc.edu/people/jianfeng-wang/">Jianfeng Wang</a>
-    lastname: Wang
-    photo: Jianfeng/head-profile.jpg
-    info: PhD Student
-    start: Aug 2016
-    advisor:
-      - Ramesh Govindan
-      - Barath Raghavan
-    education:
-      - B.S. from <a href="https://english.pku.edu.cn/">Peking University</a>.
-    social:
-      linkedin: https://www.linkedin.com/in/jianfeng-wang-291a35129/
-      website: https://nsl.usc.edu/people/jianfeng-wang/
-      email: jianfenw@usc.edu
-      github: https://github.com/jwangee
-
   - name: <a href="https://usc-nsl.github.io/people/jane/">Yu-Chuan (Jane) Yen<a/>
     lastname: Yen
     photo: Jane/jane.jpg
