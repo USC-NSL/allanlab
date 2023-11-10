@@ -1,8 +1,8 @@
 @inproceedings{aerotraj,
   doi = {10.1145/3610911},
-  url = {https://arxiv.org/abs/2104.08634},
-  author={Ahmed, Fawad and Shin, Christina, and Ghosh, Rajrup and D'Ambrosio, John and Chai, Eugene and Sundaresan, Karthik and Govindan, Ramesh},
-  title = {AeroTraj: Trajectory Planning for Fast, and Accurate 3D Reconstruction using a Drone-based LiDAR},
+  url = {https://dl.acm.org/doi/abs/10.1145/3610911},
+  author={Fawad Ahmad, Christina Shin, Rajrup Ghosh, John D'Ambrosio, Eugene Chai, Karthikeyan Sundaresan, and Ramesh Govindan},
+  title = {AeroTraj: Trajectory Planning for Fast, and Accurate 3D Reconstruction Using a Drone-based LiDAR},
   booktitle={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
   abbr={Ubicomp/IMWUT},
   volume={7},
@@ -10,19 +10,20 @@
   pages={1--27},
   year={2023},
   publisher={ACM New York, NY, USA},
-  abbr={Ubicomp/IMWUT}
+  abbr={Ubicomp/IMWUT},
+  abstract={This paper presents AeroTraj, a system that enables fast, accurate, and automated reconstruction of 3D models of large buildings using a drone-mounted LiDAR. LiDAR point clouds can be used directly to assemble 3D models if their positions are accurately determined. AeroTraj uses SLAM for this, but must ensure complete and accurate reconstruction while minimizing drone battery usage. Doing this requires balancing competing constraints: drone speed, height, and orientation. AeroTraj exploits building geometry in designing an optimal trajectory that incorporates these constraints. Even with an optimal trajectory, SLAM's position error can drift over time, so AeroTraj tracks drift in-flight by offloading computations to the cloud and invokes a re-calibration procedure to minimize error. AeroTraj can reconstruct large structures with centimeter-level accuracy and with an average end-to-end latency below 250 ms, significantly outperforming the state of the art.}
 }
 
 @inproceedings{shin2020infrastructure,
 title={Infrastructure-less vehicle traffic density estimation via distributed packet probing in v2v network},
-author={Shin, Christina Suyong and Lee, JiHo and Lee, HyungJune},
+author={Christina Shin, JiHo Lee, and HyungJune Lee},
 booktitle={IEEE Transactions on Vehicular Technology (TVT)},
 volume={69},
 number={10},
 pages={10403--10418},
 year={2020},
 publisher={IEEE},
-url={https://ieeexplore.ieee.org/abstract/document/9178450?casa_token=TLS48PasWEcAAAAA:nP-vf8-KJ1YJc-XX0Rj01hmO96fcY-6BjZ8vFXs8Fklluo7b3qzQTW5_e14z07xqpDroWSUPIRM},
+url={https://ieeexplore.ieee.org/abstract/document/9178450},
 abstract={In this paper, we address the problem of vehicle traffic density estimation without relying on infrastructure cameras or sensors on the road. Previous infrastructure-less approaches still require some prior knowledge on the road infrastructure, e.g., via road topology map. We seek a lightweight estimation method based only on vehicle-to-vehicle (V2V) communication, i.e., without using any prior knowledge. The main objective of this paper is to examine traffic density through simple yet efficient packet probing within a survey time period and obtain a snapshot of the traffic density distribution map. We propose an on-demand vehicle sampling algorithm that makes a probing packet at a vehicle (i.e., sampler) keep sampling to explore the local traffic density on a cell basis. If a current sampler does not operate as an efficient carrier, the packet selects another one as the next sampler via inner-relaying and outer-relaying procedures. To effectively adapt the level of granularity of traffic density depending on the remaining survey time, we present an adaptive cell sizing algorithm. Further, we extend the sampling activity to multiple vehicle samplers by making them aggregate their collected information and also negotiate their future areas to explore. Within a designated deadline, multiple samplers collaborate for more accurate and fast traffic density estimation. By doing so by iterations till the given survey deadline, we can gather a complete view of traffic density estimates based on multiple sources where some areas have more detailed information, whereas others do less. Experiments with a real trace-driven simulation demonstrate that our proposed algorithm effectively estimates the distribution of traffic density considering local traffic conditions compared to other counterpart algorithms, with a factor of up to 9.5.},
 series={TVT '20},
 abbr={TVT}
@@ -30,14 +31,14 @@ abbr={TVT}
 
 @inproceedings{park2018dronenetx,
 title={DroneNetX: Network reconstruction through connectivity probing and relay deployment by multiple UAVs in ad hoc networks},
-author={Park, So-Yeon and Shin, Christina Suyong and Jeong, Dahee and Lee, HyungJune},
+author={So-Yeon Park, Christina Suyong Shin, Dahee Jeong, and HyungJune Lee},
 booktitle={IEEE Transactions on Vehicular Technology (TVT)},
 volume={67},
 number={11},
 pages={11192--11207},
 year={2018},
 publisher={IEEE},
-url={https://ieeexplore.ieee.org/abstract/document/8466046?casa_token=bk9xgkiTdC8AAAAA:oCJ5U2Imv_smCMq8ydoxW4-OlblYyQ9ecuI_-9Qv1gOHJ3CrZEGVgQjRIFBCP60IoeCOLZI8C8s},
+url={https://ieeexplore.ieee.org/abstract/document/8466046},
 abstract={In this paper, we consider a network reconstruction problem using unmanned aerial vehicles (UAVs) where stationary ad hoc networks are severely damaged in a post-disaster scenario. The main objective of this paper is to repair the network by supplementing aerial wireless links into the isolated ground network using UAVs. Our scheme performs network probing from the air and finds out crucial spots where both local and global routing performance can significantly be recovered if deployed. First, we propose a novel distributed coverage path planning algorithms with independent and computationally lightweight navigation based on adaptive zigzag patterns. Second, we present route topology discovery schemes that capture both local and non -local network connectivity by extracting inherent route skeletons via stitching partial local paths obtained from the simple packet probing by UAVs. Finally, we find the optimal UAV relay deployment positions that can improve network-wide data delivery most effectively based on three novel approaches of an optimization technique, an iterative heuristic algorithm, and a topology partitioning of strongly connected component . Simulation results demonstrate that our distributed traversing algorithms reduce the complete coverage time, the travel distance, and the duplicate coverage compared to other counterpart algorithms. Our deployment algorithms recover severely impaired routes, incurring reasonable computational overhead.},
 series={TVT '18},
 abbr={TVT}
@@ -45,7 +46,7 @@ abbr={TVT}
 
 @inproceedings{shin2018progressive,
 title={Progressive ad-hoc route reconstruction using distributed UAV relays after a large-scale failure},
-author={Shin, Christina Suyong and Park, So-Yeon and Yoon, JinYi and Lee, HyungJune},
+author={Christina Suyong Shin, So-Yeon Park, JinYi Yoon, and HyungJune Lee},
 booktitle={IEEE Wireless Communications and Networking Conference (WCNC)},
 pages={1--6},
 year={2018},
@@ -58,7 +59,7 @@ abbr={WCNC}
 
 @inproceedings{park2017dronenet+,
 title={DroneNet+: Adaptive route recovery using path stitching of UAVs in ad-hoc networks},
-author={Park, So-Yeon and Jeong, Dahee and Shin, Christina Suyong and Lee, HyungJune},
+author={So-Yeon Park, Dahee Jeong, Christina Suyong Shin, and HyungJune Lee},
 booktitle={IEEE Global Communications Conference (GLOBECOM)},
 pages={1--7},
 year={2017},

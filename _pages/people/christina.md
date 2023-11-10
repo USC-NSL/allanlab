@@ -33,7 +33,7 @@ excerpt: "Personal website of Christina"
 ## Sketch
 
 <p>
-I am a fifth year Ph.D. student in <a href="https://www.cs.usc.edu/">Computer Science Department</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am working with <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a> in <a href="https://nsl.usc.edu/">Networked Systems Lab (NSL)</a>. I am broadly interested in 3D Sensing, LiDAR Sensing, Cooperative Perception, and Autonomous Vehicle Systems. Before joining NSL, I received my B.S. and M.S. degree in Computer Science and Engineering at <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University</a>.
+I am a fifth year Ph.D. student in <a href="https://www.cs.usc.edu/">Computer Science Department</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am working with <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a> in <a href="https://nsl.usc.edu/">Networked Systems Lab (NSL)</a>. I am broadly interested in Volumetric Video Streaming, 3D Sensing, Cooperative Perception, and Autonomous Vehicle Systems. Before joining NSL, I received my B.S. and M.S. degree in Computer Science and Engineering at <a href="https://www.ewha.ac.kr/ewhaen/index.do">Ewha Womans University</a>.
 </p>
 
 ## Work Experience
