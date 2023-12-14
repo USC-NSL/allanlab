@@ -1,3 +1,13 @@
+@inproceedings{namyar2024metaopt,
+  author = {Pooria Namyar and Behnaz Arzani and Ryan Beckett and Santiago Segarra and Himanshu Raj and Umesh Krishnaswamy and Ramesh Govindan and Srikanth Kandula},
+  title = {{F}inding {A}dversarial {I}nputs for {H}euristics using {M}ulti-level {O}ptimization},
+  booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+  year = {2024},
+  abstract = {Production systems use heuristics because they are faster or scale better than their optimal counterparts. Yet, practitioners are often unaware of the performance gap between a heuristic and the optimum or between two heuristics in realistic scenarios. We present MetaOpt, a system that helps analyze heuristics. Users specify the heuristic and the optimal (or another heuristic) as input, and MetaOpt automatically encodes these efficiently for a solver to find performance gaps and their corresponding adversarial inputs. Its suite of built-in optimizations helps it scale its analysis to practical problem sizes. To show it is versatile, we used MetaOpt to analyze heuristics from three domains (traffic engineering, vector bin packing, and packet scheduling). We found a production traffic engineering heuristic can require 30% more capacity than the optimal to satisfy realistic demands. Based on the patterns in the adversarial inputs MetaOpt produced, we modified the heuristic to reduce its performance gap by 12.5×. We examined adversarial inputs to a vector bin packing heuristic and proved a new lower bound on its performance.},
+  abbr = {NSDI},
+  url={https://arxiv.org/abs/2311.12779}
+}
+
 @inproceedings{nsdi24-ldb,
 	author = {Inho Cho and Seo Jin Park and Ahmed Saeed and Mohammad Alizadeh and Adam Belay},
 	title = {LDB: An Efficient Latency Debugging Tool for Datacenter Applications},
