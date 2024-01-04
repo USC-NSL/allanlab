@@ -2,6 +2,16 @@
  "papers"
  (lambda ()
    (LaTeX-add-bibitems
+    "namyar2024metaopt"
+    "nsdi24-ldb"
+    "hotos-quicksand"
+    "ubipose"
+    "namyar2024maxminfair"
+    "nsdi24-sprinter"
+    "socc23-auxo"
+    "imc23-fable"
+    "dragonfly"
+    "aerotraj"
     "nsdi23-modelkeeper"
     "GoelZM22"
     "qiu2023mcal"
