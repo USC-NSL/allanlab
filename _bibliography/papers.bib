@@ -1,77 +1,109 @@
-@inproceedings{namyar2024metaopt,
-  author = {Pooria Namyar and Behnaz Arzani and Ryan Beckett and Santiago Segarra and Himanshu Raj and Umesh Krishnaswamy and Ramesh Govindan and Srikanth Kandula},
-  title = {{F}inding {A}dversarial {I}nputs for {H}euristics using {M}ulti-level {O}ptimization},
-  booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
-  year = {2024},
-  abstract = {Production systems use heuristics because they are faster or scale better than their optimal counterparts. Yet, practitioners are often unaware of the performance gap between a heuristic and the optimum or between two heuristics in realistic scenarios. We present MetaOpt, a system that helps analyze heuristics. Users specify the heuristic and the optimal (or another heuristic) as input, and MetaOpt automatically encodes these efficiently for a solver to find performance gaps and their corresponding adversarial inputs. Its suite of built-in optimizations helps it scale its analysis to practical problem sizes. To show it is versatile, we used MetaOpt to analyze heuristics from three domains (traffic engineering, vector bin packing, and packet scheduling). We found a production traffic engineering heuristic can require 30% more capacity than the optimal to satisfy realistic demands. Based on the patterns in the adversarial inputs MetaOpt produced, we modified the heuristic to reduce its performance gap by 12.5×. We examined adversarial inputs to a vector bin packing heuristic and proved a new lower bound on its performance.},
-  abbr = {NSDI},
-  url={https://arxiv.org/abs/2311.12779},
-  selected = {yes}
-}
+@InProceedings{namyar2024metaopt,
+  author = 	 {Pooria Namyar and Behnaz Arzani and Ryan Beckett and Santiago Segarra and Himanshu Raj and Umesh Krishnaswamy and Ramesh Govindan and Srikanth Kandula},
+  title = 	 {{F}inding {A}dversarial {I}nputs for {H}euristics using {M}ulti-level {O}ptimization},
+  booktitle = 	 {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+  year = 	 2024,
+  abstract = 	 {Production systems use heuristics because they are faster or
+                  scale better than their optimal counterparts. Yet,
+                  practitioners are often unaware of the performance gap between
+                  a heuristic and the optimum or between two heuristics in
+                  realistic scenarios. We present MetaOpt, a system that helps
+                  analyze heuristics. Users specify the heuristic and the
+                  optimal (or another heuristic) as input, and MetaOpt
+                  automatically encodes these efficiently for a solver to find
+                  performance gaps and their corresponding adversarial inputs.
+                  Its suite of built-in optimizations helps it scale its
+                  analysis to practical problem sizes. To show it is versatile,
+                  we used MetaOpt to analyze heuristics from three domains
+                  (traffic engineering, vector bin packing, and packet
+                  scheduling). We found a production traffic engineering
+                  heuristic can require 30\% more capacity than the optimal to
+                  satisfy realistic demands. Based on the patterns in the
+                  adversarial inputs MetaOpt produced, we modified the heuristic
+                  to reduce its performance gap by 12.5×. We examined
+                  adversarial inputs to a vector bin packing heuristic and
+                  proved a new lower bound on its performance.}, 
+  abbr = 	 {NSDI},
+  url = 	 {https://arxiv.org/abs/2311.12779},
+  selected = 	 {true}}
 
-@inproceedings{nsdi24-ldb,
-	author = {Inho Cho and Seo Jin Park and Ahmed Saeed and Mohammad Alizadeh and Adam Belay},
-	title = {LDB: An Efficient Latency Debugging Tool for Datacenter Applications},
-	booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
-	year = {2024},
-	abbr = {NSDI},
-	selected = {yes}
-}
+@InProceedings{nsdi24-ldb,
+  author = 	 {Inho Cho and Seo Jin Park and Ahmed Saeed and Mohammad Alizadeh and Adam Belay},
+  title = 	 {LDB: An Efficient Latency Debugging Tool for Datacenter Applications},
+  booktitle = 	 {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+  year = 	 2024,
+  abbr = 	 {NSDI},
+  selected = 	 {true}}
 
-@inproceedings{hotos-quicksand,
-author = {Ruan, Zhenyuan and Li, Shihang and Fan, Kaiyan and Aguilera, Marcos K. and Belay, Adam and Park, Seo Jin and Schwarzkopf, Malte},
-title = {Unleashing True Utility Computing with Quicksand},
-year = {2023},
-isbn = {9798400701955},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3593856.3595893},
-doi = {10.1145/3593856.3595893},
-booktitle = {Proceedings of the 19th Workshop on Hot Topics in Operating Systems},
-pages = {196–205},
-numpages = {10},
-location = {Providence, RI, USA},
-series = {HOTOS '23},
-abbr = {HotOS}
-}
+@InProceedings{hotos-quicksand,
+  author = 	 {Ruan, Zhenyuan and Li, Shihang and Fan, Kaiyan and Aguilera, Marcos K. and Belay, Adam and Park, Seo Jin and Schwarzkopf, Malte},
+  title = 	 {Unleashing True Utility Computing with Quicksand},
+  booktitle = 	 {Proceedings of the 19th Workshop on Hot Topics in Operating Systems},
+  year = 	 2023,
+  series = 	 {HOTOS '23},
+  pages = 	 {196–205},
+  address = 	 {New York, NY, USA},
+  publisher = 	 {Association for Computing Machinery},
+  isbn = 	 9798400701955,
+  url = 	 {https://doi.org/10.1145/3593856.3595893},
+  doi = 	 {10.1145/3593856.3595893},
+  numpages = 	 10,
+  location = 	 {Providence, RI, USA},
+  abbr = 	 {HotOS}}
 
-@inproceedings{ubipose,
-author = {Pang, Weiwu and Xia, Chunyu and Leong, Branden and Ahmad, Fawad and Paek, Jeongyeup and Govindan, Ramesh},
-title = {UbiPose: Towards Ubiquitous Outdoor AR Pose Tracking Using Aerial Meshes},
-abbr = {MobiCom},
-year = {2023},
-isbn = {9781450399906},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3570361.3613263},
-doi = {10.1145/3570361.3613263},
-booktitle = {Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},
-articleno = {49},
-numpages = {16},
-keywords = {augmented reality, outdoor pose estimation, aerial mesh},
-location = {Madrid, Spain},
-series = {ACM MobiCom '23}
-}
+@InProceedings{ubipose,
+  author = 	 {Pang, Weiwu and Xia, Chunyu and Leong, Branden and Ahmad, Fawad and Paek, Jeongyeup and Govindan, Ramesh},
+  title = 	 {UbiPose: Towards Ubiquitous Outdoor AR Pose Tracking Using Aerial Meshes},
+  booktitle = 	 {Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},
+  year = 	 2023,
+  series = 	 {ACM MobiCom '23},
+  address = 	 {New York, NY, USA},
+  publisher = 	 {Association for Computing Machinery},
+  abbr = 	 {MobiCom},
+  isbn = 	 9781450399906,
+  url = 	 {https://doi.org/10.1145/3570361.3613263},
+  doi = 	 {10.1145/3570361.3613263},
+  articleno = 	 49,
+  numpages = 	 16,
+  keywords = 	 {augmented reality, outdoor pose estimation, aerial mesh},
+  location = 	 {Madrid, Spain}}
 
-@inproceedings{namyar2024maxminfair,
-	author = {Pooria Namyar and Behnaz Arzani  and Srikanth Kandula and Santiago Segarra and Daniel Crankshaw and Umesh Krishnaswamy and Ramesh Govindan and Himanshu Raj},
-	title = {{S}olving {M}ax-{M}in {F}air {R}esource {A}llocations {Q}uickly on {L}arge {G}raphs},
-	booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
-	year = {2024},
-	abstract = {We consider the max-min fair resource allocation problem. The best-known solutions use either a sequence of optimizations or waterfilling, which only applies to a narrow set of cases. These solutions have become a practical bottleneck in WAN traffic engineering and cluster scheduling, especially at larger problem sizes. We improve both approaches: (1) we show how to convert the optimization sequence into a single fast optimization, and (2) we generalize waterfilling to the multi-path case. We empirically show our new algorithms Pareto-dominate prior techniques: they produce faster, fairer, and more efficient allocations. Some of our allocators also have theoretical guarantees: they trade off a bounded amount of unfairness for faster allocation. We have deployed our allocators in Azure's WAN traffic engineering pipeline, where we preserve solution quality and achieve a roughly 3× speedup.},
-	abbr = {NSDI},
-	url={https://arxiv.org/abs/2310.09699},
-        selected = {yes}
-}
+@InProceedings{namyar2024maxminfair,
+  author = 	 {Pooria Namyar and Behnaz Arzani  and Srikanth Kandula and
+                  Santiago Segarra and Daniel Crankshaw and Umesh Krishnaswamy
+                  and Ramesh Govindan and Himanshu Raj}, 
+  title = 	 {{S}olving {M}ax-{M}in {F}air {R}esource {A}llocations
+                  {Q}uickly on {L}arge {G}raphs}, 
+  booktitle = 	 {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+  year = 	 2024,
+  abstract = 	 {We consider the max-min fair resource allocation problem. The
+                  best-known solutions use either a sequence of optimizations or
+                  waterfilling, which only applies to a narrow set of cases.
+                  These solutions have become a practical bottleneck in WAN
+                  traffic engineering and cluster scheduling, especially at
+                  larger problem sizes. We improve both approaches: (1) we show
+                  how to convert the optimization sequence into a single fast
+                  optimization, and (2) we generalize waterfilling to the
+                  multi-path case. We empirically show our new algorithms
+                  Pareto-dominate prior techniques: they produce faster, fairer,
+                  and more efficient allocations. Some of our allocators also
+                  have theoretical guarantees: they trade off a bounded amount
+                  of unfairness for faster allocation. We have deployed our
+                  allocators in Azure's WAN traffic engineering pipeline, where
+                  we preserve solution quality and achieve a roughly 3×
+                  speedup.}, 
+  abbr = 	 {NSDI},
+  url = 	 {https://arxiv.org/abs/2310.09699},
+  selected = 	 {true}}
 
-@inproceedings{nsdi24-sprinter,
-	author = {Ayush Goel and Jingyuan Zhu and Ravi Netravali and Harsha V.
+@InProceedings{nsdi24-sprinter,
+  author = 	 {Ayush Goel and Jingyuan Zhu and Ravi Netravali and Harsha V.
 		Madhyastha},
-	title = {Sprinter: Speeding Up High-Fidelity Crawling of the Modern Web},
-	booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation},
-	year = {2024},
-	abbr = {NSDI},
-}
+  title = 	 {Sprinter: Speeding Up High-Fidelity Crawling of the Modern Web},
+  booktitle = 	 {21st USENIX Symposium on Networked Systems Design and Implementation},
+  year = 	 2024,
+  abbr = 	 {NSDI},
+  selected = 	 {true}}
 
 @inproceedings{socc23-auxo,
 	author = {Jiachen Liu and Fan Lai and Yinwei Dai and Aditya Akella and Harsha V.
