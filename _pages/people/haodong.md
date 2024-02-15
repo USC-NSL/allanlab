@@ -6,7 +6,7 @@ sitemap: false
 excerpt: "Personal website of Haodong"
 ---
 {%- assign data = site.data.people -%}
-{%- assign member = data.rajrup -%}
+{%- assign member = data.haodong -%}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="22%" style="float: left" />
@@ -36,6 +36,7 @@ excerpt: "Personal website of Haodong"
 
 <p>I am a first-year Ph.D. student in <a href="http://nsl.cs.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am honored to work with <a href="https://www.harsha.usc.edu/">Prof. Harsha Madhyastha</a> and <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. My research interests include <b>Volumetric Video</b>, <b>Video Analytics</b> and <b>Systems for ML</b>.</p>
 <p>Prior to joining USC, I completed my pre-doctoral M.S. in Computer Science at <a href="https://cs.uchicago.edu/"> the University of Chicago </a> and my B.S. in Computer Science at <a href="https://sai.pku.edu.cn/znxyenglish/index.htm"> Peking University </a>.
+</p>
 
 ## Work Experience
 
@@ -54,8 +55,8 @@ Advisor: <a title="Krishna's Website" href="https://people.cs.uchicago.edu/~junc
 
 <p>
 <em>Teaching Assistant at UChicago</em><br>
-<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/autumn/courses/mpcs-51046-1">MPCS 51046: Intermediate Python Programming, Fall 2022</a><br>,
-<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/winter/courses/mpcs-51044-1">MPCS 51044: C++ for Advanced Programmers, Winter 2022</a><br>,
+<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/autumn/courses/mpcs-51046-1">MPCS 51046: Intermediate Python Programming, Fall 2022</a>,<br>
+<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/winter/courses/mpcs-51044-1">MPCS 51044: C++ for Advanced Programmers, Winter 2022</a>,<br>
 </p>
 
 {% if member.awards %}
