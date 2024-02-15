@@ -1,0 +1,66 @@
+@inproceedings{10.1145/3542929.3563502,
+author = {Wang, Haodong and Du, Kuntai and Jiang, Junchen},
+title = {Minimizing packet retransmission for real-time video analytics},
+year = {2022},
+isbn = {9781450394147},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3542929.3563502},
+doi = {10.1145/3542929.3563502},
+abstract = {In smart-city and video analytics (VA) applications, high-quality data streams (video frames) must be accurately analyzed with a low delay. Since maintaining high accuracy requires compute-intensive deep neural nets (DNNs), these applications often stream massive video data to remote, more powerful cloud servers, giving rise to a strong need for low streaming delay between video sensors and cloud servers while still delivering enough data for accurate DNN inference. In response, many recent efforts have proposed distributed VA systems that aggressively compress/prune video frames deemed less important to DNN inference, with the underlying assumptions being that (1) without increasing available bandwidth, reducing delays means sending fewer bits, and (2) the most important frames can be precisely determined before streaming. This short paper challenges both views. First, in high-bandwidth networks, the delay of real-time videos is primarily bounded by packet losses and delay jitters, so reducing bitrate is not always as effective as reducing packet retransmissions. Second, for many DNNs, the impact of missing a video frame depends not only on itself but also on which other frames have been received or lost. We argue that some changes must be made in the transport layer, to determine whether to resend a packet based on the packet's impact on DNN's inference dependent on which packets have been received. While much research is needed toward an optimal design of DNN-driven transport layer, we believe that we have taken the first step in reducing streaming delay while maintaining a high inference accuracy.},
+booktitle = {Proceedings of the 13th Symposium on Cloud Computing},
+pages = {340–347},
+numpages = {8},
+keywords = {video analytics, transport layer protocol, systems for machine learning, action recognition},
+location = {San Francisco, California},
+series = {SoCC '22}
+}
+
+
+
+@inproceedings{10.1145/3620678.3624653,
+author = {Du, Kuntai and Liu, Yuhan and Hao, Yitian and Zhang, Qizheng and Wang, Haodong and Huang, Yuyang and Ananthanarayanan, Ganesh and Jiang, Junchen},
+title = {OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation},
+year = {2023},
+isbn = {9798400703874},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3620678.3624653},
+doi = {10.1145/3620678.3624653},
+abstract = {Deep learning inference on streaming media data, such as object detection in video or LiDAR feeds and text extraction from audio waves, is now ubiquitous. To achieve high inference accuracy, these applications typically require significant network bandwidth to gather high-fidelity data and extensive GPU resources to run deep neural networks (DNNs). While the high demand for network bandwidth and GPU resources could be substantially reduced by optimally adapting the configuration knobs, such as video resolution and frame rate, current adaptation techniques fail to meet three requirements simultaneously: adapt configurations (i) with minimum extra GPU or bandwidth overhead (ii) to reach near-optimal decisions based on how the data affects the final DNN's accuracy, and (iii) do so for a range of configuration knobs. This paper presents OneAdapt, which meets these requirements by leveraging a gradient-ascent strategy to adapt configuration knobs. The key idea is to embrace DNNs' differentiability to quickly estimate the accuracy's gradient to each configuration knob, called AccGrad. Specifically, OneAdapt estimates AccGrad by multiplying two gradients: InputGrad (i.e., how each configuration knob affects the input to the DNN) and DNNGrad (i.e., how the DNN input affects the DNN inference output). We evaluate OneAdapt across five types of configurations, four analytic tasks, and five types of input data. Compared to state-of-the-art adaptation schemes, OneAdapt cuts bandwidth usage and GPU usage by 15-59\% while maintaining comparable accuracy or improves accuracy by 1-5\% while using equal or fewer resources.},
+booktitle = {Proceedings of the 2023 ACM Symposium on Cloud Computing},
+pages = {158–176},
+numpages = {19},
+keywords = {data analytics, configuration adaptation, backpropagation},
+location = {<conf-loc>, <city>Santa Cruz</city>, <state>CA</state>, <country>USA</country>, </conf-loc>},
+series = {SoCC '23}
+}
+
+
+
+@inproceedings{MLSYS2022_853f7b36,
+ author = {Du, Kuntai and Zhang, Qizheng and Arapin, Anton  and Wang, Haodong and Xia, Zhengxu and Jiang, Junchen},
+ booktitle = {Proceedings of Machine Learning and Systems},
+ editor = {D. Marculescu and Y. Chi and C. Wu},
+ pages = {450--466},
+ title = {AccMPEG: Optimizing Video Encoding for Accurate Video Analytics},
+ url = {https://proceedings.mlsys.org/paper_files/paper/2022/file/853f7b3615411c82a2ae439ab8c4c96e-Paper.pdf},
+ volume = {4},
+ year = {2022}
+}
+
+
+@INPROCEEDINGS{9500514,
+  author={Wang, Haodong and Zhang, Shuhang and Di, Boya and Song, Lingyang},
+  booktitle={ICC 2021 - IEEE International Conference on Communications}, 
+  title={Cluster-based Handoff Scheme Design for Platoons in Cellular V2X Networks}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Base stations;Protocols;Simulation;Vehicle-to-infrastructure;Conferences;Vehicular ad hoc networks;Markov processes},
+  doi={10.1109/ICC42927.2021.9500514}}
+
+
+
+

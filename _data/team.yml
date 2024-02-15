@@ -214,6 +214,24 @@ current-students:
       email: yiboyan@usc.edu
       github: https://github.com/totoroyyb
 
+  - name: <a href="https://usc-nsl.github.io/people/haodong-wang/">Haodong Wang</a>
+    lastname: Wang
+    photo: haodong/haodong.jpg
+    info: PhD Student
+    start: Aug 2019
+    email: haodongw@usc.edu
+    advisor:
+      - Harsha V. Madhyastha
+      - Ramesh Govindan
+    education:
+      - M.S. from the University of Chicago
+      - B.S. from Peking University 
+    social:
+      website: https://usc-nsl.github.io/people/haodong-wang/
+      email: haodongw@usc.edu
+      github: https://github.com/Daaohame
+
+
 visitor:
   - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
     lastname: Paek
