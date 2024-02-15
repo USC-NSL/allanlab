@@ -41,9 +41,8 @@ excerpt: "Personal website of Haodong"
 
 <p>
 <em>Graduate Research Assistant (August 2023 - present)</em><br>
-Department of Computer Science, University of Southern California.<br>
-Advisor: <a title="Harsha's Website" href="https://www.harsha.usc.edu/">Harsha Madhyastha</a><br>
-Advisor: <a title="Ramesh's Website" href="https://govindan.usc.edu/">Ramesh Govindan</a><br>
+Department of Computer Science, University of Southern California<br>
+Advisor: <a title="Harsha's Website" href="https://www.harsha.usc.edu/">Harsha Madhyastha</a>, <a title="Ramesh's Website" href="https://govindan.usc.edu/">Ramesh Govindan</a><br>
 </p>
 
 <p>
