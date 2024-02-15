@@ -34,29 +34,30 @@ excerpt: "Personal website of Haodong"
 
 ## Biography
 
-<p>I am a first-year Ph.D. student in <a href="http://nsl.cs.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am honored to work with <a href="https://www.harsha.usc.edu/">Prof. Harsha Madhyastha</a> and <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. My research interests include <b>Volumetric Video</b>, <b>Video Analytics</b> and <b>Systems for ML</b>.</p>
-<p>Prior to joining USC, I completed my pre-doctoral M.S. in Computer Science at <a href="https://cs.uchicago.edu/"> the University of Chicago </a> and my B.S. in Computer Science at <a href="https://sai.pku.edu.cn/znxyenglish/index.htm"> Peking University </a>.
-</p>
+<p>I am a first-year Ph.D. student in <a href="http://nsl.usc.edu/">Networked System Lab (NSL)</a> at <a href="http://www.usc.edu">University of Southern California</a>. I am honored to work with <a href="https://www.harsha.usc.edu/">Prof. Harsha Madhyastha</a> and <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. My research interests include <b>Volumetric Video</b>, <b>Video Analytics</b> and <b>Systems for Machine Learning</b>.</p>
+<p>Prior to joining USC, I completed my pre-doctoral M.S. in Computer Science at the <a href="https://cs.uchicago.edu/"> University of Chicago </a> and my B.S. in Computer Science at <a href="https://sai.pku.edu.cn/znxyenglish/index.htm"> Peking University </a>.</p>
 
 ## Work Experience
 
 <p>
 <em>Graduate Research Assistant (August 2023 - present)</em><br>
 Department of Computer Science, University of Southern California.<br>
+Advisor: <a title="Harsha's Website" href="https://www.harsha.usc.edu/">Harsha Madhyastha</a><br>
+Advisor: <a title="Ramesh's Website" href="https://govindan.usc.edu/">Ramesh Govindan</a><br>
 </p>
 
 <p>
 <em>Graduate Research Assistant (September 2021 - May 2023)</em><br>
 Department of Computer Science, University of Chicago <br>
-Advisor: <a title="Krishna's Website" href="https://people.cs.uchicago.edu/~junchenj/">Junchen Jiang</a><br>
+Advisor: <a title="Junchen's Website" href="https://people.cs.uchicago.edu/~junchenj/">Junchen Jiang</a><br>
 </p>
 
 ## Teaching Experience
 
 <p>
-<em>Teaching Assistant at UChicago</em><br>
-<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/autumn/courses/mpcs-51046-1">MPCS 51046: Intermediate Python Programming, Fall 2022</a>,<br>
-<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/winter/courses/mpcs-51044-1">MPCS 51044: C++ for Advanced Programmers, Winter 2022</a>,<br>
+<em>Teaching Assistant at the University of Chicago</em><br>
+<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/autumn/courses/mpcs-51046-1">MPCS 51046: Intermediate Python Programming, Fall 2022</a><br>
+<b>Course:</b> <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/winter/courses/mpcs-51044-1">MPCS 51044: C++ for Advanced Programmers, Winter 2022</a><br>
 </p>
 
 {% if member.awards %}

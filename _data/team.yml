@@ -216,9 +216,9 @@ current-students:
 
   - name: <a href="https://usc-nsl.github.io/people/haodong-wang/">Haodong Wang</a>
     lastname: Wang
-    photo: haodong/haodong.jpg
+    photo: Haodong/haodong-cover.jpg
     info: PhD Student
-    start: Aug 2019
+    start: Aug 2023
     email: haodongw@usc.edu
     advisor:
       - Harsha V. Madhyastha

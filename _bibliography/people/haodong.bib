@@ -1,4 +1,25 @@
+@inproceedings{10.1145/3620678.3624653,
+abbr={SoCC},
+author = {Du, Kuntai and Liu, Yuhan and Hao, Yitian and Zhang, Qizheng and Wang, Haodong and Huang, Yuyang and Ananthanarayanan, Ganesh and Jiang, Junchen},
+title = {OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation},
+year = {2023},
+isbn = {9798400703874},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3620678.3624653},
+doi = {10.1145/3620678.3624653},
+abstract = {Deep learning inference on streaming media data, such as object detection in video or LiDAR feeds and text extraction from audio waves, is now ubiquitous. To achieve high inference accuracy, these applications typically require significant network bandwidth to gather high-fidelity data and extensive GPU resources to run deep neural networks (DNNs). While the high demand for network bandwidth and GPU resources could be substantially reduced by optimally adapting the configuration knobs, such as video resolution and frame rate, current adaptation techniques fail to meet three requirements simultaneously: adapt configurations (i) with minimum extra GPU or bandwidth overhead (ii) to reach near-optimal decisions based on how the data affects the final DNN's accuracy, and (iii) do so for a range of configuration knobs. This paper presents OneAdapt, which meets these requirements by leveraging a gradient-ascent strategy to adapt configuration knobs. The key idea is to embrace DNNs' differentiability to quickly estimate the accuracy's gradient to each configuration knob, called AccGrad. Specifically, OneAdapt estimates AccGrad by multiplying two gradients: InputGrad (i.e., how each configuration knob affects the input to the DNN) and DNNGrad (i.e., how the DNN input affects the DNN inference output). We evaluate OneAdapt across five types of configurations, four analytic tasks, and five types of input data. Compared to state-of-the-art adaptation schemes, OneAdapt cuts bandwidth usage and GPU usage by 15-59\% while maintaining comparable accuracy or improves accuracy by 1-5\% while using equal or fewer resources.},
+booktitle = {Proceedings of the 2023 ACM Symposium on Cloud Computing},
+pages = {158–176},
+numpages = {19},
+keywords = {data analytics, configuration adaptation, backpropagation},
+location = {<conf-loc>, <city>Santa Cruz</city>, <state>CA</state>, <country>USA</country>, </conf-loc>},
+series = {SoCC '23}
+}
+
+
 @inproceedings{10.1145/3542929.3563502,
+abbr={SoCC},
 author = {Wang, Haodong and Du, Kuntai and Jiang, Junchen},
 title = {Minimizing packet retransmission for real-time video analytics},
 year = {2022},
@@ -18,27 +39,8 @@ series = {SoCC '22}
 
 
 
-@inproceedings{10.1145/3620678.3624653,
-author = {Du, Kuntai and Liu, Yuhan and Hao, Yitian and Zhang, Qizheng and Wang, Haodong and Huang, Yuyang and Ananthanarayanan, Ganesh and Jiang, Junchen},
-title = {OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation},
-year = {2023},
-isbn = {9798400703874},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3620678.3624653},
-doi = {10.1145/3620678.3624653},
-abstract = {Deep learning inference on streaming media data, such as object detection in video or LiDAR feeds and text extraction from audio waves, is now ubiquitous. To achieve high inference accuracy, these applications typically require significant network bandwidth to gather high-fidelity data and extensive GPU resources to run deep neural networks (DNNs). While the high demand for network bandwidth and GPU resources could be substantially reduced by optimally adapting the configuration knobs, such as video resolution and frame rate, current adaptation techniques fail to meet three requirements simultaneously: adapt configurations (i) with minimum extra GPU or bandwidth overhead (ii) to reach near-optimal decisions based on how the data affects the final DNN's accuracy, and (iii) do so for a range of configuration knobs. This paper presents OneAdapt, which meets these requirements by leveraging a gradient-ascent strategy to adapt configuration knobs. The key idea is to embrace DNNs' differentiability to quickly estimate the accuracy's gradient to each configuration knob, called AccGrad. Specifically, OneAdapt estimates AccGrad by multiplying two gradients: InputGrad (i.e., how each configuration knob affects the input to the DNN) and DNNGrad (i.e., how the DNN input affects the DNN inference output). We evaluate OneAdapt across five types of configurations, four analytic tasks, and five types of input data. Compared to state-of-the-art adaptation schemes, OneAdapt cuts bandwidth usage and GPU usage by 15-59\% while maintaining comparable accuracy or improves accuracy by 1-5\% while using equal or fewer resources.},
-booktitle = {Proceedings of the 2023 ACM Symposium on Cloud Computing},
-pages = {158–176},
-numpages = {19},
-keywords = {data analytics, configuration adaptation, backpropagation},
-location = {<conf-loc>, <city>Santa Cruz</city>, <state>CA</state>, <country>USA</country>, </conf-loc>},
-series = {SoCC '23}
-}
-
-
-
 @inproceedings{MLSYS2022_853f7b36,
+ abbr={MLSys},
  author = {Du, Kuntai and Zhang, Qizheng and Arapin, Anton  and Wang, Haodong and Xia, Zhengxu and Jiang, Junchen},
  booktitle = {Proceedings of Machine Learning and Systems},
  editor = {D. Marculescu and Y. Chi and C. Wu},
@@ -51,6 +53,7 @@ series = {SoCC '23}
 
 
 @INPROCEEDINGS{9500514,
+  abbr={ICC},
   author={Wang, Haodong and Zhang, Shuhang and Di, Boya and Song, Lingyang},
   booktitle={ICC 2021 - IEEE International Conference on Communications}, 
   title={Cluster-based Handoff Scheme Design for Platoons in Cellular V2X Networks}, 
