@@ -44,7 +44,7 @@ I am a fifth year Ph.D. student in <a href="https://www.cs.usc.edu/">Computer Sc
 </p>
 
 <p>
-<em><strong>Research Intern (May 2021 - Aug 2021)</strong></em><br>
+<em><strong>Research Intern (May 2021 - Aug 2021, May 2024 - Present)</strong></em><br>
 General Motors Research and Development, Warren, USA.<br>
 Mentor: Chuan Li and Fan Bai<br>
 </p>
