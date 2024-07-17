@@ -231,6 +231,23 @@ current-students:
       email: haodongw@usc.edu
       github: https://github.com/Daaohame
 
+  - name: Yuan Yao
+    lastname: Yao
+    photo: Yuan/yuan.jpg 
+    info: PhD Student
+    start: Aug 2023
+    email: yyao3787@usc.edu
+    advisor:
+      - Harsha V. Madhyastha
+    education:
+      - M.S. from the University of Michigan
+      - B.S. from the University of Michigan & Shanghai Jiao Tong University
+    social:
+      google-scholar: https://scholar.google.com/citations?user=HNChI8YAAAAJ&hl=en
+      linkedin: https://www.linkedin.com/in/yuanyaocs/
+      website: 
+      email: yyao3787@usc.edu
+      github: https://github.com/item084
 
 visitor:
   - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
