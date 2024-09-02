@@ -48,7 +48,7 @@ faculty:
       website: https://harsha.usc.edu/
       google-scholar: https://scholar.google.com/citations?user=kxDm9EsAAAAJ
       linkedin: https://www.linkedin.com/in/harshavmadhyastha/
-      
+
 current-students:
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
     lastname: Fu
@@ -199,12 +199,12 @@ current-students:
 
   - name: Yibo Yan
     lastname: Yan
-    photo: yibo/yibo.jpg 
+    photo: yibo/yibo.jpg
     info: PhD Student
     start: Aug 2023
     email: yiboyan@usc.edu
     advisor:
-      - Seo Jin Park 
+      - Seo Jin Park
     education:
       - B.S. @ UC Davis; M.S. @ Yale University; Ph.D. @ USC.
     social:
@@ -225,7 +225,7 @@ current-students:
       - Ramesh Govindan
     education:
       - M.S. from the University of Chicago
-      - B.S. from Peking University 
+      - B.S. from Peking University
     social:
       website: https://usc-nsl.github.io/people/haodong-wang/
       email: haodongw@usc.edu
@@ -233,7 +233,7 @@ current-students:
 
   - name: Yuan Yao
     lastname: Yao
-    photo: Yuan/yuan.jpg 
+    photo: Yuan/yuan.jpg
     info: PhD Student
     start: Aug 2023
     email: yyao3787@usc.edu
@@ -245,9 +245,21 @@ current-students:
     social:
       google-scholar: https://scholar.google.com/citations?user=HNChI8YAAAAJ&hl=en
       linkedin: https://www.linkedin.com/in/yuanyaocs/
-      website: 
+      website:
       email: yyao3787@usc.edu
       github: https://github.com/item084
+
+  - name: <a href="https://sichanghe.github.io/">Sichang He (Steven)</a>
+    lastname: He
+    photo: sichanghe/side-portrait-luhu-fixed-bw-square.jpg
+    info: PhD Student
+    advisor:
+      - Harsha V. Madhyastha
+    social:
+      google-scholar: https://scholar.google.com/citations?user=iKj1bQ4AAAAJ
+      website: https://sichanghe.github.io/
+      email: sichangh@usc.edu
+      github: https://github.com/SichangHe
 
 visitor:
   - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
