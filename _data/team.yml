@@ -50,6 +50,34 @@ faculty:
       linkedin: https://www.linkedin.com/in/harshavmadhyastha/
 
 current-students:
+  - name: Huanchen Sun
+    lastname: Sun
+    photo: Default/bio-photo.jpg
+    info: PhD Student
+    start: Mar 2024
+    advisor:
+      - Harsha V. Madhyastha
+    social:
+      linkedin: https://www.linkedin.com/in/huanchen-sun-3378a3229/
+  
+  - name: Shaoyu Wang
+    lastname: Wang
+    photo: Default/bio-photo.jpg
+    info: PhD Student
+    start: Aug 2024
+    advisor:
+      - Seo Jin Park
+    social:
+
+  - name: Arvin Ghavidel
+    lastname: Ghavidel
+    photo: Default/bio-photo.jpg
+    info: PhD Student
+    start: Jan 2023
+    advisor:
+      - Ramesh Govindan
+    social:
+
   - name: <a href="https://fxdawnn.github.io/">Xiao Fu<a/>
     lastname: Fu
     photo: Xiao/xiao.jpg
@@ -117,38 +145,6 @@ current-students:
       google-scholar: https://scholar.google.com/citations?user=nUfxSRkAAAAJ&hl=en
       email: namyar@usc.edu
 
-  - name: Weiwu Pang
-    lastname: Pang
-    photo: Weiwu/weiwu.jpg
-    info: PhD Student
-    start: Aug 2018
-    advisor:
-      - Ramesh Govindan
-    education:
-      - B.S. from <a href="https://www.usc.edu/">University of Southern California (USC)</a>.
-    social:
-      linkedin: https://www.linkedin.com/in/weiwu-pang-678133a7/
-      github: https://github.com/oscarpang
-      google-scholar: https://scholar.google.com/citations?hl=en&user=Eab6bwkAAAAJ
-      website: http://www.oscarpang.com
-      email: weiwupan@usc.edu
-
-  - name: <a href="https://usc-nsl.github.io/people/jane/">Yu-Chuan (Jane) Yen<a/>
-    lastname: Yen
-    photo: Jane/jane.jpg
-    info: PhD Student
-    start: Aug 2016
-    advisor:
-      - Ramesh Govindan
-      - Barath Raghavan
-    education:
-      - M.S. from <a href="https://www.usc.edu/">University of Southern California (USC)</a>.
-    social:
-      google-scholar: https://scholar.google.com/citations?hl=en&user=jJy0ZRAAAAAJ
-      linkedin: https://www.linkedin.com/in/yu-chuan-yen-789b2b76/
-      website: https://nsl.usc.edu/people/jane-yen/
-      email: yeny@usc.edu
-
   - name: <a href="https://usc-nsl.github.io/people/christina-shin/">Christina Shin</a>
     lastname: Shin
     photo: Christina/christina.jpg
@@ -181,21 +177,6 @@ current-students:
       linkedin: https://www.linkedin.com/in/sulagnamukherjee/
       website: https://usc-nsl.github.io/people/sulagna-mukherjee/
       email: sulagna@usc.edu
-
-  - name: Josh Palmer
-    lastname: Palmer
-    photo: Josh/josh.jpg
-    info: PhD Student
-    start: Jan 2020
-    advisor:
-      - Barath Raghavan
-    education:
-      - B.S. from Vanderbilt University.
-    social:
-      linkedin: https://www.linkedin.com/in/computer-scientist-who-loves-bugs/
-      github: https://github.com/palmerjh
-      website:
-      email: jhpalmer@usc.edu
 
   - name: Yibo Yan
     lastname: Yan
@@ -262,19 +243,21 @@ current-students:
       github: https://github.com/SichangHe
 
 visitor:
-  - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
-    lastname: Paek
-    photo: Jeongyeup/jpaek-1.jpg
-    info: Visiting Scholar @ USC-NSL
-    start: Aug 2022
-    email: jpaek@usc.edu
-    from:
-      - Associate Professor @ Chung-Ang University
-    education:
-      - M.S. and Ph.D. from the University of Southern California, Los Angeles
-      - B.S. from Seoul National University, Seoul, Republic of Korea
-    social:
-      google-scholar: http://scholar.google.com/citations?user=oTAOFAYAAAAJ
-      linkedin: http://www.linkedin.com/in/jeongyeuppaek
-      website: https://usc-nsl.github.io/people/jeongyeup-paek/
-      email: jpaek@usc.edu
+
+  # Past Visitors
+  # - name: <a href="https://usc-nsl.github.io/people/jeongyeup-paek/">Jeongyeup Paek</a>
+  #   lastname: Paek
+  #   photo: Jeongyeup/jpaek-1.jpg
+  #   info: Visiting Scholar @ USC-NSL
+  #   start: Aug 2022
+  #   email: jpaek@usc.edu
+  #   from:
+  #     - Associate Professor @ Chung-Ang University
+  #   education:
+  #     - M.S. and Ph.D. from the University of Southern California, Los Angeles
+  #     - B.S. from Seoul National University, Seoul, Republic of Korea
+  #   social:
+  #     google-scholar: http://scholar.google.com/citations?user=oTAOFAYAAAAJ
+  #     linkedin: http://www.linkedin.com/in/jeongyeuppaek
+  #     website: https://usc-nsl.github.io/people/jeongyeup-paek/
+  #     email: jpaek@usc.edu
