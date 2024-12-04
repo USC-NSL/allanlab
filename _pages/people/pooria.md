@@ -53,10 +53,18 @@ excerpt: "Personal website of Pooria"
 </ul>
 {% endfor %}
 
-## Publications
+## Selected Publications
 
 <div class="publications">
 
-{% bibliography -f people/pooria%}
+{% bibliography -f people/pooria_selected%}
+
+</div>
+
+## Other Publications
+
+<div class="publications">
+
+{% bibliography -f people/pooria_additional%}
 
 </div>
