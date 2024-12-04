@@ -37,6 +37,8 @@ excerpt: "Personal website of Pooria"
 <p>Feel free to drop me an email if you have any questions or want to discuss new ideas!</p>
 
 <span style="color: red;">I am currently on the job market.</span>
+<p><a href="https://drive.google.com/file/d/12dS_W6WGP8eFBQDCLaPoVCg39H2RovGy/view" target="_blank">CV</a></p>
+
 
 ## Work Experience
 
