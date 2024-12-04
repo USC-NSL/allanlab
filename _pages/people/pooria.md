@@ -31,7 +31,7 @@ excerpt: "Personal website of Pooria"
 </div>
 
 <span style="color: red;">I am currently on the job market.</span>
-<p>[<a href="https://drive.google.com/file/d/12dS_W6WGP8eFBQDCLaPoVCg39H2RovGy/view" target="_blank"><u>CV</u></a>], [<a href="https://drive.google.com/file/d/1-IP_mNtc7dFeXShX9EssNVU36db7xFK7/view" target="_blank"><u>Research Statement</u></a>], [<a href="https://drive.google.com/file/d/1DsXVHUbZxJxIwyuIm6dpc4ydu5hnmjpm/view" target="_blank"><u>Teaching Statement</u></a>]</p>
+<p>[<a href="https://drive.google.com/file/d/1XF6hIov3t12Ut5synA96M_3FADCnBDjI/view" target="_blank"><u>CV</u></a>], [<a href="https://drive.google.com/file/d/1-IP_mNtc7dFeXShX9EssNVU36db7xFK7/view" target="_blank"><u>Research Statement</u></a>], [<a href="https://drive.google.com/file/d/1DsXVHUbZxJxIwyuIm6dpc4ydu5hnmjpm/view" target="_blank"><u>Teaching Statement</u></a>]</p>
 
 
 ## Sketch
