@@ -36,7 +36,7 @@ excerpt: "Personal website of Pooria"
 <p>Before joining USC, I completed my B.Sc. in <a href="http://ee.sharif.edu/~web/en/">Electrical Engineering</a> at the <a href="http://www.en.sharif.edu/">Sharif University of Technology</a> in 2019.  During my undergraduate, I worked on the cloudification of telecommunication networks by leveraging SDN and NFV. </p>
 <p>Feel free to drop me an email if you have any questions or want to discuss new ideas!</p>
 
-<span style="color: red;">I am currently on the job market. Please reach out if you are hiring!</span>
+<span style="color: red;">I am currently on the job market looking for academic and research in industry positions. Please reach out if you are hiring!</span>
 
 ## Work Experience
 
