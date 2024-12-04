@@ -30,14 +30,15 @@ excerpt: "Personal website of Pooria"
   </ul>
 </div>
 
+<span style="color: red;">I am currently on the job market.</span>
+<p>[<a href="https://drive.google.com/file/d/12dS_W6WGP8eFBQDCLaPoVCg39H2RovGy/view" target="_blank"><u>CV</u></a>], [<a href="https://drive.google.com/file/d/1-IP_mNtc7dFeXShX9EssNVU36db7xFK7/view" target="_blank"><u>Research Statement</u></a>]</p>
+
+
 ## Sketch
 
 <p>I am a Ph.D. student in the <a href="https://minghsiehece.usc.edu/" data-type="URL" data-id="https://minghsiehece.usc.edu/">ECE department</a> at the <a href="https://www.usc.edu/">University of Southern California</a>. I am currently a member of <a href="https://nsl.usc.edu/">Networked Systems Lab</a> and very fortunate to be advised by <a href="https://govindan.usc.edu/">Prof. Ramesh Govindan</a>. Generally, I am interested in every aspect of computer networks and systems. My recent focus is on datacenter networks, wide-area networks, network availability, and reliability. </p>
 <p>Before joining USC, I completed my B.Sc. in <a href="http://ee.sharif.edu/~web/en/">Electrical Engineering</a> at the <a href="http://www.en.sharif.edu/">Sharif University of Technology</a> in 2019.  During my undergraduate, I worked on the cloudification of telecommunication networks by leveraging SDN and NFV. </p>
 <p>Feel free to drop me an email if you have any questions or want to discuss new ideas!</p>
-
-<span style="color: red;">I am currently on the job market.</span>
-<p>[<a href="https://drive.google.com/file/d/12dS_W6WGP8eFBQDCLaPoVCg39H2RovGy/view" target="_blank"><u>CV</u></a>], [<a href="https://drive.google.com/file/d/1-IP_mNtc7dFeXShX9EssNVU36db7xFK7/view" target="_blank"><u>Research Statement</u></a>]</p>
 
 
 ## Work Experience
