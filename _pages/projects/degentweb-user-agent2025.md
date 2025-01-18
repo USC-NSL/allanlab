@@ -27,8 +27,9 @@ the largest public collection of human knowledge for human consumption and
 machine learning, may lose its relevance as its content quality degrades.
 How much of the Web users face is AI-generated?
 How can we characterize such generated content?
-Our project collects public webpages and apply state-of-the-art classifiers to
-detect AI-generated text, with the goal of understanding the above questions.
+Our project collects public webpages and
+applies state-of-the-art classifiers to detect AI-generated text, with
+the goal of understanding the above questions.
 
 ## Project members
 
