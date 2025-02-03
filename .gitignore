@@ -9,3 +9,4 @@ _site
 Gemfile.lock
 vendor
 *workspace
+.DS_Store
