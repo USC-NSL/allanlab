@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSL Lab - Research</title>
+  <meta name="description" content="NSL Lab -- Research">
+  <link rel="stylesheet" href="https://usc-nsl.github.io/css/main.css">
+  <link rel="canonical" href="https://usc-nsl.github.io/projects/vehicular-sensing/">
+  <!-- <link rel="shortcut icon" type ="image/x-icon" href="https://usc-nsl.github.io/images/usc_favicon.png"> -->
+  <link rel="shortcut icon" href="https://www.usc.edu/wp-content/themes/usc-homepage-2017/assets/images/favicon.ico?v=4.3.14" />
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+	  <a class="navbar-brand" href="https://usc-nsl.github.io/">
+		<div class="logo-image">
+			  <img src="/images/logopic/nsl_logo_3_Raj.png" height="44px" class="img-fluid">
+		</div>
+	  </a>  
+    <a class="navbar-brand" href="https://usc-nsl.github.io/">NSL @ USC</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="https://usc-nsl.github.io/">Home</a></li>
+		<li><a href="https://usc-nsl.github.io/people">Team</a></li>
+		<!-- <li><a href="https://usc-nsl.github.io/vacancies">Vacancies</a></li> -->
+		<li><a href="https://usc-nsl.github.io/publications">Publications</a></li>
+		<!-- <li><a href="https://usc-nsl.github.io/research">Research</a></li> -->
+		<!-- <li><a href="https://usc-nsl.github.io/pictures">(Pics)</a></li> -->
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="textid" class="col-sm-12">
+  <h1 id="vehicular-sensing">Vehicular Sensing</h1>
+
+<p>Vehicles today have several hundred sensors that are used to monitor vehicular subsystems. Such monitoring can track the health of these subsystems and can also be used to control vehicular behavior. In this project, funded by the National Science Foundation and General Motors, we explored ways in which these sensors could be used to improve vehicular safety, comfort, and performance. Many of the sensors can be accessed through a diagnostic interface using proprietary protocols, so to conduct our research, we partnered with a major car company to obtain access to these sensors.</p>
+
+<p>One outcome of our research was a suite of algorithms that are used on-board sensors to improve the positioning of the vehicle. Because GPS can be inaccurate in downtown areas, we developed techniques to use onboard sensors to obtain positioning with enough accuracy to locate the vehicle within a given lane. These techniques combine GPS readings with map information, but also use vehicular sensors to determine whether a vehicle traverses a speed bump, or turns right or left, or comes to stop at a signal, then uses these determinations to learn positional corrections. These positional corrections leverage the wisdom of the crowds: if multiple cars stop at the same light, then the average of their positional readings is likely to be more accurate.</p>
+
+<p>A second outcome of the research built upon this idea and developed a collection of crowd-sourcing algorithms that use onboard sensors to determine driving behavior or various aspects of the environment. Because vehicles have hundreds of sensors, if drivers would share their sensor readings (in much the same way that drivers today share information on apps like Waze), we hypothesized that we could determine various aspects of the environment such as: stop signs, road curvature, road grade, and pothole positions. We developed sensor processing and aggregation algorithms and demonstrated that these algorithms could reliably detect these environmental features.</p>
+
+<p>Our most recent outcome explored a novel capability that we call Augmented Vehicular Reality (AVR). Today, and in the foreseeable future, vehicles will have “3D sensors” like LiDAR and stereo cameras. Autonomous vehicles and driver assist systems rely on these sensors. These sensors can perceive depth, but their view is limited by obstacles. AVR enables a vehicle to obtain, using wireless communication, readings from other sensors, so that the vehicle can effectively “see through” obstacles. This capability can greatly increase the safety of autonomous driving, enabling a vehicle to plan its path more effectively. The code for AVR is publicly available (<a href="https://github.com/USC-NSL/AugmentedVehicularReality" target="_blank" rel="noopener noreferrer">https://github.com/USC-NSL/AugmentedVehicularReality</a>).</p>
+
+<p>Concretely, these outcomes have resulted in two patents, several publications, and we have transitioned code to industry.</p>
+
+<h2 id="publications">Publications</h2>
+
+<div class="publications">
+
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">TVT</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Qiu18b" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">Towards Robust Vehicular Context Sensing</div>
+          <!-- Author -->
+          <div class="author">Qiu, H, Chen, J, Jain, S, Jiang, Y, McCartney, M, Kar, G, Bai, F, Grimm, D K, Gruteser, M, and Govindan, R
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>IEEE Transactions on Vehicular Technology</em> 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://doi.org/10.1109/TVT.2017.2771623" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Link</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Mobisys</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="avr-mobisys" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">AVR: Augmented Vehicular Reality</div>
+          <!-- Author -->
+          <div class="author">Qiu, Hang, Ahmad, Fawad, Bai, Fan, Gruteser, Marco, and Govindan, Ramesh
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 16th Annual International Conference on Mobile Systems, Applications, and Services (Mobisys)</em> 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://doi.acm.org/10.1145/3210240.3210319" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Link</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract bibhidden">
+            <p>Autonomous vehicle prototypes today come with line-of-sight depth perception sensors like 3D cameras. These 3D sensors are used for improving vehicular safety in autonomous driving, but have fundamentally limited visibility due to occlusions, sensing range, and extreme weather and lighting conditions. To improve visibility and performance, we explore a capability called Augmented Vehicular Reality (AVR). AVR broadens the vehicle’s visual horizon by enabling it to wirelessly share visual information with other nearby vehicles. We show that AVR is feasible using off-the-shelf wireless technologies, and it can qualitatively change the decisions made by autonomous vehicle path planning algorithms. Our AVR prototype achieves positioning accuracies that are within a few percentages of car lengths and lane widths, and it is optimized to process frames at 30fps.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">HotMobile</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="avr-hotmobile" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">Augmented Vehicular Reality: Enabling Extended Vision for Future Vehicles</div>
+          <!-- Author -->
+          <div class="author">Qiu, Hang, Ahmad, Fawad, Govindan, Ramesh, Gruteser, Marco, and Bai, Gorkem Kar Fan
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In the 18th Workshop on Mobile Computing Systems and Applications (HotMobile 2017)</em> 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://doi.acm.org/10.1145/3032970.3032976" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Link</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract bibhidden">
+            <p>Like today’s autonomous vehicle prototypes, vehicles in the future will have rich sensors to map and identify objects in the environment. For example, many autonomous vehicle prototypes today come with line-of-sight depth perception sensors like 3D cameras. These cameras are used for improving vehicular safety in autonomous driving, but have fundamentally limited visibility due to occlusions, sensing range, and extreme weather and lighting conditions. To improve visibility and performance, not just for autonomous vehicles but for other Advanced Driving Assistance Systems (ADAS), we explore a capability called Augmented Vehicular Reality (AVR). AVR broadens the vehicle’s visual horizon by enabling it to share visual information with other nearby vehicles, but requires careful techniques to align coordinate frames of reference, and to detect dynamic objects. Preliminary evaluations hint at the feasibility of AVR and also highlight research challenges in achieving AVR’s potential to improve autonomous vehicles and ADAS.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">SEC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Kar17a" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">Real-time Traffic Estimation at Vehicular Edge Nodes</div>
+          <!-- Author -->
+          <div class="author">Kar, Gorkem, Jain, Shubham, Gruteser, Marco, Bai, Fan, and Govindan, Ramesh
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Second ACM/IEEE Symposium on Edge Computing</em> 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://doi.acm.org/10.1145/3132211.3134461" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Link</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">SEC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Kar17b" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">PredriveID: Pre-trip Driver Identification from In-vehicle Data</div>
+          <!-- Author -->
+          <div class="author">Kar, Gorkem, Jain, Shubham, Gruteser, Marco, Chen, Jinzhu, Bai, Fan, and Govindan, Ramesh
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the Second ACM/IEEE Symposium on Edge Computing</em> 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://doi.acm.org/10.1145/3132211.3134462" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Link</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">SenSys</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Jiang15a" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">CARLOC: Precisely Tracking Automobile Position</div>
+          <!-- Author -->
+          <div class="author">Jiang, Yurong, Qiu, Hang, McCartney, Matthew, Sukhatme, Gaurav, Gruteser, Marco, Bai, Fan, Grimm, Donald, and Govindan, Ramesh
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems (SenSys)</em> 2015
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://dl.acm.org/doi/abs/10.1145/2809695.2809725" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Link</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">SenSys</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Jiang14a" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">CarLog: A Platform for Flexible and Efficient Automotive Sensing</div>
+          <!-- Author -->
+          <div class="author">Jiang, Yurong, Qiu, Hang, McCartney, Matthew, Halfond, William G J, Bai, Fan, Grimm, Donald, and Govindan, Ramesh
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proceedings of the 12th ACM Conference on Embedded Networked Sensor Systems (SenSys’14)</em> 2014
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://dl.acm.org/doi/abs/10.1145/2668332.2668350" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Link</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+</ol>
+
+  <!-- Queries can be combined using && or || operators
+-q @*[project=vehicular-sensing || project=vsensing] -->
+
+</div>
+
+<h2 id="patents">Patents</h2>
+
+<ol>
+<li>US Patent App. 15/903,616: <em>Crowd-sensed point cloud map</em>, Fawad Ahmad, Hang Qiu, Fan Bai, and Ramesh Govindan.</li>
+
+<li>US Patent No. 17/041026: <em>Method and Apparatus of Networked Scene Rendering and Augmentation in Vehicular Environments in Autonomous Driving Systems</em>, Hang Qiu, Ramesh Govindan, Marco Gruteser, and Fan Bai.</li>
+</ol>
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-5 footer">
+			
+		  <p>© NSL Lab. Site made with <a href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer">Jekyll</a></p>
+              <p>We are part of the <a href="https://www.cs.usc.edu/" target="_blank" rel="noopener noreferrer">USC Viterbi Department of Computer Science</a> at the <a href="https://www.usc.edu/" target="_blank" rel="noopener noreferrer">University of Southern California</a>.</p>
+		</div>
+		<!-- <div class="col-sm-4">
+		  Funding:<br />
+		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
+		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
+          - <a href='https://www.universiteitleiden.nl/en/news/2017/08/two-erc-grants-for-leiden-physics'>ERC starting grant</a>
+		</div> -->
+		
+		<div class="col-sm-5 footer">
+		  <b>Location:</b><br>
+		  Salvatori Computer Science Center (SAL), USC<br>
+		  941 Bloom Walk<br>
+		  Los Angeles, CA 90089 (<a href="https://goo.gl/maps/KiKEz2XTyFFifWPw6" target="_blank" rel="noopener noreferrer">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://usc-nsl.github.io/js/bootstrap.min.js"></script>
+
+
+    <!-- Load Common JS -->
+  <script src="/js/common.js"></script>
+
+
+  </body>
+
+</html>
